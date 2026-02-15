@@ -1,0 +1,9704 @@
+[
+    {
+        "year": 2014,
+        "country": "Финляндия",
+        "score": 7.736,
+        "rank": 1
+    },
+    {
+        "year": 2014,
+        "country": "Дания",
+        "score": 7.521,
+        "rank": 2
+    },
+    {
+        "year": 2014,
+        "country": "Исландия",
+        "score": 7.515,
+        "rank": 3
+    },
+    {
+        "year": 2014,
+        "country": "Швеция",
+        "score": 7.345,
+        "rank": 4
+    },
+    {
+        "year": 2014,
+        "country": "Нидерланды",
+        "score": 7.306,
+        "rank": 5
+    },
+    {
+        "year": 2014,
+        "country": "Коста-Рика",
+        "score": 7.274,
+        "rank": 6
+    },
+    {
+        "year": 2014,
+        "country": "Норвегия",
+        "score": 7.262,
+        "rank": 7
+    },
+    {
+        "year": 2014,
+        "country": "Израиль",
+        "score": 7.234,
+        "rank": 8
+    },
+    {
+        "year": 2014,
+        "country": "Люксембург",
+        "score": 7.122,
+        "rank": 9
+    },
+    {
+        "year": 2014,
+        "country": "Мексика",
+        "score": 6.979,
+        "rank": 10
+    },
+    {
+        "year": 2014,
+        "country": "Австралия",
+        "score": 6.974,
+        "rank": 11
+    },
+    {
+        "year": 2014,
+        "country": "Новая Зеландия",
+        "score": 6.952,
+        "rank": 12
+    },
+    {
+        "year": 2014,
+        "country": "Швейцария",
+        "score": 6.935,
+        "rank": 13
+    },
+    {
+        "year": 2014,
+        "country": "Бельгия",
+        "score": 6.91,
+        "rank": 14
+    },
+    {
+        "year": 2014,
+        "country": "Ирландия",
+        "score": 6.889,
+        "rank": 15
+    },
+    {
+        "year": 2014,
+        "country": "Литва",
+        "score": 6.829,
+        "rank": 16
+    },
+    {
+        "year": 2014,
+        "country": "Австрия",
+        "score": 6.81,
+        "rank": 17
+    },
+    {
+        "year": 2014,
+        "country": "Канада",
+        "score": 6.803,
+        "rank": 18
+    },
+    {
+        "year": 2014,
+        "country": "Словения",
+        "score": 6.792,
+        "rank": 19
+    },
+    {
+        "year": 2014,
+        "country": "Чехия",
+        "score": 6.775,
+        "rank": 20
+    },
+    {
+        "year": 2014,
+        "country": "ОАЭ",
+        "score": 6.759,
+        "rank": 21
+    },
+    {
+        "year": 2014,
+        "country": "Германия",
+        "score": 6.753,
+        "rank": 22
+    },
+    {
+        "year": 2014,
+        "country": "Великобритания",
+        "score": 6.728,
+        "rank": 23
+    },
+    {
+        "year": 2014,
+        "country": "США",
+        "score": 6.724,
+        "rank": 24
+    },
+    {
+        "year": 2014,
+        "country": "Белиз",
+        "score": 6.711,
+        "rank": 25
+    },
+    {
+        "year": 2014,
+        "country": "Польша",
+        "score": 6.673,
+        "rank": 26
+    },
+    {
+        "year": 2014,
+        "country": "Тайвань",
+        "score": 6.669,
+        "rank": 27
+    },
+    {
+        "year": 2014,
+        "country": "Уругвай",
+        "score": 6.661,
+        "rank": 28
+    },
+    {
+        "year": 2014,
+        "country": "Косово",
+        "score": 6.659,
+        "rank": 29
+    },
+    {
+        "year": 2014,
+        "country": "Кувейт",
+        "score": 6.629,
+        "rank": 30
+    },
+    {
+        "year": 2014,
+        "country": "Сербия",
+        "score": 6.606,
+        "rank": 31
+    },
+    {
+        "year": 2014,
+        "country": "Саудовская Аравия",
+        "score": 6.6,
+        "rank": 32
+    },
+    {
+        "year": 2014,
+        "country": "Франция",
+        "score": 6.593,
+        "rank": 33
+    },
+    {
+        "year": 2014,
+        "country": "Сингапур",
+        "score": 6.565,
+        "rank": 34
+    },
+    {
+        "year": 2014,
+        "country": "Румыния",
+        "score": 6.563,
+        "rank": 35
+    },
+    {
+        "year": 2014,
+        "country": "Бразилия",
+        "score": 6.494,
+        "rank": 36
+    },
+    {
+        "year": 2014,
+        "country": "Сальвадор",
+        "score": 6.492,
+        "rank": 37
+    },
+    {
+        "year": 2014,
+        "country": "Испания",
+        "score": 6.466,
+        "rank": 38
+    },
+    {
+        "year": 2014,
+        "country": "Эстония",
+        "score": 6.417,
+        "rank": 39
+    },
+    {
+        "year": 2014,
+        "country": "Италия",
+        "score": 6.415,
+        "rank": 40
+    },
+    {
+        "year": 2014,
+        "country": "Панама",
+        "score": 6.407,
+        "rank": 41
+    },
+    {
+        "year": 2014,
+        "country": "Аргентина",
+        "score": 6.397,
+        "rank": 42
+    },
+    {
+        "year": 2014,
+        "country": "Казахстан",
+        "score": 6.378,
+        "rank": 43
+    },
+    {
+        "year": 2014,
+        "country": "Гватемала",
+        "score": 6.362,
+        "rank": 44
+    },
+    {
+        "year": 2014,
+        "country": "Чили",
+        "score": 6.361,
+        "rank": 45
+    },
+    {
+        "year": 2014,
+        "country": "Вьетнам",
+        "score": 6.352,
+        "rank": 46
+    },
+    {
+        "year": 2014,
+        "country": "Никарагуа",
+        "score": 6.33,
+        "rank": 47
+    },
+    {
+        "year": 2014,
+        "country": "Мальта",
+        "score": 6.316,
+        "rank": 48
+    },
+    {
+        "year": 2014,
+        "country": "Таиланд",
+        "score": 6.222,
+        "rank": 49
+    },
+    {
+        "year": 2014,
+        "country": "Словакия",
+        "score": 6.221,
+        "rank": 50
+    },
+    {
+        "year": 2014,
+        "country": "Латвия",
+        "score": 6.207,
+        "rank": 51
+    },
+    {
+        "year": 2014,
+        "country": "Оман",
+        "score": 6.197,
+        "rank": 52
+    },
+    {
+        "year": 2014,
+        "country": "Узбекистан",
+        "score": 6.193,
+        "rank": 53
+    },
+    {
+        "year": 2014,
+        "country": "Парагвай",
+        "score": 6.172,
+        "rank": 54
+    },
+    {
+        "year": 2014,
+        "country": "Япония",
+        "score": 6.147,
+        "rank": 55
+    },
+    {
+        "year": 2014,
+        "country": "Босния и Герцеговина",
+        "score": 6.136,
+        "rank": 56
+    },
+    {
+        "year": 2014,
+        "country": "Филиппины",
+        "score": 6.107,
+        "rank": 57
+    },
+    {
+        "year": 2014,
+        "country": "Южная Корея",
+        "score": 6.038,
+        "rank": 58
+    },
+    {
+        "year": 2014,
+        "country": "Бахрейн",
+        "score": 6.03,
+        "rank": 59
+    },
+    {
+        "year": 2014,
+        "country": "Португалия",
+        "score": 6.013,
+        "rank": 60
+    },
+    {
+        "year": 2014,
+        "country": "Колумбия",
+        "score": 6.004,
+        "rank": 61
+    },
+    {
+        "year": 2014,
+        "country": "Эквадор",
+        "score": 5.965,
+        "rank": 62
+    },
+    {
+        "year": 2014,
+        "country": "Гондурас",
+        "score": 5.964,
+        "rank": 63
+    },
+    {
+        "year": 2014,
+        "country": "Малайзия",
+        "score": 5.955,
+        "rank": 64
+    },
+    {
+        "year": 2014,
+        "country": "Перу",
+        "score": 5.947,
+        "rank": 65
+    },
+    {
+        "year": 2014,
+        "country": "Россия",
+        "score": 5.945,
+        "rank": 66
+    },
+    {
+        "year": 2014,
+        "country": "Кипр",
+        "score": 5.942,
+        "rank": 67
+    },
+    {
+        "year": 2014,
+        "country": "Китай",
+        "score": 5.921,
+        "rank": 68
+    },
+    {
+        "year": 2014,
+        "country": "Венгрия",
+        "score": 5.915,
+        "rank": 69
+    },
+    {
+        "year": 2014,
+        "country": "Тринидад и Тобаго",
+        "score": 5.905,
+        "rank": 70
+    },
+    {
+        "year": 2014,
+        "country": "Черногория",
+        "score": 5.877,
+        "rank": 71
+    },
+    {
+        "year": 2014,
+        "country": "Хорватия",
+        "score": 5.87,
+        "rank": 72
+    },
+    {
+        "year": 2014,
+        "country": "Ямайка",
+        "score": 5.87,
+        "rank": 72
+    },
+    {
+        "year": 2014,
+        "country": "Боливия",
+        "score": 5.868,
+        "rank": 73
+    },
+    {
+        "year": 2014,
+        "country": "Киргизия",
+        "score": 5.858,
+        "rank": 74
+    },
+    {
+        "year": 2014,
+        "country": "Доминиканская Республика",
+        "score": 5.846,
+        "rank": 75
+    },
+    {
+        "year": 2014,
+        "country": "Монголия",
+        "score": 5.833,
+        "rank": 76
+    },
+    {
+        "year": 2014,
+        "country": "Маврикий",
+        "score": 5.832,
+        "rank": 77
+    },
+    {
+        "year": 2014,
+        "country": "Ливия",
+        "score": 5.82,
+        "rank": 78
+    },
+    {
+        "year": 2014,
+        "country": "Молдова",
+        "score": 5.819,
+        "rank": 79
+    },
+    {
+        "year": 2014,
+        "country": "Греция",
+        "score": 5.776,
+        "rank": 80
+    },
+    {
+        "year": 2014,
+        "country": "Венесуэла",
+        "score": 5.683,
+        "rank": 81
+    },
+    {
+        "year": 2014,
+        "country": "Индонезия",
+        "score": 5.617,
+        "rank": 82
+    },
+    {
+        "year": 2014,
+        "country": "Алжир",
+        "score": 5.571,
+        "rank": 83
+    },
+    {
+        "year": 2014,
+        "country": "Болгария",
+        "score": 5.554,
+        "rank": 84
+    },
+    {
+        "year": 2014,
+        "country": "Северная Македония",
+        "score": 5.503,
+        "rank": 85
+    },
+    {
+        "year": 2014,
+        "country": "Армения",
+        "score": 5.494,
+        "rank": 86
+    },
+    {
+        "year": 2014,
+        "country": "Гонконг",
+        "score": 5.491,
+        "rank": 87
+    },
+    {
+        "year": 2014,
+        "country": "Албания",
+        "score": 5.411,
+        "rank": 88
+    },
+    {
+        "year": 2014,
+        "country": "Таджикистан",
+        "score": 5.411,
+        "rank": 88
+    },
+    {
+        "year": 2014,
+        "country": "Грузия",
+        "score": 5.4,
+        "rank": 89
+    },
+    {
+        "year": 2014,
+        "country": "Непал",
+        "score": 5.311,
+        "rank": 90
+    },
+    {
+        "year": 2014,
+        "country": "Лаос",
+        "score": 5.301,
+        "rank": 91
+    },
+    {
+        "year": 2014,
+        "country": "Турция",
+        "score": 5.262,
+        "rank": 92
+    },
+    {
+        "year": 2014,
+        "country": "ЮАР",
+        "score": 5.213,
+        "rank": 93
+    },
+    {
+        "year": 2014,
+        "country": "Мозамбик",
+        "score": 5.19,
+        "rank": 94
+    },
+    {
+        "year": 2014,
+        "country": "Габон",
+        "score": 5.12,
+        "rank": 95
+    },
+    {
+        "year": 2014,
+        "country": "Кот-д’Ивуар",
+        "score": 5.102,
+        "rank": 96
+    },
+    {
+        "year": 2014,
+        "country": "Иран",
+        "score": 5.093,
+        "rank": 97
+    },
+    {
+        "year": 2014,
+        "country": "Конго",
+        "score": 5.03,
+        "rank": 98
+    },
+    {
+        "year": 2014,
+        "country": "Ирак",
+        "score": 4.976,
+        "rank": 99
+    },
+    {
+        "year": 2014,
+        "country": "Гвинея",
+        "score": 4.929,
+        "rank": 100
+    },
+    {
+        "year": 2014,
+        "country": "Намибия",
+        "score": 4.911,
+        "rank": 101
+    },
+    {
+        "year": 2014,
+        "country": "Камерун",
+        "score": 4.887,
+        "rank": 102
+    },
+    {
+        "year": 2014,
+        "country": "Нигерия",
+        "score": 4.885,
+        "rank": 103
+    },
+    {
+        "year": 2014,
+        "country": "Азербайджан",
+        "score": 4.875,
+        "rank": 104
+    },
+    {
+        "year": 2014,
+        "country": "Сенегал",
+        "score": 4.856,
+        "rank": 105
+    },
+    {
+        "year": 2014,
+        "country": "Палестинские территории",
+        "score": 4.78,
+        "rank": 106
+    },
+    {
+        "year": 2014,
+        "country": "Пакистан",
+        "score": 4.768,
+        "rank": 107
+    },
+    {
+        "year": 2014,
+        "country": "Нигер",
+        "score": 4.725,
+        "rank": 108
+    },
+    {
+        "year": 2014,
+        "country": "Украина",
+        "score": 4.68,
+        "rank": 109
+    },
+    {
+        "year": 2014,
+        "country": "Марокко",
+        "score": 4.622,
+        "rank": 110
+    },
+    {
+        "year": 2014,
+        "country": "Тунис",
+        "score": 4.552,
+        "rank": 111
+    },
+    {
+        "year": 2014,
+        "country": "Мавритания",
+        "score": 4.542,
+        "rank": 112
+    },
+    {
+        "year": 2014,
+        "country": "Кения",
+        "score": 4.51,
+        "rank": 113
+    },
+    {
+        "year": 2014,
+        "country": "Уганда",
+        "score": 4.461,
+        "rank": 114
+    },
+    {
+        "year": 2014,
+        "country": "Гамбия",
+        "score": 4.423,
+        "rank": 115
+    },
+    {
+        "year": 2014,
+        "country": "Индия",
+        "score": 4.389,
+        "rank": 116
+    },
+    {
+        "year": 2014,
+        "country": "Чад",
+        "score": 4.384,
+        "rank": 117
+    },
+    {
+        "year": 2014,
+        "country": "Буркина-Фасо",
+        "score": 4.383,
+        "rank": 118
+    },
+    {
+        "year": 2014,
+        "country": "Бенин",
+        "score": 4.357,
+        "rank": 119
+    },
+    {
+        "year": 2014,
+        "country": "Сомали",
+        "score": 4.347,
+        "rank": 120
+    },
+    {
+        "year": 2014,
+        "country": "Мали",
+        "score": 4.345,
+        "rank": 121
+    },
+    {
+        "year": 2014,
+        "country": "Камбоджа",
+        "score": 4.341,
+        "rank": 122
+    },
+    {
+        "year": 2014,
+        "country": "Гана",
+        "score": 4.34,
+        "rank": 123
+    },
+    {
+        "year": 2014,
+        "country": "Мьянма",
+        "score": 4.321,
+        "rank": 124
+    },
+    {
+        "year": 2014,
+        "country": "Того",
+        "score": 4.315,
+        "rank": 125
+    },
+    {
+        "year": 2014,
+        "country": "Иордания",
+        "score": 4.31,
+        "rank": 126
+    },
+    {
+        "year": 2014,
+        "country": "Либерия",
+        "score": 4.277,
+        "rank": 127
+    },
+    {
+        "year": 2014,
+        "country": "Мадагаскар",
+        "score": 4.157,
+        "rank": 128
+    },
+    {
+        "year": 2014,
+        "country": "Замбия",
+        "score": 3.912,
+        "rank": 129
+    },
+    {
+        "year": 2014,
+        "country": "Эфиопия",
+        "score": 3.898,
+        "rank": 130
+    },
+    {
+        "year": 2014,
+        "country": "Шри-Ланка",
+        "score": 3.891,
+        "rank": 131
+    },
+    {
+        "year": 2014,
+        "country": "Бангладеш",
+        "score": 3.851,
+        "rank": 132
+    },
+    {
+        "year": 2014,
+        "country": "Египет",
+        "score": 3.817,
+        "rank": 133
+    },
+    {
+        "year": 2014,
+        "country": "Танзания",
+        "score": 3.8,
+        "rank": 134
+    },
+    {
+        "year": 2014,
+        "country": "Эсватини",
+        "score": 3.774,
+        "rank": 135
+    },
+    {
+        "year": 2014,
+        "country": "Лесото",
+        "score": 3.757,
+        "rank": 136
+    },
+    {
+        "year": 2014,
+        "country": "Коморские острова",
+        "score": 3.754,
+        "rank": 137
+    },
+    {
+        "year": 2014,
+        "country": "Йемен",
+        "score": 3.561,
+        "rank": 138
+    },
+    {
+        "year": 2014,
+        "country": "Конго ДР",
+        "score": 3.469,
+        "rank": 139
+    },
+    {
+        "year": 2014,
+        "country": "Ботсвана",
+        "score": 3.438,
+        "rank": 140
+    },
+    {
+        "year": 2014,
+        "country": "Зимбабве",
+        "score": 3.396,
+        "rank": 141
+    },
+    {
+        "year": 2014,
+        "country": "Малави",
+        "score": 3.26,
+        "rank": 142
+    },
+    {
+        "year": 2014,
+        "country": "Ливан",
+        "score": 3.188,
+        "rank": 143
+    },
+    {
+        "year": 2014,
+        "country": "Сьерра-Леоне",
+        "score": 2.998,
+        "rank": 144
+    },
+    {
+        "year": 2014,
+        "country": "Афганистан",
+        "score": 1.364,
+        "rank": 145
+    },
+    {
+        "year": 2015,
+        "country": "Финляндия",
+        "score": 7.736,
+        "rank": 1
+    },
+    {
+        "year": 2015,
+        "country": "Дания",
+        "score": 7.521,
+        "rank": 2
+    },
+    {
+        "year": 2015,
+        "country": "Исландия",
+        "score": 7.515,
+        "rank": 3
+    },
+    {
+        "year": 2015,
+        "country": "Швеция",
+        "score": 7.345,
+        "rank": 4
+    },
+    {
+        "year": 2015,
+        "country": "Нидерланды",
+        "score": 7.306,
+        "rank": 5
+    },
+    {
+        "year": 2015,
+        "country": "Коста-Рика",
+        "score": 7.274,
+        "rank": 6
+    },
+    {
+        "year": 2015,
+        "country": "Норвегия",
+        "score": 7.262,
+        "rank": 7
+    },
+    {
+        "year": 2015,
+        "country": "Израиль",
+        "score": 7.234,
+        "rank": 8
+    },
+    {
+        "year": 2015,
+        "country": "Люксембург",
+        "score": 7.122,
+        "rank": 9
+    },
+    {
+        "year": 2015,
+        "country": "Мексика",
+        "score": 6.979,
+        "rank": 10
+    },
+    {
+        "year": 2015,
+        "country": "Австралия",
+        "score": 6.974,
+        "rank": 11
+    },
+    {
+        "year": 2015,
+        "country": "Новая Зеландия",
+        "score": 6.952,
+        "rank": 12
+    },
+    {
+        "year": 2015,
+        "country": "Швейцария",
+        "score": 6.935,
+        "rank": 13
+    },
+    {
+        "year": 2015,
+        "country": "Бельгия",
+        "score": 6.91,
+        "rank": 14
+    },
+    {
+        "year": 2015,
+        "country": "Ирландия",
+        "score": 6.889,
+        "rank": 15
+    },
+    {
+        "year": 2015,
+        "country": "Литва",
+        "score": 6.829,
+        "rank": 16
+    },
+    {
+        "year": 2015,
+        "country": "Австрия",
+        "score": 6.81,
+        "rank": 17
+    },
+    {
+        "year": 2015,
+        "country": "Канада",
+        "score": 6.803,
+        "rank": 18
+    },
+    {
+        "year": 2015,
+        "country": "Словения",
+        "score": 6.792,
+        "rank": 19
+    },
+    {
+        "year": 2015,
+        "country": "Чехия",
+        "score": 6.775,
+        "rank": 20
+    },
+    {
+        "year": 2015,
+        "country": "ОАЭ",
+        "score": 6.759,
+        "rank": 21
+    },
+    {
+        "year": 2015,
+        "country": "Германия",
+        "score": 6.753,
+        "rank": 22
+    },
+    {
+        "year": 2015,
+        "country": "Великобритания",
+        "score": 6.728,
+        "rank": 23
+    },
+    {
+        "year": 2015,
+        "country": "США",
+        "score": 6.724,
+        "rank": 24
+    },
+    {
+        "year": 2015,
+        "country": "Белиз",
+        "score": 6.711,
+        "rank": 25
+    },
+    {
+        "year": 2015,
+        "country": "Польша",
+        "score": 6.673,
+        "rank": 26
+    },
+    {
+        "year": 2015,
+        "country": "Тайвань",
+        "score": 6.669,
+        "rank": 27
+    },
+    {
+        "year": 2015,
+        "country": "Уругвай",
+        "score": 6.661,
+        "rank": 28
+    },
+    {
+        "year": 2015,
+        "country": "Косово",
+        "score": 6.659,
+        "rank": 29
+    },
+    {
+        "year": 2015,
+        "country": "Кувейт",
+        "score": 6.629,
+        "rank": 30
+    },
+    {
+        "year": 2015,
+        "country": "Сербия",
+        "score": 6.606,
+        "rank": 31
+    },
+    {
+        "year": 2015,
+        "country": "Саудовская Аравия",
+        "score": 6.6,
+        "rank": 32
+    },
+    {
+        "year": 2015,
+        "country": "Франция",
+        "score": 6.593,
+        "rank": 33
+    },
+    {
+        "year": 2015,
+        "country": "Сингапур",
+        "score": 6.565,
+        "rank": 34
+    },
+    {
+        "year": 2015,
+        "country": "Румыния",
+        "score": 6.563,
+        "rank": 35
+    },
+    {
+        "year": 2015,
+        "country": "Бразилия",
+        "score": 6.494,
+        "rank": 36
+    },
+    {
+        "year": 2015,
+        "country": "Сальвадор",
+        "score": 6.492,
+        "rank": 37
+    },
+    {
+        "year": 2015,
+        "country": "Испания",
+        "score": 6.466,
+        "rank": 38
+    },
+    {
+        "year": 2015,
+        "country": "Эстония",
+        "score": 6.417,
+        "rank": 39
+    },
+    {
+        "year": 2015,
+        "country": "Италия",
+        "score": 6.415,
+        "rank": 40
+    },
+    {
+        "year": 2015,
+        "country": "Панама",
+        "score": 6.407,
+        "rank": 41
+    },
+    {
+        "year": 2015,
+        "country": "Аргентина",
+        "score": 6.397,
+        "rank": 42
+    },
+    {
+        "year": 2015,
+        "country": "Казахстан",
+        "score": 6.378,
+        "rank": 43
+    },
+    {
+        "year": 2015,
+        "country": "Гватемала",
+        "score": 6.362,
+        "rank": 44
+    },
+    {
+        "year": 2015,
+        "country": "Чили",
+        "score": 6.361,
+        "rank": 45
+    },
+    {
+        "year": 2015,
+        "country": "Вьетнам",
+        "score": 6.352,
+        "rank": 46
+    },
+    {
+        "year": 2015,
+        "country": "Никарагуа",
+        "score": 6.33,
+        "rank": 47
+    },
+    {
+        "year": 2015,
+        "country": "Мальта",
+        "score": 6.316,
+        "rank": 48
+    },
+    {
+        "year": 2015,
+        "country": "Таиланд",
+        "score": 6.222,
+        "rank": 49
+    },
+    {
+        "year": 2015,
+        "country": "Словакия",
+        "score": 6.221,
+        "rank": 50
+    },
+    {
+        "year": 2015,
+        "country": "Латвия",
+        "score": 6.207,
+        "rank": 51
+    },
+    {
+        "year": 2015,
+        "country": "Оман",
+        "score": 6.197,
+        "rank": 52
+    },
+    {
+        "year": 2015,
+        "country": "Узбекистан",
+        "score": 6.193,
+        "rank": 53
+    },
+    {
+        "year": 2015,
+        "country": "Парагвай",
+        "score": 6.172,
+        "rank": 54
+    },
+    {
+        "year": 2015,
+        "country": "Япония",
+        "score": 6.147,
+        "rank": 55
+    },
+    {
+        "year": 2015,
+        "country": "Босния и Герцеговина",
+        "score": 6.136,
+        "rank": 56
+    },
+    {
+        "year": 2015,
+        "country": "Филиппины",
+        "score": 6.107,
+        "rank": 57
+    },
+    {
+        "year": 2015,
+        "country": "Южная Корея",
+        "score": 6.038,
+        "rank": 58
+    },
+    {
+        "year": 2015,
+        "country": "Бахрейн",
+        "score": 6.03,
+        "rank": 59
+    },
+    {
+        "year": 2015,
+        "country": "Португалия",
+        "score": 6.013,
+        "rank": 60
+    },
+    {
+        "year": 2015,
+        "country": "Колумбия",
+        "score": 6.004,
+        "rank": 61
+    },
+    {
+        "year": 2015,
+        "country": "Эквадор",
+        "score": 5.965,
+        "rank": 62
+    },
+    {
+        "year": 2015,
+        "country": "Гондурас",
+        "score": 5.964,
+        "rank": 63
+    },
+    {
+        "year": 2015,
+        "country": "Малайзия",
+        "score": 5.955,
+        "rank": 64
+    },
+    {
+        "year": 2015,
+        "country": "Перу",
+        "score": 5.947,
+        "rank": 65
+    },
+    {
+        "year": 2015,
+        "country": "Россия",
+        "score": 5.945,
+        "rank": 66
+    },
+    {
+        "year": 2015,
+        "country": "Кипр",
+        "score": 5.942,
+        "rank": 67
+    },
+    {
+        "year": 2015,
+        "country": "Китай",
+        "score": 5.921,
+        "rank": 68
+    },
+    {
+        "year": 2015,
+        "country": "Венгрия",
+        "score": 5.915,
+        "rank": 69
+    },
+    {
+        "year": 2015,
+        "country": "Тринидад и Тобаго",
+        "score": 5.905,
+        "rank": 70
+    },
+    {
+        "year": 2015,
+        "country": "Черногория",
+        "score": 5.877,
+        "rank": 71
+    },
+    {
+        "year": 2015,
+        "country": "Хорватия",
+        "score": 5.87,
+        "rank": 72
+    },
+    {
+        "year": 2015,
+        "country": "Ямайка",
+        "score": 5.87,
+        "rank": 72
+    },
+    {
+        "year": 2015,
+        "country": "Боливия",
+        "score": 5.868,
+        "rank": 73
+    },
+    {
+        "year": 2015,
+        "country": "Киргизия",
+        "score": 5.858,
+        "rank": 74
+    },
+    {
+        "year": 2015,
+        "country": "Доминиканская Республика",
+        "score": 5.846,
+        "rank": 75
+    },
+    {
+        "year": 2015,
+        "country": "Монголия",
+        "score": 5.833,
+        "rank": 76
+    },
+    {
+        "year": 2015,
+        "country": "Маврикий",
+        "score": 5.832,
+        "rank": 77
+    },
+    {
+        "year": 2015,
+        "country": "Ливия",
+        "score": 5.82,
+        "rank": 78
+    },
+    {
+        "year": 2015,
+        "country": "Молдова",
+        "score": 5.819,
+        "rank": 79
+    },
+    {
+        "year": 2015,
+        "country": "Греция",
+        "score": 5.776,
+        "rank": 80
+    },
+    {
+        "year": 2015,
+        "country": "Венесуэла",
+        "score": 5.683,
+        "rank": 81
+    },
+    {
+        "year": 2015,
+        "country": "Индонезия",
+        "score": 5.617,
+        "rank": 82
+    },
+    {
+        "year": 2015,
+        "country": "Алжир",
+        "score": 5.571,
+        "rank": 83
+    },
+    {
+        "year": 2015,
+        "country": "Болгария",
+        "score": 5.554,
+        "rank": 84
+    },
+    {
+        "year": 2015,
+        "country": "Северная Македония",
+        "score": 5.503,
+        "rank": 85
+    },
+    {
+        "year": 2015,
+        "country": "Армения",
+        "score": 5.494,
+        "rank": 86
+    },
+    {
+        "year": 2015,
+        "country": "Гонконг",
+        "score": 5.491,
+        "rank": 87
+    },
+    {
+        "year": 2015,
+        "country": "Албания",
+        "score": 5.411,
+        "rank": 88
+    },
+    {
+        "year": 2015,
+        "country": "Таджикистан",
+        "score": 5.411,
+        "rank": 88
+    },
+    {
+        "year": 2015,
+        "country": "Грузия",
+        "score": 5.4,
+        "rank": 89
+    },
+    {
+        "year": 2015,
+        "country": "Непал",
+        "score": 5.311,
+        "rank": 90
+    },
+    {
+        "year": 2015,
+        "country": "Лаос",
+        "score": 5.301,
+        "rank": 91
+    },
+    {
+        "year": 2015,
+        "country": "Турция",
+        "score": 5.262,
+        "rank": 92
+    },
+    {
+        "year": 2015,
+        "country": "ЮАР",
+        "score": 5.213,
+        "rank": 93
+    },
+    {
+        "year": 2015,
+        "country": "Мозамбик",
+        "score": 5.19,
+        "rank": 94
+    },
+    {
+        "year": 2015,
+        "country": "Габон",
+        "score": 5.12,
+        "rank": 95
+    },
+    {
+        "year": 2015,
+        "country": "Кот-д’Ивуар",
+        "score": 5.102,
+        "rank": 96
+    },
+    {
+        "year": 2015,
+        "country": "Иран",
+        "score": 5.093,
+        "rank": 97
+    },
+    {
+        "year": 2015,
+        "country": "Конго",
+        "score": 5.03,
+        "rank": 98
+    },
+    {
+        "year": 2015,
+        "country": "Ирак",
+        "score": 4.976,
+        "rank": 99
+    },
+    {
+        "year": 2015,
+        "country": "Гвинея",
+        "score": 4.929,
+        "rank": 100
+    },
+    {
+        "year": 2015,
+        "country": "Намибия",
+        "score": 4.911,
+        "rank": 101
+    },
+    {
+        "year": 2015,
+        "country": "Камерун",
+        "score": 4.887,
+        "rank": 102
+    },
+    {
+        "year": 2015,
+        "country": "Нигерия",
+        "score": 4.885,
+        "rank": 103
+    },
+    {
+        "year": 2015,
+        "country": "Азербайджан",
+        "score": 4.875,
+        "rank": 104
+    },
+    {
+        "year": 2015,
+        "country": "Сенегал",
+        "score": 4.856,
+        "rank": 105
+    },
+    {
+        "year": 2015,
+        "country": "Палестинские территории",
+        "score": 4.78,
+        "rank": 106
+    },
+    {
+        "year": 2015,
+        "country": "Пакистан",
+        "score": 4.768,
+        "rank": 107
+    },
+    {
+        "year": 2015,
+        "country": "Нигер",
+        "score": 4.725,
+        "rank": 108
+    },
+    {
+        "year": 2015,
+        "country": "Украина",
+        "score": 4.68,
+        "rank": 109
+    },
+    {
+        "year": 2015,
+        "country": "Марокко",
+        "score": 4.622,
+        "rank": 110
+    },
+    {
+        "year": 2015,
+        "country": "Тунис",
+        "score": 4.552,
+        "rank": 111
+    },
+    {
+        "year": 2015,
+        "country": "Мавритания",
+        "score": 4.542,
+        "rank": 112
+    },
+    {
+        "year": 2015,
+        "country": "Кения",
+        "score": 4.51,
+        "rank": 113
+    },
+    {
+        "year": 2015,
+        "country": "Уганда",
+        "score": 4.461,
+        "rank": 114
+    },
+    {
+        "year": 2015,
+        "country": "Гамбия",
+        "score": 4.423,
+        "rank": 115
+    },
+    {
+        "year": 2015,
+        "country": "Индия",
+        "score": 4.389,
+        "rank": 116
+    },
+    {
+        "year": 2015,
+        "country": "Чад",
+        "score": 4.384,
+        "rank": 117
+    },
+    {
+        "year": 2015,
+        "country": "Буркина-Фасо",
+        "score": 4.383,
+        "rank": 118
+    },
+    {
+        "year": 2015,
+        "country": "Бенин",
+        "score": 4.357,
+        "rank": 119
+    },
+    {
+        "year": 2015,
+        "country": "Сомали",
+        "score": 4.347,
+        "rank": 120
+    },
+    {
+        "year": 2015,
+        "country": "Мали",
+        "score": 4.345,
+        "rank": 121
+    },
+    {
+        "year": 2015,
+        "country": "Камбоджа",
+        "score": 4.341,
+        "rank": 122
+    },
+    {
+        "year": 2015,
+        "country": "Гана",
+        "score": 4.34,
+        "rank": 123
+    },
+    {
+        "year": 2015,
+        "country": "Мьянма",
+        "score": 4.321,
+        "rank": 124
+    },
+    {
+        "year": 2015,
+        "country": "Того",
+        "score": 4.315,
+        "rank": 125
+    },
+    {
+        "year": 2015,
+        "country": "Иордания",
+        "score": 4.31,
+        "rank": 126
+    },
+    {
+        "year": 2015,
+        "country": "Либерия",
+        "score": 4.277,
+        "rank": 127
+    },
+    {
+        "year": 2015,
+        "country": "Мадагаскар",
+        "score": 4.157,
+        "rank": 128
+    },
+    {
+        "year": 2015,
+        "country": "Замбия",
+        "score": 3.912,
+        "rank": 129
+    },
+    {
+        "year": 2015,
+        "country": "Эфиопия",
+        "score": 3.898,
+        "rank": 130
+    },
+    {
+        "year": 2015,
+        "country": "Шри-Ланка",
+        "score": 3.891,
+        "rank": 131
+    },
+    {
+        "year": 2015,
+        "country": "Бангладеш",
+        "score": 3.851,
+        "rank": 132
+    },
+    {
+        "year": 2015,
+        "country": "Египет",
+        "score": 3.817,
+        "rank": 133
+    },
+    {
+        "year": 2015,
+        "country": "Танзания",
+        "score": 3.8,
+        "rank": 134
+    },
+    {
+        "year": 2015,
+        "country": "Эсватини",
+        "score": 3.774,
+        "rank": 135
+    },
+    {
+        "year": 2015,
+        "country": "Лесото",
+        "score": 3.757,
+        "rank": 136
+    },
+    {
+        "year": 2015,
+        "country": "Коморские острова",
+        "score": 3.754,
+        "rank": 137
+    },
+    {
+        "year": 2015,
+        "country": "Йемен",
+        "score": 3.561,
+        "rank": 138
+    },
+    {
+        "year": 2015,
+        "country": "Конго ДР",
+        "score": 3.469,
+        "rank": 139
+    },
+    {
+        "year": 2015,
+        "country": "Ботсвана",
+        "score": 3.438,
+        "rank": 140
+    },
+    {
+        "year": 2015,
+        "country": "Зимбабве",
+        "score": 3.396,
+        "rank": 141
+    },
+    {
+        "year": 2015,
+        "country": "Малави",
+        "score": 3.26,
+        "rank": 142
+    },
+    {
+        "year": 2015,
+        "country": "Ливан",
+        "score": 3.188,
+        "rank": 143
+    },
+    {
+        "year": 2015,
+        "country": "Сьерра-Леоне",
+        "score": 2.998,
+        "rank": 144
+    },
+    {
+        "year": 2015,
+        "country": "Афганистан",
+        "score": 1.364,
+        "rank": 145
+    },
+    {
+        "year": 2016,
+        "country": "Финляндия",
+        "score": 7.736,
+        "rank": 1
+    },
+    {
+        "year": 2016,
+        "country": "Дания",
+        "score": 7.521,
+        "rank": 2
+    },
+    {
+        "year": 2016,
+        "country": "Исландия",
+        "score": 7.515,
+        "rank": 3
+    },
+    {
+        "year": 2016,
+        "country": "Швеция",
+        "score": 7.345,
+        "rank": 4
+    },
+    {
+        "year": 2016,
+        "country": "Нидерланды",
+        "score": 7.306,
+        "rank": 5
+    },
+    {
+        "year": 2016,
+        "country": "Коста-Рика",
+        "score": 7.274,
+        "rank": 6
+    },
+    {
+        "year": 2016,
+        "country": "Норвегия",
+        "score": 7.262,
+        "rank": 7
+    },
+    {
+        "year": 2016,
+        "country": "Израиль",
+        "score": 7.234,
+        "rank": 8
+    },
+    {
+        "year": 2016,
+        "country": "Люксембург",
+        "score": 7.122,
+        "rank": 9
+    },
+    {
+        "year": 2016,
+        "country": "Мексика",
+        "score": 6.979,
+        "rank": 10
+    },
+    {
+        "year": 2016,
+        "country": "Австралия",
+        "score": 6.974,
+        "rank": 11
+    },
+    {
+        "year": 2016,
+        "country": "Новая Зеландия",
+        "score": 6.952,
+        "rank": 12
+    },
+    {
+        "year": 2016,
+        "country": "Швейцария",
+        "score": 6.935,
+        "rank": 13
+    },
+    {
+        "year": 2016,
+        "country": "Бельгия",
+        "score": 6.91,
+        "rank": 14
+    },
+    {
+        "year": 2016,
+        "country": "Ирландия",
+        "score": 6.889,
+        "rank": 15
+    },
+    {
+        "year": 2016,
+        "country": "Литва",
+        "score": 6.829,
+        "rank": 16
+    },
+    {
+        "year": 2016,
+        "country": "Австрия",
+        "score": 6.81,
+        "rank": 17
+    },
+    {
+        "year": 2016,
+        "country": "Канада",
+        "score": 6.803,
+        "rank": 18
+    },
+    {
+        "year": 2016,
+        "country": "Словения",
+        "score": 6.792,
+        "rank": 19
+    },
+    {
+        "year": 2016,
+        "country": "Чехия",
+        "score": 6.775,
+        "rank": 20
+    },
+    {
+        "year": 2016,
+        "country": "ОАЭ",
+        "score": 6.759,
+        "rank": 21
+    },
+    {
+        "year": 2016,
+        "country": "Германия",
+        "score": 6.753,
+        "rank": 22
+    },
+    {
+        "year": 2016,
+        "country": "Великобритания",
+        "score": 6.728,
+        "rank": 23
+    },
+    {
+        "year": 2016,
+        "country": "США",
+        "score": 6.724,
+        "rank": 24
+    },
+    {
+        "year": 2016,
+        "country": "Белиз",
+        "score": 6.711,
+        "rank": 25
+    },
+    {
+        "year": 2016,
+        "country": "Польша",
+        "score": 6.673,
+        "rank": 26
+    },
+    {
+        "year": 2016,
+        "country": "Тайвань",
+        "score": 6.669,
+        "rank": 27
+    },
+    {
+        "year": 2016,
+        "country": "Уругвай",
+        "score": 6.661,
+        "rank": 28
+    },
+    {
+        "year": 2016,
+        "country": "Косово",
+        "score": 6.659,
+        "rank": 29
+    },
+    {
+        "year": 2016,
+        "country": "Кувейт",
+        "score": 6.629,
+        "rank": 30
+    },
+    {
+        "year": 2016,
+        "country": "Сербия",
+        "score": 6.606,
+        "rank": 31
+    },
+    {
+        "year": 2016,
+        "country": "Саудовская Аравия",
+        "score": 6.6,
+        "rank": 32
+    },
+    {
+        "year": 2016,
+        "country": "Франция",
+        "score": 6.593,
+        "rank": 33
+    },
+    {
+        "year": 2016,
+        "country": "Сингапур",
+        "score": 6.565,
+        "rank": 34
+    },
+    {
+        "year": 2016,
+        "country": "Румыния",
+        "score": 6.563,
+        "rank": 35
+    },
+    {
+        "year": 2016,
+        "country": "Бразилия",
+        "score": 6.494,
+        "rank": 36
+    },
+    {
+        "year": 2016,
+        "country": "Сальвадор",
+        "score": 6.492,
+        "rank": 37
+    },
+    {
+        "year": 2016,
+        "country": "Испания",
+        "score": 6.466,
+        "rank": 38
+    },
+    {
+        "year": 2016,
+        "country": "Эстония",
+        "score": 6.417,
+        "rank": 39
+    },
+    {
+        "year": 2016,
+        "country": "Италия",
+        "score": 6.415,
+        "rank": 40
+    },
+    {
+        "year": 2016,
+        "country": "Панама",
+        "score": 6.407,
+        "rank": 41
+    },
+    {
+        "year": 2016,
+        "country": "Аргентина",
+        "score": 6.397,
+        "rank": 42
+    },
+    {
+        "year": 2016,
+        "country": "Казахстан",
+        "score": 6.378,
+        "rank": 43
+    },
+    {
+        "year": 2016,
+        "country": "Гватемала",
+        "score": 6.362,
+        "rank": 44
+    },
+    {
+        "year": 2016,
+        "country": "Чили",
+        "score": 6.361,
+        "rank": 45
+    },
+    {
+        "year": 2016,
+        "country": "Вьетнам",
+        "score": 6.352,
+        "rank": 46
+    },
+    {
+        "year": 2016,
+        "country": "Никарагуа",
+        "score": 6.33,
+        "rank": 47
+    },
+    {
+        "year": 2016,
+        "country": "Мальта",
+        "score": 6.316,
+        "rank": 48
+    },
+    {
+        "year": 2016,
+        "country": "Таиланд",
+        "score": 6.222,
+        "rank": 49
+    },
+    {
+        "year": 2016,
+        "country": "Словакия",
+        "score": 6.221,
+        "rank": 50
+    },
+    {
+        "year": 2016,
+        "country": "Латвия",
+        "score": 6.207,
+        "rank": 51
+    },
+    {
+        "year": 2016,
+        "country": "Оман",
+        "score": 6.197,
+        "rank": 52
+    },
+    {
+        "year": 2016,
+        "country": "Узбекистан",
+        "score": 6.193,
+        "rank": 53
+    },
+    {
+        "year": 2016,
+        "country": "Парагвай",
+        "score": 6.172,
+        "rank": 54
+    },
+    {
+        "year": 2016,
+        "country": "Япония",
+        "score": 6.147,
+        "rank": 55
+    },
+    {
+        "year": 2016,
+        "country": "Босния и Герцеговина",
+        "score": 6.136,
+        "rank": 56
+    },
+    {
+        "year": 2016,
+        "country": "Филиппины",
+        "score": 6.107,
+        "rank": 57
+    },
+    {
+        "year": 2016,
+        "country": "Южная Корея",
+        "score": 6.038,
+        "rank": 58
+    },
+    {
+        "year": 2016,
+        "country": "Бахрейн",
+        "score": 6.03,
+        "rank": 59
+    },
+    {
+        "year": 2016,
+        "country": "Португалия",
+        "score": 6.013,
+        "rank": 60
+    },
+    {
+        "year": 2016,
+        "country": "Колумбия",
+        "score": 6.004,
+        "rank": 61
+    },
+    {
+        "year": 2016,
+        "country": "Эквадор",
+        "score": 5.965,
+        "rank": 62
+    },
+    {
+        "year": 2016,
+        "country": "Гондурас",
+        "score": 5.964,
+        "rank": 63
+    },
+    {
+        "year": 2016,
+        "country": "Малайзия",
+        "score": 5.955,
+        "rank": 64
+    },
+    {
+        "year": 2016,
+        "country": "Перу",
+        "score": 5.947,
+        "rank": 65
+    },
+    {
+        "year": 2016,
+        "country": "Россия",
+        "score": 5.945,
+        "rank": 66
+    },
+    {
+        "year": 2016,
+        "country": "Кипр",
+        "score": 5.942,
+        "rank": 67
+    },
+    {
+        "year": 2016,
+        "country": "Китай",
+        "score": 5.921,
+        "rank": 68
+    },
+    {
+        "year": 2016,
+        "country": "Венгрия",
+        "score": 5.915,
+        "rank": 69
+    },
+    {
+        "year": 2016,
+        "country": "Тринидад и Тобаго",
+        "score": 5.905,
+        "rank": 70
+    },
+    {
+        "year": 2016,
+        "country": "Черногория",
+        "score": 5.877,
+        "rank": 71
+    },
+    {
+        "year": 2016,
+        "country": "Хорватия",
+        "score": 5.87,
+        "rank": 72
+    },
+    {
+        "year": 2016,
+        "country": "Ямайка",
+        "score": 5.87,
+        "rank": 72
+    },
+    {
+        "year": 2016,
+        "country": "Боливия",
+        "score": 5.868,
+        "rank": 73
+    },
+    {
+        "year": 2016,
+        "country": "Киргизия",
+        "score": 5.858,
+        "rank": 74
+    },
+    {
+        "year": 2016,
+        "country": "Доминиканская Республика",
+        "score": 5.846,
+        "rank": 75
+    },
+    {
+        "year": 2016,
+        "country": "Монголия",
+        "score": 5.833,
+        "rank": 76
+    },
+    {
+        "year": 2016,
+        "country": "Маврикий",
+        "score": 5.832,
+        "rank": 77
+    },
+    {
+        "year": 2016,
+        "country": "Ливия",
+        "score": 5.82,
+        "rank": 78
+    },
+    {
+        "year": 2016,
+        "country": "Молдова",
+        "score": 5.819,
+        "rank": 79
+    },
+    {
+        "year": 2016,
+        "country": "Греция",
+        "score": 5.776,
+        "rank": 80
+    },
+    {
+        "year": 2016,
+        "country": "Венесуэла",
+        "score": 5.683,
+        "rank": 81
+    },
+    {
+        "year": 2016,
+        "country": "Индонезия",
+        "score": 5.617,
+        "rank": 82
+    },
+    {
+        "year": 2016,
+        "country": "Алжир",
+        "score": 5.571,
+        "rank": 83
+    },
+    {
+        "year": 2016,
+        "country": "Болгария",
+        "score": 5.554,
+        "rank": 84
+    },
+    {
+        "year": 2016,
+        "country": "Северная Македония",
+        "score": 5.503,
+        "rank": 85
+    },
+    {
+        "year": 2016,
+        "country": "Армения",
+        "score": 5.494,
+        "rank": 86
+    },
+    {
+        "year": 2016,
+        "country": "Гонконг",
+        "score": 5.491,
+        "rank": 87
+    },
+    {
+        "year": 2016,
+        "country": "Албания",
+        "score": 5.411,
+        "rank": 88
+    },
+    {
+        "year": 2016,
+        "country": "Таджикистан",
+        "score": 5.411,
+        "rank": 88
+    },
+    {
+        "year": 2016,
+        "country": "Грузия",
+        "score": 5.4,
+        "rank": 89
+    },
+    {
+        "year": 2016,
+        "country": "Непал",
+        "score": 5.311,
+        "rank": 90
+    },
+    {
+        "year": 2016,
+        "country": "Лаос",
+        "score": 5.301,
+        "rank": 91
+    },
+    {
+        "year": 2016,
+        "country": "Турция",
+        "score": 5.262,
+        "rank": 92
+    },
+    {
+        "year": 2016,
+        "country": "ЮАР",
+        "score": 5.213,
+        "rank": 93
+    },
+    {
+        "year": 2016,
+        "country": "Мозамбик",
+        "score": 5.19,
+        "rank": 94
+    },
+    {
+        "year": 2016,
+        "country": "Габон",
+        "score": 5.12,
+        "rank": 95
+    },
+    {
+        "year": 2016,
+        "country": "Кот-д’Ивуар",
+        "score": 5.102,
+        "rank": 96
+    },
+    {
+        "year": 2016,
+        "country": "Иран",
+        "score": 5.093,
+        "rank": 97
+    },
+    {
+        "year": 2016,
+        "country": "Конго",
+        "score": 5.03,
+        "rank": 98
+    },
+    {
+        "year": 2016,
+        "country": "Ирак",
+        "score": 4.976,
+        "rank": 99
+    },
+    {
+        "year": 2016,
+        "country": "Гвинея",
+        "score": 4.929,
+        "rank": 100
+    },
+    {
+        "year": 2016,
+        "country": "Намибия",
+        "score": 4.911,
+        "rank": 101
+    },
+    {
+        "year": 2016,
+        "country": "Камерун",
+        "score": 4.887,
+        "rank": 102
+    },
+    {
+        "year": 2016,
+        "country": "Нигерия",
+        "score": 4.885,
+        "rank": 103
+    },
+    {
+        "year": 2016,
+        "country": "Азербайджан",
+        "score": 4.875,
+        "rank": 104
+    },
+    {
+        "year": 2016,
+        "country": "Сенегал",
+        "score": 4.856,
+        "rank": 105
+    },
+    {
+        "year": 2016,
+        "country": "Палестинские территории",
+        "score": 4.78,
+        "rank": 106
+    },
+    {
+        "year": 2016,
+        "country": "Пакистан",
+        "score": 4.768,
+        "rank": 107
+    },
+    {
+        "year": 2016,
+        "country": "Нигер",
+        "score": 4.725,
+        "rank": 108
+    },
+    {
+        "year": 2016,
+        "country": "Украина",
+        "score": 4.68,
+        "rank": 109
+    },
+    {
+        "year": 2016,
+        "country": "Марокко",
+        "score": 4.622,
+        "rank": 110
+    },
+    {
+        "year": 2016,
+        "country": "Тунис",
+        "score": 4.552,
+        "rank": 111
+    },
+    {
+        "year": 2016,
+        "country": "Мавритания",
+        "score": 4.542,
+        "rank": 112
+    },
+    {
+        "year": 2016,
+        "country": "Кения",
+        "score": 4.51,
+        "rank": 113
+    },
+    {
+        "year": 2016,
+        "country": "Уганда",
+        "score": 4.461,
+        "rank": 114
+    },
+    {
+        "year": 2016,
+        "country": "Гамбия",
+        "score": 4.423,
+        "rank": 115
+    },
+    {
+        "year": 2016,
+        "country": "Индия",
+        "score": 4.389,
+        "rank": 116
+    },
+    {
+        "year": 2016,
+        "country": "Чад",
+        "score": 4.384,
+        "rank": 117
+    },
+    {
+        "year": 2016,
+        "country": "Буркина-Фасо",
+        "score": 4.383,
+        "rank": 118
+    },
+    {
+        "year": 2016,
+        "country": "Бенин",
+        "score": 4.357,
+        "rank": 119
+    },
+    {
+        "year": 2016,
+        "country": "Сомали",
+        "score": 4.347,
+        "rank": 120
+    },
+    {
+        "year": 2016,
+        "country": "Мали",
+        "score": 4.345,
+        "rank": 121
+    },
+    {
+        "year": 2016,
+        "country": "Камбоджа",
+        "score": 4.341,
+        "rank": 122
+    },
+    {
+        "year": 2016,
+        "country": "Гана",
+        "score": 4.34,
+        "rank": 123
+    },
+    {
+        "year": 2016,
+        "country": "Мьянма",
+        "score": 4.321,
+        "rank": 124
+    },
+    {
+        "year": 2016,
+        "country": "Того",
+        "score": 4.315,
+        "rank": 125
+    },
+    {
+        "year": 2016,
+        "country": "Иордания",
+        "score": 4.31,
+        "rank": 126
+    },
+    {
+        "year": 2016,
+        "country": "Либерия",
+        "score": 4.277,
+        "rank": 127
+    },
+    {
+        "year": 2016,
+        "country": "Мадагаскар",
+        "score": 4.157,
+        "rank": 128
+    },
+    {
+        "year": 2016,
+        "country": "Замбия",
+        "score": 3.912,
+        "rank": 129
+    },
+    {
+        "year": 2016,
+        "country": "Эфиопия",
+        "score": 3.898,
+        "rank": 130
+    },
+    {
+        "year": 2016,
+        "country": "Шри-Ланка",
+        "score": 3.891,
+        "rank": 131
+    },
+    {
+        "year": 2016,
+        "country": "Бангладеш",
+        "score": 3.851,
+        "rank": 132
+    },
+    {
+        "year": 2016,
+        "country": "Египет",
+        "score": 3.817,
+        "rank": 133
+    },
+    {
+        "year": 2016,
+        "country": "Танзания",
+        "score": 3.8,
+        "rank": 134
+    },
+    {
+        "year": 2016,
+        "country": "Эсватини",
+        "score": 3.774,
+        "rank": 135
+    },
+    {
+        "year": 2016,
+        "country": "Лесото",
+        "score": 3.757,
+        "rank": 136
+    },
+    {
+        "year": 2016,
+        "country": "Коморские острова",
+        "score": 3.754,
+        "rank": 137
+    },
+    {
+        "year": 2016,
+        "country": "Йемен",
+        "score": 3.561,
+        "rank": 138
+    },
+    {
+        "year": 2016,
+        "country": "Конго ДР",
+        "score": 3.469,
+        "rank": 139
+    },
+    {
+        "year": 2016,
+        "country": "Ботсвана",
+        "score": 3.438,
+        "rank": 140
+    },
+    {
+        "year": 2016,
+        "country": "Зимбабве",
+        "score": 3.396,
+        "rank": 141
+    },
+    {
+        "year": 2016,
+        "country": "Малави",
+        "score": 3.26,
+        "rank": 142
+    },
+    {
+        "year": 2016,
+        "country": "Ливан",
+        "score": 3.188,
+        "rank": 143
+    },
+    {
+        "year": 2016,
+        "country": "Сьерра-Леоне",
+        "score": 2.998,
+        "rank": 144
+    },
+    {
+        "year": 2016,
+        "country": "Афганистан",
+        "score": 1.364,
+        "rank": 145
+    },
+    {
+        "year": 2017,
+        "country": "Финляндия",
+        "score": 7.736,
+        "rank": 1
+    },
+    {
+        "year": 2017,
+        "country": "Дания",
+        "score": 7.521,
+        "rank": 2
+    },
+    {
+        "year": 2017,
+        "country": "Исландия",
+        "score": 7.515,
+        "rank": 3
+    },
+    {
+        "year": 2017,
+        "country": "Швеция",
+        "score": 7.345,
+        "rank": 4
+    },
+    {
+        "year": 2017,
+        "country": "Нидерланды",
+        "score": 7.306,
+        "rank": 5
+    },
+    {
+        "year": 2017,
+        "country": "Коста-Рика",
+        "score": 7.274,
+        "rank": 6
+    },
+    {
+        "year": 2017,
+        "country": "Норвегия",
+        "score": 7.262,
+        "rank": 7
+    },
+    {
+        "year": 2017,
+        "country": "Израиль",
+        "score": 7.234,
+        "rank": 8
+    },
+    {
+        "year": 2017,
+        "country": "Люксембург",
+        "score": 7.122,
+        "rank": 9
+    },
+    {
+        "year": 2017,
+        "country": "Мексика",
+        "score": 6.979,
+        "rank": 10
+    },
+    {
+        "year": 2017,
+        "country": "Австралия",
+        "score": 6.974,
+        "rank": 11
+    },
+    {
+        "year": 2017,
+        "country": "Новая Зеландия",
+        "score": 6.952,
+        "rank": 12
+    },
+    {
+        "year": 2017,
+        "country": "Швейцария",
+        "score": 6.935,
+        "rank": 13
+    },
+    {
+        "year": 2017,
+        "country": "Бельгия",
+        "score": 6.91,
+        "rank": 14
+    },
+    {
+        "year": 2017,
+        "country": "Ирландия",
+        "score": 6.889,
+        "rank": 15
+    },
+    {
+        "year": 2017,
+        "country": "Литва",
+        "score": 6.829,
+        "rank": 16
+    },
+    {
+        "year": 2017,
+        "country": "Австрия",
+        "score": 6.81,
+        "rank": 17
+    },
+    {
+        "year": 2017,
+        "country": "Канада",
+        "score": 6.803,
+        "rank": 18
+    },
+    {
+        "year": 2017,
+        "country": "Словения",
+        "score": 6.792,
+        "rank": 19
+    },
+    {
+        "year": 2017,
+        "country": "Чехия",
+        "score": 6.775,
+        "rank": 20
+    },
+    {
+        "year": 2017,
+        "country": "ОАЭ",
+        "score": 6.759,
+        "rank": 21
+    },
+    {
+        "year": 2017,
+        "country": "Германия",
+        "score": 6.753,
+        "rank": 22
+    },
+    {
+        "year": 2017,
+        "country": "Великобритания",
+        "score": 6.728,
+        "rank": 23
+    },
+    {
+        "year": 2017,
+        "country": "США",
+        "score": 6.724,
+        "rank": 24
+    },
+    {
+        "year": 2017,
+        "country": "Белиз",
+        "score": 6.711,
+        "rank": 25
+    },
+    {
+        "year": 2017,
+        "country": "Польша",
+        "score": 6.673,
+        "rank": 26
+    },
+    {
+        "year": 2017,
+        "country": "Тайвань",
+        "score": 6.669,
+        "rank": 27
+    },
+    {
+        "year": 2017,
+        "country": "Уругвай",
+        "score": 6.661,
+        "rank": 28
+    },
+    {
+        "year": 2017,
+        "country": "Косово",
+        "score": 6.659,
+        "rank": 29
+    },
+    {
+        "year": 2017,
+        "country": "Кувейт",
+        "score": 6.629,
+        "rank": 30
+    },
+    {
+        "year": 2017,
+        "country": "Сербия",
+        "score": 6.606,
+        "rank": 31
+    },
+    {
+        "year": 2017,
+        "country": "Саудовская Аравия",
+        "score": 6.6,
+        "rank": 32
+    },
+    {
+        "year": 2017,
+        "country": "Франция",
+        "score": 6.593,
+        "rank": 33
+    },
+    {
+        "year": 2017,
+        "country": "Сингапур",
+        "score": 6.565,
+        "rank": 34
+    },
+    {
+        "year": 2017,
+        "country": "Румыния",
+        "score": 6.563,
+        "rank": 35
+    },
+    {
+        "year": 2017,
+        "country": "Бразилия",
+        "score": 6.494,
+        "rank": 36
+    },
+    {
+        "year": 2017,
+        "country": "Сальвадор",
+        "score": 6.492,
+        "rank": 37
+    },
+    {
+        "year": 2017,
+        "country": "Испания",
+        "score": 6.466,
+        "rank": 38
+    },
+    {
+        "year": 2017,
+        "country": "Эстония",
+        "score": 6.417,
+        "rank": 39
+    },
+    {
+        "year": 2017,
+        "country": "Италия",
+        "score": 6.415,
+        "rank": 40
+    },
+    {
+        "year": 2017,
+        "country": "Панама",
+        "score": 6.407,
+        "rank": 41
+    },
+    {
+        "year": 2017,
+        "country": "Аргентина",
+        "score": 6.397,
+        "rank": 42
+    },
+    {
+        "year": 2017,
+        "country": "Казахстан",
+        "score": 6.378,
+        "rank": 43
+    },
+    {
+        "year": 2017,
+        "country": "Гватемала",
+        "score": 6.362,
+        "rank": 44
+    },
+    {
+        "year": 2017,
+        "country": "Чили",
+        "score": 6.361,
+        "rank": 45
+    },
+    {
+        "year": 2017,
+        "country": "Вьетнам",
+        "score": 6.352,
+        "rank": 46
+    },
+    {
+        "year": 2017,
+        "country": "Никарагуа",
+        "score": 6.33,
+        "rank": 47
+    },
+    {
+        "year": 2017,
+        "country": "Мальта",
+        "score": 6.316,
+        "rank": 48
+    },
+    {
+        "year": 2017,
+        "country": "Таиланд",
+        "score": 6.222,
+        "rank": 49
+    },
+    {
+        "year": 2017,
+        "country": "Словакия",
+        "score": 6.221,
+        "rank": 50
+    },
+    {
+        "year": 2017,
+        "country": "Латвия",
+        "score": 6.207,
+        "rank": 51
+    },
+    {
+        "year": 2017,
+        "country": "Оман",
+        "score": 6.197,
+        "rank": 52
+    },
+    {
+        "year": 2017,
+        "country": "Узбекистан",
+        "score": 6.193,
+        "rank": 53
+    },
+    {
+        "year": 2017,
+        "country": "Парагвай",
+        "score": 6.172,
+        "rank": 54
+    },
+    {
+        "year": 2017,
+        "country": "Япония",
+        "score": 6.147,
+        "rank": 55
+    },
+    {
+        "year": 2017,
+        "country": "Босния и Герцеговина",
+        "score": 6.136,
+        "rank": 56
+    },
+    {
+        "year": 2017,
+        "country": "Филиппины",
+        "score": 6.107,
+        "rank": 57
+    },
+    {
+        "year": 2017,
+        "country": "Южная Корея",
+        "score": 6.038,
+        "rank": 58
+    },
+    {
+        "year": 2017,
+        "country": "Бахрейн",
+        "score": 6.03,
+        "rank": 59
+    },
+    {
+        "year": 2017,
+        "country": "Португалия",
+        "score": 6.013,
+        "rank": 60
+    },
+    {
+        "year": 2017,
+        "country": "Колумбия",
+        "score": 6.004,
+        "rank": 61
+    },
+    {
+        "year": 2017,
+        "country": "Эквадор",
+        "score": 5.965,
+        "rank": 62
+    },
+    {
+        "year": 2017,
+        "country": "Гондурас",
+        "score": 5.964,
+        "rank": 63
+    },
+    {
+        "year": 2017,
+        "country": "Малайзия",
+        "score": 5.955,
+        "rank": 64
+    },
+    {
+        "year": 2017,
+        "country": "Перу",
+        "score": 5.947,
+        "rank": 65
+    },
+    {
+        "year": 2017,
+        "country": "Россия",
+        "score": 5.945,
+        "rank": 66
+    },
+    {
+        "year": 2017,
+        "country": "Кипр",
+        "score": 5.942,
+        "rank": 67
+    },
+    {
+        "year": 2017,
+        "country": "Китай",
+        "score": 5.921,
+        "rank": 68
+    },
+    {
+        "year": 2017,
+        "country": "Венгрия",
+        "score": 5.915,
+        "rank": 69
+    },
+    {
+        "year": 2017,
+        "country": "Тринидад и Тобаго",
+        "score": 5.905,
+        "rank": 70
+    },
+    {
+        "year": 2017,
+        "country": "Черногория",
+        "score": 5.877,
+        "rank": 71
+    },
+    {
+        "year": 2017,
+        "country": "Хорватия",
+        "score": 5.87,
+        "rank": 72
+    },
+    {
+        "year": 2017,
+        "country": "Ямайка",
+        "score": 5.87,
+        "rank": 72
+    },
+    {
+        "year": 2017,
+        "country": "Боливия",
+        "score": 5.868,
+        "rank": 73
+    },
+    {
+        "year": 2017,
+        "country": "Киргизия",
+        "score": 5.858,
+        "rank": 74
+    },
+    {
+        "year": 2017,
+        "country": "Доминиканская Республика",
+        "score": 5.846,
+        "rank": 75
+    },
+    {
+        "year": 2017,
+        "country": "Монголия",
+        "score": 5.833,
+        "rank": 76
+    },
+    {
+        "year": 2017,
+        "country": "Маврикий",
+        "score": 5.832,
+        "rank": 77
+    },
+    {
+        "year": 2017,
+        "country": "Ливия",
+        "score": 5.82,
+        "rank": 78
+    },
+    {
+        "year": 2017,
+        "country": "Молдова",
+        "score": 5.819,
+        "rank": 79
+    },
+    {
+        "year": 2017,
+        "country": "Греция",
+        "score": 5.776,
+        "rank": 80
+    },
+    {
+        "year": 2017,
+        "country": "Венесуэла",
+        "score": 5.683,
+        "rank": 81
+    },
+    {
+        "year": 2017,
+        "country": "Индонезия",
+        "score": 5.617,
+        "rank": 82
+    },
+    {
+        "year": 2017,
+        "country": "Алжир",
+        "score": 5.571,
+        "rank": 83
+    },
+    {
+        "year": 2017,
+        "country": "Болгария",
+        "score": 5.554,
+        "rank": 84
+    },
+    {
+        "year": 2017,
+        "country": "Северная Македония",
+        "score": 5.503,
+        "rank": 85
+    },
+    {
+        "year": 2017,
+        "country": "Армения",
+        "score": 5.494,
+        "rank": 86
+    },
+    {
+        "year": 2017,
+        "country": "Гонконг",
+        "score": 5.491,
+        "rank": 87
+    },
+    {
+        "year": 2017,
+        "country": "Албания",
+        "score": 5.411,
+        "rank": 88
+    },
+    {
+        "year": 2017,
+        "country": "Таджикистан",
+        "score": 5.411,
+        "rank": 88
+    },
+    {
+        "year": 2017,
+        "country": "Грузия",
+        "score": 5.4,
+        "rank": 89
+    },
+    {
+        "year": 2017,
+        "country": "Непал",
+        "score": 5.311,
+        "rank": 90
+    },
+    {
+        "year": 2017,
+        "country": "Лаос",
+        "score": 5.301,
+        "rank": 91
+    },
+    {
+        "year": 2017,
+        "country": "Турция",
+        "score": 5.262,
+        "rank": 92
+    },
+    {
+        "year": 2017,
+        "country": "ЮАР",
+        "score": 5.213,
+        "rank": 93
+    },
+    {
+        "year": 2017,
+        "country": "Мозамбик",
+        "score": 5.19,
+        "rank": 94
+    },
+    {
+        "year": 2017,
+        "country": "Габон",
+        "score": 5.12,
+        "rank": 95
+    },
+    {
+        "year": 2017,
+        "country": "Кот-д’Ивуар",
+        "score": 5.102,
+        "rank": 96
+    },
+    {
+        "year": 2017,
+        "country": "Иран",
+        "score": 5.093,
+        "rank": 97
+    },
+    {
+        "year": 2017,
+        "country": "Конго",
+        "score": 5.03,
+        "rank": 98
+    },
+    {
+        "year": 2017,
+        "country": "Ирак",
+        "score": 4.976,
+        "rank": 99
+    },
+    {
+        "year": 2017,
+        "country": "Гвинея",
+        "score": 4.929,
+        "rank": 100
+    },
+    {
+        "year": 2017,
+        "country": "Намибия",
+        "score": 4.911,
+        "rank": 101
+    },
+    {
+        "year": 2017,
+        "country": "Камерун",
+        "score": 4.887,
+        "rank": 102
+    },
+    {
+        "year": 2017,
+        "country": "Нигерия",
+        "score": 4.885,
+        "rank": 103
+    },
+    {
+        "year": 2017,
+        "country": "Азербайджан",
+        "score": 4.875,
+        "rank": 104
+    },
+    {
+        "year": 2017,
+        "country": "Сенегал",
+        "score": 4.856,
+        "rank": 105
+    },
+    {
+        "year": 2017,
+        "country": "Палестинские территории",
+        "score": 4.78,
+        "rank": 106
+    },
+    {
+        "year": 2017,
+        "country": "Пакистан",
+        "score": 4.768,
+        "rank": 107
+    },
+    {
+        "year": 2017,
+        "country": "Нигер",
+        "score": 4.725,
+        "rank": 108
+    },
+    {
+        "year": 2017,
+        "country": "Украина",
+        "score": 4.68,
+        "rank": 109
+    },
+    {
+        "year": 2017,
+        "country": "Марокко",
+        "score": 4.622,
+        "rank": 110
+    },
+    {
+        "year": 2017,
+        "country": "Тунис",
+        "score": 4.552,
+        "rank": 111
+    },
+    {
+        "year": 2017,
+        "country": "Мавритания",
+        "score": 4.542,
+        "rank": 112
+    },
+    {
+        "year": 2017,
+        "country": "Кения",
+        "score": 4.51,
+        "rank": 113
+    },
+    {
+        "year": 2017,
+        "country": "Уганда",
+        "score": 4.461,
+        "rank": 114
+    },
+    {
+        "year": 2017,
+        "country": "Гамбия",
+        "score": 4.423,
+        "rank": 115
+    },
+    {
+        "year": 2017,
+        "country": "Индия",
+        "score": 4.389,
+        "rank": 116
+    },
+    {
+        "year": 2017,
+        "country": "Чад",
+        "score": 4.384,
+        "rank": 117
+    },
+    {
+        "year": 2017,
+        "country": "Буркина-Фасо",
+        "score": 4.383,
+        "rank": 118
+    },
+    {
+        "year": 2017,
+        "country": "Бенин",
+        "score": 4.357,
+        "rank": 119
+    },
+    {
+        "year": 2017,
+        "country": "Сомали",
+        "score": 4.347,
+        "rank": 120
+    },
+    {
+        "year": 2017,
+        "country": "Мали",
+        "score": 4.345,
+        "rank": 121
+    },
+    {
+        "year": 2017,
+        "country": "Камбоджа",
+        "score": 4.341,
+        "rank": 122
+    },
+    {
+        "year": 2017,
+        "country": "Гана",
+        "score": 4.34,
+        "rank": 123
+    },
+    {
+        "year": 2017,
+        "country": "Мьянма",
+        "score": 4.321,
+        "rank": 124
+    },
+    {
+        "year": 2017,
+        "country": "Того",
+        "score": 4.315,
+        "rank": 125
+    },
+    {
+        "year": 2017,
+        "country": "Иордания",
+        "score": 4.31,
+        "rank": 126
+    },
+    {
+        "year": 2017,
+        "country": "Либерия",
+        "score": 4.277,
+        "rank": 127
+    },
+    {
+        "year": 2017,
+        "country": "Мадагаскар",
+        "score": 4.157,
+        "rank": 128
+    },
+    {
+        "year": 2017,
+        "country": "Замбия",
+        "score": 3.912,
+        "rank": 129
+    },
+    {
+        "year": 2017,
+        "country": "Эфиопия",
+        "score": 3.898,
+        "rank": 130
+    },
+    {
+        "year": 2017,
+        "country": "Шри-Ланка",
+        "score": 3.891,
+        "rank": 131
+    },
+    {
+        "year": 2017,
+        "country": "Бангладеш",
+        "score": 3.851,
+        "rank": 132
+    },
+    {
+        "year": 2017,
+        "country": "Египет",
+        "score": 3.817,
+        "rank": 133
+    },
+    {
+        "year": 2017,
+        "country": "Танзания",
+        "score": 3.8,
+        "rank": 134
+    },
+    {
+        "year": 2017,
+        "country": "Эсватини",
+        "score": 3.774,
+        "rank": 135
+    },
+    {
+        "year": 2017,
+        "country": "Лесото",
+        "score": 3.757,
+        "rank": 136
+    },
+    {
+        "year": 2017,
+        "country": "Коморские острова",
+        "score": 3.754,
+        "rank": 137
+    },
+    {
+        "year": 2017,
+        "country": "Йемен",
+        "score": 3.561,
+        "rank": 138
+    },
+    {
+        "year": 2017,
+        "country": "Конго ДР",
+        "score": 3.469,
+        "rank": 139
+    },
+    {
+        "year": 2017,
+        "country": "Ботсвана",
+        "score": 3.438,
+        "rank": 140
+    },
+    {
+        "year": 2017,
+        "country": "Зимбабве",
+        "score": 3.396,
+        "rank": 141
+    },
+    {
+        "year": 2017,
+        "country": "Малави",
+        "score": 3.26,
+        "rank": 142
+    },
+    {
+        "year": 2017,
+        "country": "Ливан",
+        "score": 3.188,
+        "rank": 143
+    },
+    {
+        "year": 2017,
+        "country": "Сьерра-Леоне",
+        "score": 2.998,
+        "rank": 144
+    },
+    {
+        "year": 2017,
+        "country": "Афганистан",
+        "score": 1.364,
+        "rank": 145
+    },
+    {
+        "year": 2018,
+        "country": "Финляндия",
+        "score": 7.736,
+        "rank": 1
+    },
+    {
+        "year": 2018,
+        "country": "Дания",
+        "score": 7.521,
+        "rank": 2
+    },
+    {
+        "year": 2018,
+        "country": "Исландия",
+        "score": 7.515,
+        "rank": 3
+    },
+    {
+        "year": 2018,
+        "country": "Швеция",
+        "score": 7.345,
+        "rank": 4
+    },
+    {
+        "year": 2018,
+        "country": "Нидерланды",
+        "score": 7.306,
+        "rank": 5
+    },
+    {
+        "year": 2018,
+        "country": "Коста-Рика",
+        "score": 7.274,
+        "rank": 6
+    },
+    {
+        "year": 2018,
+        "country": "Норвегия",
+        "score": 7.262,
+        "rank": 7
+    },
+    {
+        "year": 2018,
+        "country": "Израиль",
+        "score": 7.234,
+        "rank": 8
+    },
+    {
+        "year": 2018,
+        "country": "Люксембург",
+        "score": 7.122,
+        "rank": 9
+    },
+    {
+        "year": 2018,
+        "country": "Мексика",
+        "score": 6.979,
+        "rank": 10
+    },
+    {
+        "year": 2018,
+        "country": "Австралия",
+        "score": 6.974,
+        "rank": 11
+    },
+    {
+        "year": 2018,
+        "country": "Новая Зеландия",
+        "score": 6.952,
+        "rank": 12
+    },
+    {
+        "year": 2018,
+        "country": "Швейцария",
+        "score": 6.935,
+        "rank": 13
+    },
+    {
+        "year": 2018,
+        "country": "Бельгия",
+        "score": 6.91,
+        "rank": 14
+    },
+    {
+        "year": 2018,
+        "country": "Ирландия",
+        "score": 6.889,
+        "rank": 15
+    },
+    {
+        "year": 2018,
+        "country": "Литва",
+        "score": 6.829,
+        "rank": 16
+    },
+    {
+        "year": 2018,
+        "country": "Австрия",
+        "score": 6.81,
+        "rank": 17
+    },
+    {
+        "year": 2018,
+        "country": "Канада",
+        "score": 6.803,
+        "rank": 18
+    },
+    {
+        "year": 2018,
+        "country": "Словения",
+        "score": 6.792,
+        "rank": 19
+    },
+    {
+        "year": 2018,
+        "country": "Чехия",
+        "score": 6.775,
+        "rank": 20
+    },
+    {
+        "year": 2018,
+        "country": "ОАЭ",
+        "score": 6.759,
+        "rank": 21
+    },
+    {
+        "year": 2018,
+        "country": "Германия",
+        "score": 6.753,
+        "rank": 22
+    },
+    {
+        "year": 2018,
+        "country": "Великобритания",
+        "score": 6.728,
+        "rank": 23
+    },
+    {
+        "year": 2018,
+        "country": "США",
+        "score": 6.724,
+        "rank": 24
+    },
+    {
+        "year": 2018,
+        "country": "Белиз",
+        "score": 6.711,
+        "rank": 25
+    },
+    {
+        "year": 2018,
+        "country": "Польша",
+        "score": 6.673,
+        "rank": 26
+    },
+    {
+        "year": 2018,
+        "country": "Тайвань",
+        "score": 6.669,
+        "rank": 27
+    },
+    {
+        "year": 2018,
+        "country": "Уругвай",
+        "score": 6.661,
+        "rank": 28
+    },
+    {
+        "year": 2018,
+        "country": "Косово",
+        "score": 6.659,
+        "rank": 29
+    },
+    {
+        "year": 2018,
+        "country": "Кувейт",
+        "score": 6.629,
+        "rank": 30
+    },
+    {
+        "year": 2018,
+        "country": "Сербия",
+        "score": 6.606,
+        "rank": 31
+    },
+    {
+        "year": 2018,
+        "country": "Саудовская Аравия",
+        "score": 6.6,
+        "rank": 32
+    },
+    {
+        "year": 2018,
+        "country": "Франция",
+        "score": 6.593,
+        "rank": 33
+    },
+    {
+        "year": 2018,
+        "country": "Сингапур",
+        "score": 6.565,
+        "rank": 34
+    },
+    {
+        "year": 2018,
+        "country": "Румыния",
+        "score": 6.563,
+        "rank": 35
+    },
+    {
+        "year": 2018,
+        "country": "Бразилия",
+        "score": 6.494,
+        "rank": 36
+    },
+    {
+        "year": 2018,
+        "country": "Сальвадор",
+        "score": 6.492,
+        "rank": 37
+    },
+    {
+        "year": 2018,
+        "country": "Испания",
+        "score": 6.466,
+        "rank": 38
+    },
+    {
+        "year": 2018,
+        "country": "Эстония",
+        "score": 6.417,
+        "rank": 39
+    },
+    {
+        "year": 2018,
+        "country": "Италия",
+        "score": 6.415,
+        "rank": 40
+    },
+    {
+        "year": 2018,
+        "country": "Панама",
+        "score": 6.407,
+        "rank": 41
+    },
+    {
+        "year": 2018,
+        "country": "Аргентина",
+        "score": 6.397,
+        "rank": 42
+    },
+    {
+        "year": 2018,
+        "country": "Казахстан",
+        "score": 6.378,
+        "rank": 43
+    },
+    {
+        "year": 2018,
+        "country": "Гватемала",
+        "score": 6.362,
+        "rank": 44
+    },
+    {
+        "year": 2018,
+        "country": "Чили",
+        "score": 6.361,
+        "rank": 45
+    },
+    {
+        "year": 2018,
+        "country": "Вьетнам",
+        "score": 6.352,
+        "rank": 46
+    },
+    {
+        "year": 2018,
+        "country": "Никарагуа",
+        "score": 6.33,
+        "rank": 47
+    },
+    {
+        "year": 2018,
+        "country": "Мальта",
+        "score": 6.316,
+        "rank": 48
+    },
+    {
+        "year": 2018,
+        "country": "Таиланд",
+        "score": 6.222,
+        "rank": 49
+    },
+    {
+        "year": 2018,
+        "country": "Словакия",
+        "score": 6.221,
+        "rank": 50
+    },
+    {
+        "year": 2018,
+        "country": "Латвия",
+        "score": 6.207,
+        "rank": 51
+    },
+    {
+        "year": 2018,
+        "country": "Оман",
+        "score": 6.197,
+        "rank": 52
+    },
+    {
+        "year": 2018,
+        "country": "Узбекистан",
+        "score": 6.193,
+        "rank": 53
+    },
+    {
+        "year": 2018,
+        "country": "Парагвай",
+        "score": 6.172,
+        "rank": 54
+    },
+    {
+        "year": 2018,
+        "country": "Япония",
+        "score": 6.147,
+        "rank": 55
+    },
+    {
+        "year": 2018,
+        "country": "Босния и Герцеговина",
+        "score": 6.136,
+        "rank": 56
+    },
+    {
+        "year": 2018,
+        "country": "Филиппины",
+        "score": 6.107,
+        "rank": 57
+    },
+    {
+        "year": 2018,
+        "country": "Южная Корея",
+        "score": 6.038,
+        "rank": 58
+    },
+    {
+        "year": 2018,
+        "country": "Бахрейн",
+        "score": 6.03,
+        "rank": 59
+    },
+    {
+        "year": 2018,
+        "country": "Португалия",
+        "score": 6.013,
+        "rank": 60
+    },
+    {
+        "year": 2018,
+        "country": "Колумбия",
+        "score": 6.004,
+        "rank": 61
+    },
+    {
+        "year": 2018,
+        "country": "Эквадор",
+        "score": 5.965,
+        "rank": 62
+    },
+    {
+        "year": 2018,
+        "country": "Гондурас",
+        "score": 5.964,
+        "rank": 63
+    },
+    {
+        "year": 2018,
+        "country": "Малайзия",
+        "score": 5.955,
+        "rank": 64
+    },
+    {
+        "year": 2018,
+        "country": "Перу",
+        "score": 5.947,
+        "rank": 65
+    },
+    {
+        "year": 2018,
+        "country": "Россия",
+        "score": 5.945,
+        "rank": 66
+    },
+    {
+        "year": 2018,
+        "country": "Кипр",
+        "score": 5.942,
+        "rank": 67
+    },
+    {
+        "year": 2018,
+        "country": "Китай",
+        "score": 5.921,
+        "rank": 68
+    },
+    {
+        "year": 2018,
+        "country": "Венгрия",
+        "score": 5.915,
+        "rank": 69
+    },
+    {
+        "year": 2018,
+        "country": "Тринидад и Тобаго",
+        "score": 5.905,
+        "rank": 70
+    },
+    {
+        "year": 2018,
+        "country": "Черногория",
+        "score": 5.877,
+        "rank": 71
+    },
+    {
+        "year": 2018,
+        "country": "Хорватия",
+        "score": 5.87,
+        "rank": 72
+    },
+    {
+        "year": 2018,
+        "country": "Ямайка",
+        "score": 5.87,
+        "rank": 72
+    },
+    {
+        "year": 2018,
+        "country": "Боливия",
+        "score": 5.868,
+        "rank": 73
+    },
+    {
+        "year": 2018,
+        "country": "Киргизия",
+        "score": 5.858,
+        "rank": 74
+    },
+    {
+        "year": 2018,
+        "country": "Доминиканская Республика",
+        "score": 5.846,
+        "rank": 75
+    },
+    {
+        "year": 2018,
+        "country": "Монголия",
+        "score": 5.833,
+        "rank": 76
+    },
+    {
+        "year": 2018,
+        "country": "Маврикий",
+        "score": 5.832,
+        "rank": 77
+    },
+    {
+        "year": 2018,
+        "country": "Ливия",
+        "score": 5.82,
+        "rank": 78
+    },
+    {
+        "year": 2018,
+        "country": "Молдова",
+        "score": 5.819,
+        "rank": 79
+    },
+    {
+        "year": 2018,
+        "country": "Греция",
+        "score": 5.776,
+        "rank": 80
+    },
+    {
+        "year": 2018,
+        "country": "Венесуэла",
+        "score": 5.683,
+        "rank": 81
+    },
+    {
+        "year": 2018,
+        "country": "Индонезия",
+        "score": 5.617,
+        "rank": 82
+    },
+    {
+        "year": 2018,
+        "country": "Алжир",
+        "score": 5.571,
+        "rank": 83
+    },
+    {
+        "year": 2018,
+        "country": "Болгария",
+        "score": 5.554,
+        "rank": 84
+    },
+    {
+        "year": 2018,
+        "country": "Северная Македония",
+        "score": 5.503,
+        "rank": 85
+    },
+    {
+        "year": 2018,
+        "country": "Армения",
+        "score": 5.494,
+        "rank": 86
+    },
+    {
+        "year": 2018,
+        "country": "Гонконг",
+        "score": 5.491,
+        "rank": 87
+    },
+    {
+        "year": 2018,
+        "country": "Албания",
+        "score": 5.411,
+        "rank": 88
+    },
+    {
+        "year": 2018,
+        "country": "Таджикистан",
+        "score": 5.411,
+        "rank": 88
+    },
+    {
+        "year": 2018,
+        "country": "Грузия",
+        "score": 5.4,
+        "rank": 89
+    },
+    {
+        "year": 2018,
+        "country": "Непал",
+        "score": 5.311,
+        "rank": 90
+    },
+    {
+        "year": 2018,
+        "country": "Лаос",
+        "score": 5.301,
+        "rank": 91
+    },
+    {
+        "year": 2018,
+        "country": "Турция",
+        "score": 5.262,
+        "rank": 92
+    },
+    {
+        "year": 2018,
+        "country": "ЮАР",
+        "score": 5.213,
+        "rank": 93
+    },
+    {
+        "year": 2018,
+        "country": "Мозамбик",
+        "score": 5.19,
+        "rank": 94
+    },
+    {
+        "year": 2018,
+        "country": "Габон",
+        "score": 5.12,
+        "rank": 95
+    },
+    {
+        "year": 2018,
+        "country": "Кот-д’Ивуар",
+        "score": 5.102,
+        "rank": 96
+    },
+    {
+        "year": 2018,
+        "country": "Иран",
+        "score": 5.093,
+        "rank": 97
+    },
+    {
+        "year": 2018,
+        "country": "Конго",
+        "score": 5.03,
+        "rank": 98
+    },
+    {
+        "year": 2018,
+        "country": "Ирак",
+        "score": 4.976,
+        "rank": 99
+    },
+    {
+        "year": 2018,
+        "country": "Гвинея",
+        "score": 4.929,
+        "rank": 100
+    },
+    {
+        "year": 2018,
+        "country": "Намибия",
+        "score": 4.911,
+        "rank": 101
+    },
+    {
+        "year": 2018,
+        "country": "Камерун",
+        "score": 4.887,
+        "rank": 102
+    },
+    {
+        "year": 2018,
+        "country": "Нигерия",
+        "score": 4.885,
+        "rank": 103
+    },
+    {
+        "year": 2018,
+        "country": "Азербайджан",
+        "score": 4.875,
+        "rank": 104
+    },
+    {
+        "year": 2018,
+        "country": "Сенегал",
+        "score": 4.856,
+        "rank": 105
+    },
+    {
+        "year": 2018,
+        "country": "Палестинские территории",
+        "score": 4.78,
+        "rank": 106
+    },
+    {
+        "year": 2018,
+        "country": "Пакистан",
+        "score": 4.768,
+        "rank": 107
+    },
+    {
+        "year": 2018,
+        "country": "Нигер",
+        "score": 4.725,
+        "rank": 108
+    },
+    {
+        "year": 2018,
+        "country": "Украина",
+        "score": 4.68,
+        "rank": 109
+    },
+    {
+        "year": 2018,
+        "country": "Марокко",
+        "score": 4.622,
+        "rank": 110
+    },
+    {
+        "year": 2018,
+        "country": "Тунис",
+        "score": 4.552,
+        "rank": 111
+    },
+    {
+        "year": 2018,
+        "country": "Мавритания",
+        "score": 4.542,
+        "rank": 112
+    },
+    {
+        "year": 2018,
+        "country": "Кения",
+        "score": 4.51,
+        "rank": 113
+    },
+    {
+        "year": 2018,
+        "country": "Уганда",
+        "score": 4.461,
+        "rank": 114
+    },
+    {
+        "year": 2018,
+        "country": "Гамбия",
+        "score": 4.423,
+        "rank": 115
+    },
+    {
+        "year": 2018,
+        "country": "Индия",
+        "score": 4.389,
+        "rank": 116
+    },
+    {
+        "year": 2018,
+        "country": "Чад",
+        "score": 4.384,
+        "rank": 117
+    },
+    {
+        "year": 2018,
+        "country": "Буркина-Фасо",
+        "score": 4.383,
+        "rank": 118
+    },
+    {
+        "year": 2018,
+        "country": "Бенин",
+        "score": 4.357,
+        "rank": 119
+    },
+    {
+        "year": 2018,
+        "country": "Сомали",
+        "score": 4.347,
+        "rank": 120
+    },
+    {
+        "year": 2018,
+        "country": "Мали",
+        "score": 4.345,
+        "rank": 121
+    },
+    {
+        "year": 2018,
+        "country": "Камбоджа",
+        "score": 4.341,
+        "rank": 122
+    },
+    {
+        "year": 2018,
+        "country": "Гана",
+        "score": 4.34,
+        "rank": 123
+    },
+    {
+        "year": 2018,
+        "country": "Мьянма",
+        "score": 4.321,
+        "rank": 124
+    },
+    {
+        "year": 2018,
+        "country": "Того",
+        "score": 4.315,
+        "rank": 125
+    },
+    {
+        "year": 2018,
+        "country": "Иордания",
+        "score": 4.31,
+        "rank": 126
+    },
+    {
+        "year": 2018,
+        "country": "Либерия",
+        "score": 4.277,
+        "rank": 127
+    },
+    {
+        "year": 2018,
+        "country": "Мадагаскар",
+        "score": 4.157,
+        "rank": 128
+    },
+    {
+        "year": 2018,
+        "country": "Замбия",
+        "score": 3.912,
+        "rank": 129
+    },
+    {
+        "year": 2018,
+        "country": "Эфиопия",
+        "score": 3.898,
+        "rank": 130
+    },
+    {
+        "year": 2018,
+        "country": "Шри-Ланка",
+        "score": 3.891,
+        "rank": 131
+    },
+    {
+        "year": 2018,
+        "country": "Бангладеш",
+        "score": 3.851,
+        "rank": 132
+    },
+    {
+        "year": 2018,
+        "country": "Египет",
+        "score": 3.817,
+        "rank": 133
+    },
+    {
+        "year": 2018,
+        "country": "Танзания",
+        "score": 3.8,
+        "rank": 134
+    },
+    {
+        "year": 2018,
+        "country": "Эсватини",
+        "score": 3.774,
+        "rank": 135
+    },
+    {
+        "year": 2018,
+        "country": "Лесото",
+        "score": 3.757,
+        "rank": 136
+    },
+    {
+        "year": 2018,
+        "country": "Коморские острова",
+        "score": 3.754,
+        "rank": 137
+    },
+    {
+        "year": 2018,
+        "country": "Йемен",
+        "score": 3.561,
+        "rank": 138
+    },
+    {
+        "year": 2018,
+        "country": "Конго ДР",
+        "score": 3.469,
+        "rank": 139
+    },
+    {
+        "year": 2018,
+        "country": "Ботсвана",
+        "score": 3.438,
+        "rank": 140
+    },
+    {
+        "year": 2018,
+        "country": "Зимбабве",
+        "score": 3.396,
+        "rank": 141
+    },
+    {
+        "year": 2018,
+        "country": "Малави",
+        "score": 3.26,
+        "rank": 142
+    },
+    {
+        "year": 2018,
+        "country": "Ливан",
+        "score": 3.188,
+        "rank": 143
+    },
+    {
+        "year": 2018,
+        "country": "Сьерра-Леоне",
+        "score": 2.998,
+        "rank": 144
+    },
+    {
+        "year": 2018,
+        "country": "Афганистан",
+        "score": 1.364,
+        "rank": 145
+    },
+    {
+        "year": 2019,
+        "country": "Финляндия",
+        "score": 7.736,
+        "rank": 1
+    },
+    {
+        "year": 2019,
+        "country": "Дания",
+        "score": 7.521,
+        "rank": 2
+    },
+    {
+        "year": 2019,
+        "country": "Исландия",
+        "score": 7.515,
+        "rank": 3
+    },
+    {
+        "year": 2019,
+        "country": "Швеция",
+        "score": 7.345,
+        "rank": 4
+    },
+    {
+        "year": 2019,
+        "country": "Нидерланды",
+        "score": 7.306,
+        "rank": 5
+    },
+    {
+        "year": 2019,
+        "country": "Коста-Рика",
+        "score": 7.274,
+        "rank": 6
+    },
+    {
+        "year": 2019,
+        "country": "Норвегия",
+        "score": 7.262,
+        "rank": 7
+    },
+    {
+        "year": 2019,
+        "country": "Израиль",
+        "score": 7.234,
+        "rank": 8
+    },
+    {
+        "year": 2019,
+        "country": "Люксембург",
+        "score": 7.122,
+        "rank": 9
+    },
+    {
+        "year": 2019,
+        "country": "Мексика",
+        "score": 6.979,
+        "rank": 10
+    },
+    {
+        "year": 2019,
+        "country": "Австралия",
+        "score": 6.974,
+        "rank": 11
+    },
+    {
+        "year": 2019,
+        "country": "Новая Зеландия",
+        "score": 6.952,
+        "rank": 12
+    },
+    {
+        "year": 2019,
+        "country": "Швейцария",
+        "score": 6.935,
+        "rank": 13
+    },
+    {
+        "year": 2019,
+        "country": "Бельгия",
+        "score": 6.91,
+        "rank": 14
+    },
+    {
+        "year": 2019,
+        "country": "Ирландия",
+        "score": 6.889,
+        "rank": 15
+    },
+    {
+        "year": 2019,
+        "country": "Литва",
+        "score": 6.829,
+        "rank": 16
+    },
+    {
+        "year": 2019,
+        "country": "Австрия",
+        "score": 6.81,
+        "rank": 17
+    },
+    {
+        "year": 2019,
+        "country": "Канада",
+        "score": 6.803,
+        "rank": 18
+    },
+    {
+        "year": 2019,
+        "country": "Словения",
+        "score": 6.792,
+        "rank": 19
+    },
+    {
+        "year": 2019,
+        "country": "Чехия",
+        "score": 6.775,
+        "rank": 20
+    },
+    {
+        "year": 2019,
+        "country": "ОАЭ",
+        "score": 6.759,
+        "rank": 21
+    },
+    {
+        "year": 2019,
+        "country": "Германия",
+        "score": 6.753,
+        "rank": 22
+    },
+    {
+        "year": 2019,
+        "country": "Великобритания",
+        "score": 6.728,
+        "rank": 23
+    },
+    {
+        "year": 2019,
+        "country": "США",
+        "score": 6.724,
+        "rank": 24
+    },
+    {
+        "year": 2019,
+        "country": "Белиз",
+        "score": 6.711,
+        "rank": 25
+    },
+    {
+        "year": 2019,
+        "country": "Польша",
+        "score": 6.673,
+        "rank": 26
+    },
+    {
+        "year": 2019,
+        "country": "Тайвань",
+        "score": 6.669,
+        "rank": 27
+    },
+    {
+        "year": 2019,
+        "country": "Уругвай",
+        "score": 6.661,
+        "rank": 28
+    },
+    {
+        "year": 2019,
+        "country": "Косово",
+        "score": 6.659,
+        "rank": 29
+    },
+    {
+        "year": 2019,
+        "country": "Кувейт",
+        "score": 6.629,
+        "rank": 30
+    },
+    {
+        "year": 2019,
+        "country": "Сербия",
+        "score": 6.606,
+        "rank": 31
+    },
+    {
+        "year": 2019,
+        "country": "Саудовская Аравия",
+        "score": 6.6,
+        "rank": 32
+    },
+    {
+        "year": 2019,
+        "country": "Франция",
+        "score": 6.593,
+        "rank": 33
+    },
+    {
+        "year": 2019,
+        "country": "Сингапур",
+        "score": 6.565,
+        "rank": 34
+    },
+    {
+        "year": 2019,
+        "country": "Румыния",
+        "score": 6.563,
+        "rank": 35
+    },
+    {
+        "year": 2019,
+        "country": "Бразилия",
+        "score": 6.494,
+        "rank": 36
+    },
+    {
+        "year": 2019,
+        "country": "Сальвадор",
+        "score": 6.492,
+        "rank": 37
+    },
+    {
+        "year": 2019,
+        "country": "Испания",
+        "score": 6.466,
+        "rank": 38
+    },
+    {
+        "year": 2019,
+        "country": "Эстония",
+        "score": 6.417,
+        "rank": 39
+    },
+    {
+        "year": 2019,
+        "country": "Италия",
+        "score": 6.415,
+        "rank": 40
+    },
+    {
+        "year": 2019,
+        "country": "Панама",
+        "score": 6.407,
+        "rank": 41
+    },
+    {
+        "year": 2019,
+        "country": "Аргентина",
+        "score": 6.397,
+        "rank": 42
+    },
+    {
+        "year": 2019,
+        "country": "Казахстан",
+        "score": 6.378,
+        "rank": 43
+    },
+    {
+        "year": 2019,
+        "country": "Гватемала",
+        "score": 6.362,
+        "rank": 44
+    },
+    {
+        "year": 2019,
+        "country": "Чили",
+        "score": 6.361,
+        "rank": 45
+    },
+    {
+        "year": 2019,
+        "country": "Вьетнам",
+        "score": 6.352,
+        "rank": 46
+    },
+    {
+        "year": 2019,
+        "country": "Никарагуа",
+        "score": 6.33,
+        "rank": 47
+    },
+    {
+        "year": 2019,
+        "country": "Мальта",
+        "score": 6.316,
+        "rank": 48
+    },
+    {
+        "year": 2019,
+        "country": "Таиланд",
+        "score": 6.222,
+        "rank": 49
+    },
+    {
+        "year": 2019,
+        "country": "Словакия",
+        "score": 6.221,
+        "rank": 50
+    },
+    {
+        "year": 2019,
+        "country": "Латвия",
+        "score": 6.207,
+        "rank": 51
+    },
+    {
+        "year": 2019,
+        "country": "Оман",
+        "score": 6.197,
+        "rank": 52
+    },
+    {
+        "year": 2019,
+        "country": "Узбекистан",
+        "score": 6.193,
+        "rank": 53
+    },
+    {
+        "year": 2019,
+        "country": "Парагвай",
+        "score": 6.172,
+        "rank": 54
+    },
+    {
+        "year": 2019,
+        "country": "Япония",
+        "score": 6.147,
+        "rank": 55
+    },
+    {
+        "year": 2019,
+        "country": "Босния и Герцеговина",
+        "score": 6.136,
+        "rank": 56
+    },
+    {
+        "year": 2019,
+        "country": "Филиппины",
+        "score": 6.107,
+        "rank": 57
+    },
+    {
+        "year": 2019,
+        "country": "Южная Корея",
+        "score": 6.038,
+        "rank": 58
+    },
+    {
+        "year": 2019,
+        "country": "Бахрейн",
+        "score": 6.03,
+        "rank": 59
+    },
+    {
+        "year": 2019,
+        "country": "Португалия",
+        "score": 6.013,
+        "rank": 60
+    },
+    {
+        "year": 2019,
+        "country": "Колумбия",
+        "score": 6.004,
+        "rank": 61
+    },
+    {
+        "year": 2019,
+        "country": "Эквадор",
+        "score": 5.965,
+        "rank": 62
+    },
+    {
+        "year": 2019,
+        "country": "Гондурас",
+        "score": 5.964,
+        "rank": 63
+    },
+    {
+        "year": 2019,
+        "country": "Малайзия",
+        "score": 5.955,
+        "rank": 64
+    },
+    {
+        "year": 2019,
+        "country": "Перу",
+        "score": 5.947,
+        "rank": 65
+    },
+    {
+        "year": 2019,
+        "country": "Россия",
+        "score": 5.945,
+        "rank": 66
+    },
+    {
+        "year": 2019,
+        "country": "Кипр",
+        "score": 5.942,
+        "rank": 67
+    },
+    {
+        "year": 2019,
+        "country": "Китай",
+        "score": 5.921,
+        "rank": 68
+    },
+    {
+        "year": 2019,
+        "country": "Венгрия",
+        "score": 5.915,
+        "rank": 69
+    },
+    {
+        "year": 2019,
+        "country": "Тринидад и Тобаго",
+        "score": 5.905,
+        "rank": 70
+    },
+    {
+        "year": 2019,
+        "country": "Черногория",
+        "score": 5.877,
+        "rank": 71
+    },
+    {
+        "year": 2019,
+        "country": "Хорватия",
+        "score": 5.87,
+        "rank": 72
+    },
+    {
+        "year": 2019,
+        "country": "Ямайка",
+        "score": 5.87,
+        "rank": 72
+    },
+    {
+        "year": 2019,
+        "country": "Боливия",
+        "score": 5.868,
+        "rank": 73
+    },
+    {
+        "year": 2019,
+        "country": "Киргизия",
+        "score": 5.858,
+        "rank": 74
+    },
+    {
+        "year": 2019,
+        "country": "Доминиканская Республика",
+        "score": 5.846,
+        "rank": 75
+    },
+    {
+        "year": 2019,
+        "country": "Монголия",
+        "score": 5.833,
+        "rank": 76
+    },
+    {
+        "year": 2019,
+        "country": "Маврикий",
+        "score": 5.832,
+        "rank": 77
+    },
+    {
+        "year": 2019,
+        "country": "Ливия",
+        "score": 5.82,
+        "rank": 78
+    },
+    {
+        "year": 2019,
+        "country": "Молдова",
+        "score": 5.819,
+        "rank": 79
+    },
+    {
+        "year": 2019,
+        "country": "Греция",
+        "score": 5.776,
+        "rank": 80
+    },
+    {
+        "year": 2019,
+        "country": "Венесуэла",
+        "score": 5.683,
+        "rank": 81
+    },
+    {
+        "year": 2019,
+        "country": "Индонезия",
+        "score": 5.617,
+        "rank": 82
+    },
+    {
+        "year": 2019,
+        "country": "Алжир",
+        "score": 5.571,
+        "rank": 83
+    },
+    {
+        "year": 2019,
+        "country": "Болгария",
+        "score": 5.554,
+        "rank": 84
+    },
+    {
+        "year": 2019,
+        "country": "Северная Македония",
+        "score": 5.503,
+        "rank": 85
+    },
+    {
+        "year": 2019,
+        "country": "Армения",
+        "score": 5.494,
+        "rank": 86
+    },
+    {
+        "year": 2019,
+        "country": "Гонконг",
+        "score": 5.491,
+        "rank": 87
+    },
+    {
+        "year": 2019,
+        "country": "Албания",
+        "score": 5.411,
+        "rank": 88
+    },
+    {
+        "year": 2019,
+        "country": "Таджикистан",
+        "score": 5.411,
+        "rank": 88
+    },
+    {
+        "year": 2019,
+        "country": "Грузия",
+        "score": 5.4,
+        "rank": 89
+    },
+    {
+        "year": 2019,
+        "country": "Непал",
+        "score": 5.311,
+        "rank": 90
+    },
+    {
+        "year": 2019,
+        "country": "Лаос",
+        "score": 5.301,
+        "rank": 91
+    },
+    {
+        "year": 2019,
+        "country": "Турция",
+        "score": 5.262,
+        "rank": 92
+    },
+    {
+        "year": 2019,
+        "country": "ЮАР",
+        "score": 5.213,
+        "rank": 93
+    },
+    {
+        "year": 2019,
+        "country": "Мозамбик",
+        "score": 5.19,
+        "rank": 94
+    },
+    {
+        "year": 2019,
+        "country": "Габон",
+        "score": 5.12,
+        "rank": 95
+    },
+    {
+        "year": 2019,
+        "country": "Кот-д’Ивуар",
+        "score": 5.102,
+        "rank": 96
+    },
+    {
+        "year": 2019,
+        "country": "Иран",
+        "score": 5.093,
+        "rank": 97
+    },
+    {
+        "year": 2019,
+        "country": "Конго",
+        "score": 5.03,
+        "rank": 98
+    },
+    {
+        "year": 2019,
+        "country": "Ирак",
+        "score": 4.976,
+        "rank": 99
+    },
+    {
+        "year": 2019,
+        "country": "Гвинея",
+        "score": 4.929,
+        "rank": 100
+    },
+    {
+        "year": 2019,
+        "country": "Намибия",
+        "score": 4.911,
+        "rank": 101
+    },
+    {
+        "year": 2019,
+        "country": "Камерун",
+        "score": 4.887,
+        "rank": 102
+    },
+    {
+        "year": 2019,
+        "country": "Нигерия",
+        "score": 4.885,
+        "rank": 103
+    },
+    {
+        "year": 2019,
+        "country": "Азербайджан",
+        "score": 4.875,
+        "rank": 104
+    },
+    {
+        "year": 2019,
+        "country": "Сенегал",
+        "score": 4.856,
+        "rank": 105
+    },
+    {
+        "year": 2019,
+        "country": "Палестинские территории",
+        "score": 4.78,
+        "rank": 106
+    },
+    {
+        "year": 2019,
+        "country": "Пакистан",
+        "score": 4.768,
+        "rank": 107
+    },
+    {
+        "year": 2019,
+        "country": "Нигер",
+        "score": 4.725,
+        "rank": 108
+    },
+    {
+        "year": 2019,
+        "country": "Украина",
+        "score": 4.68,
+        "rank": 109
+    },
+    {
+        "year": 2019,
+        "country": "Марокко",
+        "score": 4.622,
+        "rank": 110
+    },
+    {
+        "year": 2019,
+        "country": "Тунис",
+        "score": 4.552,
+        "rank": 111
+    },
+    {
+        "year": 2019,
+        "country": "Мавритания",
+        "score": 4.542,
+        "rank": 112
+    },
+    {
+        "year": 2019,
+        "country": "Кения",
+        "score": 4.51,
+        "rank": 113
+    },
+    {
+        "year": 2019,
+        "country": "Уганда",
+        "score": 4.461,
+        "rank": 114
+    },
+    {
+        "year": 2019,
+        "country": "Гамбия",
+        "score": 4.423,
+        "rank": 115
+    },
+    {
+        "year": 2019,
+        "country": "Индия",
+        "score": 4.389,
+        "rank": 116
+    },
+    {
+        "year": 2019,
+        "country": "Чад",
+        "score": 4.384,
+        "rank": 117
+    },
+    {
+        "year": 2019,
+        "country": "Буркина-Фасо",
+        "score": 4.383,
+        "rank": 118
+    },
+    {
+        "year": 2019,
+        "country": "Бенин",
+        "score": 4.357,
+        "rank": 119
+    },
+    {
+        "year": 2019,
+        "country": "Сомали",
+        "score": 4.347,
+        "rank": 120
+    },
+    {
+        "year": 2019,
+        "country": "Мали",
+        "score": 4.345,
+        "rank": 121
+    },
+    {
+        "year": 2019,
+        "country": "Камбоджа",
+        "score": 4.341,
+        "rank": 122
+    },
+    {
+        "year": 2019,
+        "country": "Гана",
+        "score": 4.34,
+        "rank": 123
+    },
+    {
+        "year": 2019,
+        "country": "Мьянма",
+        "score": 4.321,
+        "rank": 124
+    },
+    {
+        "year": 2019,
+        "country": "Того",
+        "score": 4.315,
+        "rank": 125
+    },
+    {
+        "year": 2019,
+        "country": "Иордания",
+        "score": 4.31,
+        "rank": 126
+    },
+    {
+        "year": 2019,
+        "country": "Либерия",
+        "score": 4.277,
+        "rank": 127
+    },
+    {
+        "year": 2019,
+        "country": "Мадагаскар",
+        "score": 4.157,
+        "rank": 128
+    },
+    {
+        "year": 2019,
+        "country": "Замбия",
+        "score": 3.912,
+        "rank": 129
+    },
+    {
+        "year": 2019,
+        "country": "Эфиопия",
+        "score": 3.898,
+        "rank": 130
+    },
+    {
+        "year": 2019,
+        "country": "Шри-Ланка",
+        "score": 3.891,
+        "rank": 131
+    },
+    {
+        "year": 2019,
+        "country": "Бангладеш",
+        "score": 3.851,
+        "rank": 132
+    },
+    {
+        "year": 2019,
+        "country": "Египет",
+        "score": 3.817,
+        "rank": 133
+    },
+    {
+        "year": 2019,
+        "country": "Танзания",
+        "score": 3.8,
+        "rank": 134
+    },
+    {
+        "year": 2019,
+        "country": "Эсватини",
+        "score": 3.774,
+        "rank": 135
+    },
+    {
+        "year": 2019,
+        "country": "Лесото",
+        "score": 3.757,
+        "rank": 136
+    },
+    {
+        "year": 2019,
+        "country": "Коморские острова",
+        "score": 3.754,
+        "rank": 137
+    },
+    {
+        "year": 2019,
+        "country": "Йемен",
+        "score": 3.561,
+        "rank": 138
+    },
+    {
+        "year": 2019,
+        "country": "Конго ДР",
+        "score": 3.469,
+        "rank": 139
+    },
+    {
+        "year": 2019,
+        "country": "Ботсвана",
+        "score": 3.438,
+        "rank": 140
+    },
+    {
+        "year": 2019,
+        "country": "Зимбабве",
+        "score": 3.396,
+        "rank": 141
+    },
+    {
+        "year": 2019,
+        "country": "Малави",
+        "score": 3.26,
+        "rank": 142
+    },
+    {
+        "year": 2019,
+        "country": "Ливан",
+        "score": 3.188,
+        "rank": 143
+    },
+    {
+        "year": 2019,
+        "country": "Сьерра-Леоне",
+        "score": 2.998,
+        "rank": 144
+    },
+    {
+        "year": 2019,
+        "country": "Афганистан",
+        "score": 1.364,
+        "rank": 145
+    },
+    {
+        "year": 2020,
+        "country": "Финляндия",
+        "score": 7.736,
+        "rank": 1
+    },
+    {
+        "year": 2020,
+        "country": "Дания",
+        "score": 7.521,
+        "rank": 2
+    },
+    {
+        "year": 2020,
+        "country": "Исландия",
+        "score": 7.515,
+        "rank": 3
+    },
+    {
+        "year": 2020,
+        "country": "Швеция",
+        "score": 7.345,
+        "rank": 4
+    },
+    {
+        "year": 2020,
+        "country": "Нидерланды",
+        "score": 7.306,
+        "rank": 5
+    },
+    {
+        "year": 2020,
+        "country": "Коста-Рика",
+        "score": 7.274,
+        "rank": 6
+    },
+    {
+        "year": 2020,
+        "country": "Норвегия",
+        "score": 7.262,
+        "rank": 7
+    },
+    {
+        "year": 2020,
+        "country": "Израиль",
+        "score": 7.234,
+        "rank": 8
+    },
+    {
+        "year": 2020,
+        "country": "Люксембург",
+        "score": 7.122,
+        "rank": 9
+    },
+    {
+        "year": 2020,
+        "country": "Мексика",
+        "score": 6.979,
+        "rank": 10
+    },
+    {
+        "year": 2020,
+        "country": "Австралия",
+        "score": 6.974,
+        "rank": 11
+    },
+    {
+        "year": 2020,
+        "country": "Новая Зеландия",
+        "score": 6.952,
+        "rank": 12
+    },
+    {
+        "year": 2020,
+        "country": "Швейцария",
+        "score": 6.935,
+        "rank": 13
+    },
+    {
+        "year": 2020,
+        "country": "Бельгия",
+        "score": 6.91,
+        "rank": 14
+    },
+    {
+        "year": 2020,
+        "country": "Ирландия",
+        "score": 6.889,
+        "rank": 15
+    },
+    {
+        "year": 2020,
+        "country": "Литва",
+        "score": 6.829,
+        "rank": 16
+    },
+    {
+        "year": 2020,
+        "country": "Австрия",
+        "score": 6.81,
+        "rank": 17
+    },
+    {
+        "year": 2020,
+        "country": "Канада",
+        "score": 6.803,
+        "rank": 18
+    },
+    {
+        "year": 2020,
+        "country": "Словения",
+        "score": 6.792,
+        "rank": 19
+    },
+    {
+        "year": 2020,
+        "country": "Чехия",
+        "score": 6.775,
+        "rank": 20
+    },
+    {
+        "year": 2020,
+        "country": "ОАЭ",
+        "score": 6.759,
+        "rank": 21
+    },
+    {
+        "year": 2020,
+        "country": "Германия",
+        "score": 6.753,
+        "rank": 22
+    },
+    {
+        "year": 2020,
+        "country": "Великобритания",
+        "score": 6.728,
+        "rank": 23
+    },
+    {
+        "year": 2020,
+        "country": "США",
+        "score": 6.724,
+        "rank": 24
+    },
+    {
+        "year": 2020,
+        "country": "Белиз",
+        "score": 6.711,
+        "rank": 25
+    },
+    {
+        "year": 2020,
+        "country": "Польша",
+        "score": 6.673,
+        "rank": 26
+    },
+    {
+        "year": 2020,
+        "country": "Тайвань",
+        "score": 6.669,
+        "rank": 27
+    },
+    {
+        "year": 2020,
+        "country": "Уругвай",
+        "score": 6.661,
+        "rank": 28
+    },
+    {
+        "year": 2020,
+        "country": "Косово",
+        "score": 6.659,
+        "rank": 29
+    },
+    {
+        "year": 2020,
+        "country": "Кувейт",
+        "score": 6.629,
+        "rank": 30
+    },
+    {
+        "year": 2020,
+        "country": "Сербия",
+        "score": 6.606,
+        "rank": 31
+    },
+    {
+        "year": 2020,
+        "country": "Саудовская Аравия",
+        "score": 6.6,
+        "rank": 32
+    },
+    {
+        "year": 2020,
+        "country": "Франция",
+        "score": 6.593,
+        "rank": 33
+    },
+    {
+        "year": 2020,
+        "country": "Сингапур",
+        "score": 6.565,
+        "rank": 34
+    },
+    {
+        "year": 2020,
+        "country": "Румыния",
+        "score": 6.563,
+        "rank": 35
+    },
+    {
+        "year": 2020,
+        "country": "Бразилия",
+        "score": 6.494,
+        "rank": 36
+    },
+    {
+        "year": 2020,
+        "country": "Сальвадор",
+        "score": 6.492,
+        "rank": 37
+    },
+    {
+        "year": 2020,
+        "country": "Испания",
+        "score": 6.466,
+        "rank": 38
+    },
+    {
+        "year": 2020,
+        "country": "Эстония",
+        "score": 6.417,
+        "rank": 39
+    },
+    {
+        "year": 2020,
+        "country": "Италия",
+        "score": 6.415,
+        "rank": 40
+    },
+    {
+        "year": 2020,
+        "country": "Панама",
+        "score": 6.407,
+        "rank": 41
+    },
+    {
+        "year": 2020,
+        "country": "Аргентина",
+        "score": 6.397,
+        "rank": 42
+    },
+    {
+        "year": 2020,
+        "country": "Казахстан",
+        "score": 6.378,
+        "rank": 43
+    },
+    {
+        "year": 2020,
+        "country": "Гватемала",
+        "score": 6.362,
+        "rank": 44
+    },
+    {
+        "year": 2020,
+        "country": "Чили",
+        "score": 6.361,
+        "rank": 45
+    },
+    {
+        "year": 2020,
+        "country": "Вьетнам",
+        "score": 6.352,
+        "rank": 46
+    },
+    {
+        "year": 2020,
+        "country": "Никарагуа",
+        "score": 6.33,
+        "rank": 47
+    },
+    {
+        "year": 2020,
+        "country": "Мальта",
+        "score": 6.316,
+        "rank": 48
+    },
+    {
+        "year": 2020,
+        "country": "Таиланд",
+        "score": 6.222,
+        "rank": 49
+    },
+    {
+        "year": 2020,
+        "country": "Словакия",
+        "score": 6.221,
+        "rank": 50
+    },
+    {
+        "year": 2020,
+        "country": "Латвия",
+        "score": 6.207,
+        "rank": 51
+    },
+    {
+        "year": 2020,
+        "country": "Оман",
+        "score": 6.197,
+        "rank": 52
+    },
+    {
+        "year": 2020,
+        "country": "Узбекистан",
+        "score": 6.193,
+        "rank": 53
+    },
+    {
+        "year": 2020,
+        "country": "Парагвай",
+        "score": 6.172,
+        "rank": 54
+    },
+    {
+        "year": 2020,
+        "country": "Япония",
+        "score": 6.147,
+        "rank": 55
+    },
+    {
+        "year": 2020,
+        "country": "Босния и Герцеговина",
+        "score": 6.136,
+        "rank": 56
+    },
+    {
+        "year": 2020,
+        "country": "Филиппины",
+        "score": 6.107,
+        "rank": 57
+    },
+    {
+        "year": 2020,
+        "country": "Южная Корея",
+        "score": 6.038,
+        "rank": 58
+    },
+    {
+        "year": 2020,
+        "country": "Бахрейн",
+        "score": 6.03,
+        "rank": 59
+    },
+    {
+        "year": 2020,
+        "country": "Португалия",
+        "score": 6.013,
+        "rank": 60
+    },
+    {
+        "year": 2020,
+        "country": "Колумбия",
+        "score": 6.004,
+        "rank": 61
+    },
+    {
+        "year": 2020,
+        "country": "Эквадор",
+        "score": 5.965,
+        "rank": 62
+    },
+    {
+        "year": 2020,
+        "country": "Гондурас",
+        "score": 5.964,
+        "rank": 63
+    },
+    {
+        "year": 2020,
+        "country": "Малайзия",
+        "score": 5.955,
+        "rank": 64
+    },
+    {
+        "year": 2020,
+        "country": "Перу",
+        "score": 5.947,
+        "rank": 65
+    },
+    {
+        "year": 2020,
+        "country": "Россия",
+        "score": 5.945,
+        "rank": 66
+    },
+    {
+        "year": 2020,
+        "country": "Кипр",
+        "score": 5.942,
+        "rank": 67
+    },
+    {
+        "year": 2020,
+        "country": "Китай",
+        "score": 5.921,
+        "rank": 68
+    },
+    {
+        "year": 2020,
+        "country": "Венгрия",
+        "score": 5.915,
+        "rank": 69
+    },
+    {
+        "year": 2020,
+        "country": "Тринидад и Тобаго",
+        "score": 5.905,
+        "rank": 70
+    },
+    {
+        "year": 2020,
+        "country": "Черногория",
+        "score": 5.877,
+        "rank": 71
+    },
+    {
+        "year": 2020,
+        "country": "Хорватия",
+        "score": 5.87,
+        "rank": 72
+    },
+    {
+        "year": 2020,
+        "country": "Ямайка",
+        "score": 5.87,
+        "rank": 72
+    },
+    {
+        "year": 2020,
+        "country": "Боливия",
+        "score": 5.868,
+        "rank": 73
+    },
+    {
+        "year": 2020,
+        "country": "Киргизия",
+        "score": 5.858,
+        "rank": 74
+    },
+    {
+        "year": 2020,
+        "country": "Доминиканская Республика",
+        "score": 5.846,
+        "rank": 75
+    },
+    {
+        "year": 2020,
+        "country": "Монголия",
+        "score": 5.833,
+        "rank": 76
+    },
+    {
+        "year": 2020,
+        "country": "Маврикий",
+        "score": 5.832,
+        "rank": 77
+    },
+    {
+        "year": 2020,
+        "country": "Ливия",
+        "score": 5.82,
+        "rank": 78
+    },
+    {
+        "year": 2020,
+        "country": "Молдова",
+        "score": 5.819,
+        "rank": 79
+    },
+    {
+        "year": 2020,
+        "country": "Греция",
+        "score": 5.776,
+        "rank": 80
+    },
+    {
+        "year": 2020,
+        "country": "Венесуэла",
+        "score": 5.683,
+        "rank": 81
+    },
+    {
+        "year": 2020,
+        "country": "Индонезия",
+        "score": 5.617,
+        "rank": 82
+    },
+    {
+        "year": 2020,
+        "country": "Алжир",
+        "score": 5.571,
+        "rank": 83
+    },
+    {
+        "year": 2020,
+        "country": "Болгария",
+        "score": 5.554,
+        "rank": 84
+    },
+    {
+        "year": 2020,
+        "country": "Северная Македония",
+        "score": 5.503,
+        "rank": 85
+    },
+    {
+        "year": 2020,
+        "country": "Армения",
+        "score": 5.494,
+        "rank": 86
+    },
+    {
+        "year": 2020,
+        "country": "Гонконг",
+        "score": 5.491,
+        "rank": 87
+    },
+    {
+        "year": 2020,
+        "country": "Албания",
+        "score": 5.411,
+        "rank": 88
+    },
+    {
+        "year": 2020,
+        "country": "Таджикистан",
+        "score": 5.411,
+        "rank": 88
+    },
+    {
+        "year": 2020,
+        "country": "Грузия",
+        "score": 5.4,
+        "rank": 89
+    },
+    {
+        "year": 2020,
+        "country": "Непал",
+        "score": 5.311,
+        "rank": 90
+    },
+    {
+        "year": 2020,
+        "country": "Лаос",
+        "score": 5.301,
+        "rank": 91
+    },
+    {
+        "year": 2020,
+        "country": "Турция",
+        "score": 5.262,
+        "rank": 92
+    },
+    {
+        "year": 2020,
+        "country": "ЮАР",
+        "score": 5.213,
+        "rank": 93
+    },
+    {
+        "year": 2020,
+        "country": "Мозамбик",
+        "score": 5.19,
+        "rank": 94
+    },
+    {
+        "year": 2020,
+        "country": "Габон",
+        "score": 5.12,
+        "rank": 95
+    },
+    {
+        "year": 2020,
+        "country": "Кот-д’Ивуар",
+        "score": 5.102,
+        "rank": 96
+    },
+    {
+        "year": 2020,
+        "country": "Иран",
+        "score": 5.093,
+        "rank": 97
+    },
+    {
+        "year": 2020,
+        "country": "Конго",
+        "score": 5.03,
+        "rank": 98
+    },
+    {
+        "year": 2020,
+        "country": "Ирак",
+        "score": 4.976,
+        "rank": 99
+    },
+    {
+        "year": 2020,
+        "country": "Гвинея",
+        "score": 4.929,
+        "rank": 100
+    },
+    {
+        "year": 2020,
+        "country": "Намибия",
+        "score": 4.911,
+        "rank": 101
+    },
+    {
+        "year": 2020,
+        "country": "Камерун",
+        "score": 4.887,
+        "rank": 102
+    },
+    {
+        "year": 2020,
+        "country": "Нигерия",
+        "score": 4.885,
+        "rank": 103
+    },
+    {
+        "year": 2020,
+        "country": "Азербайджан",
+        "score": 4.875,
+        "rank": 104
+    },
+    {
+        "year": 2020,
+        "country": "Сенегал",
+        "score": 4.856,
+        "rank": 105
+    },
+    {
+        "year": 2020,
+        "country": "Палестинские территории",
+        "score": 4.78,
+        "rank": 106
+    },
+    {
+        "year": 2020,
+        "country": "Пакистан",
+        "score": 4.768,
+        "rank": 107
+    },
+    {
+        "year": 2020,
+        "country": "Нигер",
+        "score": 4.725,
+        "rank": 108
+    },
+    {
+        "year": 2020,
+        "country": "Украина",
+        "score": 4.68,
+        "rank": 109
+    },
+    {
+        "year": 2020,
+        "country": "Марокко",
+        "score": 4.622,
+        "rank": 110
+    },
+    {
+        "year": 2020,
+        "country": "Тунис",
+        "score": 4.552,
+        "rank": 111
+    },
+    {
+        "year": 2020,
+        "country": "Мавритания",
+        "score": 4.542,
+        "rank": 112
+    },
+    {
+        "year": 2020,
+        "country": "Кения",
+        "score": 4.51,
+        "rank": 113
+    },
+    {
+        "year": 2020,
+        "country": "Уганда",
+        "score": 4.461,
+        "rank": 114
+    },
+    {
+        "year": 2020,
+        "country": "Гамбия",
+        "score": 4.423,
+        "rank": 115
+    },
+    {
+        "year": 2020,
+        "country": "Индия",
+        "score": 4.389,
+        "rank": 116
+    },
+    {
+        "year": 2020,
+        "country": "Чад",
+        "score": 4.384,
+        "rank": 117
+    },
+    {
+        "year": 2020,
+        "country": "Буркина-Фасо",
+        "score": 4.383,
+        "rank": 118
+    },
+    {
+        "year": 2020,
+        "country": "Бенин",
+        "score": 4.357,
+        "rank": 119
+    },
+    {
+        "year": 2020,
+        "country": "Сомали",
+        "score": 4.347,
+        "rank": 120
+    },
+    {
+        "year": 2020,
+        "country": "Мали",
+        "score": 4.345,
+        "rank": 121
+    },
+    {
+        "year": 2020,
+        "country": "Камбоджа",
+        "score": 4.341,
+        "rank": 122
+    },
+    {
+        "year": 2020,
+        "country": "Гана",
+        "score": 4.34,
+        "rank": 123
+    },
+    {
+        "year": 2020,
+        "country": "Мьянма",
+        "score": 4.321,
+        "rank": 124
+    },
+    {
+        "year": 2020,
+        "country": "Того",
+        "score": 4.315,
+        "rank": 125
+    },
+    {
+        "year": 2020,
+        "country": "Иордания",
+        "score": 4.31,
+        "rank": 126
+    },
+    {
+        "year": 2020,
+        "country": "Либерия",
+        "score": 4.277,
+        "rank": 127
+    },
+    {
+        "year": 2020,
+        "country": "Мадагаскар",
+        "score": 4.157,
+        "rank": 128
+    },
+    {
+        "year": 2020,
+        "country": "Замбия",
+        "score": 3.912,
+        "rank": 129
+    },
+    {
+        "year": 2020,
+        "country": "Эфиопия",
+        "score": 3.898,
+        "rank": 130
+    },
+    {
+        "year": 2020,
+        "country": "Шри-Ланка",
+        "score": 3.891,
+        "rank": 131
+    },
+    {
+        "year": 2020,
+        "country": "Бангладеш",
+        "score": 3.851,
+        "rank": 132
+    },
+    {
+        "year": 2020,
+        "country": "Египет",
+        "score": 3.817,
+        "rank": 133
+    },
+    {
+        "year": 2020,
+        "country": "Танзания",
+        "score": 3.8,
+        "rank": 134
+    },
+    {
+        "year": 2020,
+        "country": "Эсватини",
+        "score": 3.774,
+        "rank": 135
+    },
+    {
+        "year": 2020,
+        "country": "Лесото",
+        "score": 3.757,
+        "rank": 136
+    },
+    {
+        "year": 2020,
+        "country": "Коморские острова",
+        "score": 3.754,
+        "rank": 137
+    },
+    {
+        "year": 2020,
+        "country": "Йемен",
+        "score": 3.561,
+        "rank": 138
+    },
+    {
+        "year": 2020,
+        "country": "Конго ДР",
+        "score": 3.469,
+        "rank": 139
+    },
+    {
+        "year": 2020,
+        "country": "Ботсвана",
+        "score": 3.438,
+        "rank": 140
+    },
+    {
+        "year": 2020,
+        "country": "Зимбабве",
+        "score": 3.396,
+        "rank": 141
+    },
+    {
+        "year": 2020,
+        "country": "Малави",
+        "score": 3.26,
+        "rank": 142
+    },
+    {
+        "year": 2020,
+        "country": "Ливан",
+        "score": 3.188,
+        "rank": 143
+    },
+    {
+        "year": 2020,
+        "country": "Сьерра-Леоне",
+        "score": 2.998,
+        "rank": 144
+    },
+    {
+        "year": 2020,
+        "country": "Афганистан",
+        "score": 1.364,
+        "rank": 145
+    },
+    {
+        "year": 2021,
+        "country": "Финляндия",
+        "score": 7.736,
+        "rank": 1
+    },
+    {
+        "year": 2021,
+        "country": "Дания",
+        "score": 7.521,
+        "rank": 2
+    },
+    {
+        "year": 2021,
+        "country": "Исландия",
+        "score": 7.515,
+        "rank": 3
+    },
+    {
+        "year": 2021,
+        "country": "Швеция",
+        "score": 7.345,
+        "rank": 4
+    },
+    {
+        "year": 2021,
+        "country": "Нидерланды",
+        "score": 7.306,
+        "rank": 5
+    },
+    {
+        "year": 2021,
+        "country": "Коста-Рика",
+        "score": 7.274,
+        "rank": 6
+    },
+    {
+        "year": 2021,
+        "country": "Норвегия",
+        "score": 7.262,
+        "rank": 7
+    },
+    {
+        "year": 2021,
+        "country": "Израиль",
+        "score": 7.234,
+        "rank": 8
+    },
+    {
+        "year": 2021,
+        "country": "Люксембург",
+        "score": 7.122,
+        "rank": 9
+    },
+    {
+        "year": 2021,
+        "country": "Мексика",
+        "score": 6.979,
+        "rank": 10
+    },
+    {
+        "year": 2021,
+        "country": "Австралия",
+        "score": 6.974,
+        "rank": 11
+    },
+    {
+        "year": 2021,
+        "country": "Новая Зеландия",
+        "score": 6.952,
+        "rank": 12
+    },
+    {
+        "year": 2021,
+        "country": "Швейцария",
+        "score": 6.935,
+        "rank": 13
+    },
+    {
+        "year": 2021,
+        "country": "Бельгия",
+        "score": 6.91,
+        "rank": 14
+    },
+    {
+        "year": 2021,
+        "country": "Ирландия",
+        "score": 6.889,
+        "rank": 15
+    },
+    {
+        "year": 2021,
+        "country": "Литва",
+        "score": 6.829,
+        "rank": 16
+    },
+    {
+        "year": 2021,
+        "country": "Австрия",
+        "score": 6.81,
+        "rank": 17
+    },
+    {
+        "year": 2021,
+        "country": "Канада",
+        "score": 6.803,
+        "rank": 18
+    },
+    {
+        "year": 2021,
+        "country": "Словения",
+        "score": 6.792,
+        "rank": 19
+    },
+    {
+        "year": 2021,
+        "country": "Чехия",
+        "score": 6.775,
+        "rank": 20
+    },
+    {
+        "year": 2021,
+        "country": "ОАЭ",
+        "score": 6.759,
+        "rank": 21
+    },
+    {
+        "year": 2021,
+        "country": "Германия",
+        "score": 6.753,
+        "rank": 22
+    },
+    {
+        "year": 2021,
+        "country": "Великобритания",
+        "score": 6.728,
+        "rank": 23
+    },
+    {
+        "year": 2021,
+        "country": "США",
+        "score": 6.724,
+        "rank": 24
+    },
+    {
+        "year": 2021,
+        "country": "Белиз",
+        "score": 6.711,
+        "rank": 25
+    },
+    {
+        "year": 2021,
+        "country": "Польша",
+        "score": 6.673,
+        "rank": 26
+    },
+    {
+        "year": 2021,
+        "country": "Тайвань",
+        "score": 6.669,
+        "rank": 27
+    },
+    {
+        "year": 2021,
+        "country": "Уругвай",
+        "score": 6.661,
+        "rank": 28
+    },
+    {
+        "year": 2021,
+        "country": "Косово",
+        "score": 6.659,
+        "rank": 29
+    },
+    {
+        "year": 2021,
+        "country": "Кувейт",
+        "score": 6.629,
+        "rank": 30
+    },
+    {
+        "year": 2021,
+        "country": "Сербия",
+        "score": 6.606,
+        "rank": 31
+    },
+    {
+        "year": 2021,
+        "country": "Саудовская Аравия",
+        "score": 6.6,
+        "rank": 32
+    },
+    {
+        "year": 2021,
+        "country": "Франция",
+        "score": 6.593,
+        "rank": 33
+    },
+    {
+        "year": 2021,
+        "country": "Сингапур",
+        "score": 6.565,
+        "rank": 34
+    },
+    {
+        "year": 2021,
+        "country": "Румыния",
+        "score": 6.563,
+        "rank": 35
+    },
+    {
+        "year": 2021,
+        "country": "Бразилия",
+        "score": 6.494,
+        "rank": 36
+    },
+    {
+        "year": 2021,
+        "country": "Сальвадор",
+        "score": 6.492,
+        "rank": 37
+    },
+    {
+        "year": 2021,
+        "country": "Испания",
+        "score": 6.466,
+        "rank": 38
+    },
+    {
+        "year": 2021,
+        "country": "Эстония",
+        "score": 6.417,
+        "rank": 39
+    },
+    {
+        "year": 2021,
+        "country": "Италия",
+        "score": 6.415,
+        "rank": 40
+    },
+    {
+        "year": 2021,
+        "country": "Панама",
+        "score": 6.407,
+        "rank": 41
+    },
+    {
+        "year": 2021,
+        "country": "Аргентина",
+        "score": 6.397,
+        "rank": 42
+    },
+    {
+        "year": 2021,
+        "country": "Казахстан",
+        "score": 6.378,
+        "rank": 43
+    },
+    {
+        "year": 2021,
+        "country": "Гватемала",
+        "score": 6.362,
+        "rank": 44
+    },
+    {
+        "year": 2021,
+        "country": "Чили",
+        "score": 6.361,
+        "rank": 45
+    },
+    {
+        "year": 2021,
+        "country": "Вьетнам",
+        "score": 6.352,
+        "rank": 46
+    },
+    {
+        "year": 2021,
+        "country": "Никарагуа",
+        "score": 6.33,
+        "rank": 47
+    },
+    {
+        "year": 2021,
+        "country": "Мальта",
+        "score": 6.316,
+        "rank": 48
+    },
+    {
+        "year": 2021,
+        "country": "Таиланд",
+        "score": 6.222,
+        "rank": 49
+    },
+    {
+        "year": 2021,
+        "country": "Словакия",
+        "score": 6.221,
+        "rank": 50
+    },
+    {
+        "year": 2021,
+        "country": "Латвия",
+        "score": 6.207,
+        "rank": 51
+    },
+    {
+        "year": 2021,
+        "country": "Оман",
+        "score": 6.197,
+        "rank": 52
+    },
+    {
+        "year": 2021,
+        "country": "Узбекистан",
+        "score": 6.193,
+        "rank": 53
+    },
+    {
+        "year": 2021,
+        "country": "Парагвай",
+        "score": 6.172,
+        "rank": 54
+    },
+    {
+        "year": 2021,
+        "country": "Япония",
+        "score": 6.147,
+        "rank": 55
+    },
+    {
+        "year": 2021,
+        "country": "Босния и Герцеговина",
+        "score": 6.136,
+        "rank": 56
+    },
+    {
+        "year": 2021,
+        "country": "Филиппины",
+        "score": 6.107,
+        "rank": 57
+    },
+    {
+        "year": 2021,
+        "country": "Южная Корея",
+        "score": 6.038,
+        "rank": 58
+    },
+    {
+        "year": 2021,
+        "country": "Бахрейн",
+        "score": 6.03,
+        "rank": 59
+    },
+    {
+        "year": 2021,
+        "country": "Португалия",
+        "score": 6.013,
+        "rank": 60
+    },
+    {
+        "year": 2021,
+        "country": "Колумбия",
+        "score": 6.004,
+        "rank": 61
+    },
+    {
+        "year": 2021,
+        "country": "Эквадор",
+        "score": 5.965,
+        "rank": 62
+    },
+    {
+        "year": 2021,
+        "country": "Гондурас",
+        "score": 5.964,
+        "rank": 63
+    },
+    {
+        "year": 2021,
+        "country": "Малайзия",
+        "score": 5.955,
+        "rank": 64
+    },
+    {
+        "year": 2021,
+        "country": "Перу",
+        "score": 5.947,
+        "rank": 65
+    },
+    {
+        "year": 2021,
+        "country": "Россия",
+        "score": 5.945,
+        "rank": 66
+    },
+    {
+        "year": 2021,
+        "country": "Кипр",
+        "score": 5.942,
+        "rank": 67
+    },
+    {
+        "year": 2021,
+        "country": "Китай",
+        "score": 5.921,
+        "rank": 68
+    },
+    {
+        "year": 2021,
+        "country": "Венгрия",
+        "score": 5.915,
+        "rank": 69
+    },
+    {
+        "year": 2021,
+        "country": "Тринидад и Тобаго",
+        "score": 5.905,
+        "rank": 70
+    },
+    {
+        "year": 2021,
+        "country": "Черногория",
+        "score": 5.877,
+        "rank": 71
+    },
+    {
+        "year": 2021,
+        "country": "Хорватия",
+        "score": 5.87,
+        "rank": 72
+    },
+    {
+        "year": 2021,
+        "country": "Ямайка",
+        "score": 5.87,
+        "rank": 72
+    },
+    {
+        "year": 2021,
+        "country": "Боливия",
+        "score": 5.868,
+        "rank": 73
+    },
+    {
+        "year": 2021,
+        "country": "Киргизия",
+        "score": 5.858,
+        "rank": 74
+    },
+    {
+        "year": 2021,
+        "country": "Доминиканская Республика",
+        "score": 5.846,
+        "rank": 75
+    },
+    {
+        "year": 2021,
+        "country": "Монголия",
+        "score": 5.833,
+        "rank": 76
+    },
+    {
+        "year": 2021,
+        "country": "Маврикий",
+        "score": 5.832,
+        "rank": 77
+    },
+    {
+        "year": 2021,
+        "country": "Ливия",
+        "score": 5.82,
+        "rank": 78
+    },
+    {
+        "year": 2021,
+        "country": "Молдова",
+        "score": 5.819,
+        "rank": 79
+    },
+    {
+        "year": 2021,
+        "country": "Греция",
+        "score": 5.776,
+        "rank": 80
+    },
+    {
+        "year": 2021,
+        "country": "Венесуэла",
+        "score": 5.683,
+        "rank": 81
+    },
+    {
+        "year": 2021,
+        "country": "Индонезия",
+        "score": 5.617,
+        "rank": 82
+    },
+    {
+        "year": 2021,
+        "country": "Алжир",
+        "score": 5.571,
+        "rank": 83
+    },
+    {
+        "year": 2021,
+        "country": "Болгария",
+        "score": 5.554,
+        "rank": 84
+    },
+    {
+        "year": 2021,
+        "country": "Северная Македония",
+        "score": 5.503,
+        "rank": 85
+    },
+    {
+        "year": 2021,
+        "country": "Армения",
+        "score": 5.494,
+        "rank": 86
+    },
+    {
+        "year": 2021,
+        "country": "Гонконг",
+        "score": 5.491,
+        "rank": 87
+    },
+    {
+        "year": 2021,
+        "country": "Албания",
+        "score": 5.411,
+        "rank": 88
+    },
+    {
+        "year": 2021,
+        "country": "Таджикистан",
+        "score": 5.411,
+        "rank": 88
+    },
+    {
+        "year": 2021,
+        "country": "Грузия",
+        "score": 5.4,
+        "rank": 89
+    },
+    {
+        "year": 2021,
+        "country": "Непал",
+        "score": 5.311,
+        "rank": 90
+    },
+    {
+        "year": 2021,
+        "country": "Лаос",
+        "score": 5.301,
+        "rank": 91
+    },
+    {
+        "year": 2021,
+        "country": "Турция",
+        "score": 5.262,
+        "rank": 92
+    },
+    {
+        "year": 2021,
+        "country": "ЮАР",
+        "score": 5.213,
+        "rank": 93
+    },
+    {
+        "year": 2021,
+        "country": "Мозамбик",
+        "score": 5.19,
+        "rank": 94
+    },
+    {
+        "year": 2021,
+        "country": "Габон",
+        "score": 5.12,
+        "rank": 95
+    },
+    {
+        "year": 2021,
+        "country": "Кот-д’Ивуар",
+        "score": 5.102,
+        "rank": 96
+    },
+    {
+        "year": 2021,
+        "country": "Иран",
+        "score": 5.093,
+        "rank": 97
+    },
+    {
+        "year": 2021,
+        "country": "Конго",
+        "score": 5.03,
+        "rank": 98
+    },
+    {
+        "year": 2021,
+        "country": "Ирак",
+        "score": 4.976,
+        "rank": 99
+    },
+    {
+        "year": 2021,
+        "country": "Гвинея",
+        "score": 4.929,
+        "rank": 100
+    },
+    {
+        "year": 2021,
+        "country": "Намибия",
+        "score": 4.911,
+        "rank": 101
+    },
+    {
+        "year": 2021,
+        "country": "Камерун",
+        "score": 4.887,
+        "rank": 102
+    },
+    {
+        "year": 2021,
+        "country": "Нигерия",
+        "score": 4.885,
+        "rank": 103
+    },
+    {
+        "year": 2021,
+        "country": "Азербайджан",
+        "score": 4.875,
+        "rank": 104
+    },
+    {
+        "year": 2021,
+        "country": "Сенегал",
+        "score": 4.856,
+        "rank": 105
+    },
+    {
+        "year": 2021,
+        "country": "Палестинские территории",
+        "score": 4.78,
+        "rank": 106
+    },
+    {
+        "year": 2021,
+        "country": "Пакистан",
+        "score": 4.768,
+        "rank": 107
+    },
+    {
+        "year": 2021,
+        "country": "Нигер",
+        "score": 4.725,
+        "rank": 108
+    },
+    {
+        "year": 2021,
+        "country": "Украина",
+        "score": 4.68,
+        "rank": 109
+    },
+    {
+        "year": 2021,
+        "country": "Марокко",
+        "score": 4.622,
+        "rank": 110
+    },
+    {
+        "year": 2021,
+        "country": "Тунис",
+        "score": 4.552,
+        "rank": 111
+    },
+    {
+        "year": 2021,
+        "country": "Мавритания",
+        "score": 4.542,
+        "rank": 112
+    },
+    {
+        "year": 2021,
+        "country": "Кения",
+        "score": 4.51,
+        "rank": 113
+    },
+    {
+        "year": 2021,
+        "country": "Уганда",
+        "score": 4.461,
+        "rank": 114
+    },
+    {
+        "year": 2021,
+        "country": "Гамбия",
+        "score": 4.423,
+        "rank": 115
+    },
+    {
+        "year": 2021,
+        "country": "Индия",
+        "score": 4.389,
+        "rank": 116
+    },
+    {
+        "year": 2021,
+        "country": "Чад",
+        "score": 4.384,
+        "rank": 117
+    },
+    {
+        "year": 2021,
+        "country": "Буркина-Фасо",
+        "score": 4.383,
+        "rank": 118
+    },
+    {
+        "year": 2021,
+        "country": "Бенин",
+        "score": 4.357,
+        "rank": 119
+    },
+    {
+        "year": 2021,
+        "country": "Сомали",
+        "score": 4.347,
+        "rank": 120
+    },
+    {
+        "year": 2021,
+        "country": "Мали",
+        "score": 4.345,
+        "rank": 121
+    },
+    {
+        "year": 2021,
+        "country": "Камбоджа",
+        "score": 4.341,
+        "rank": 122
+    },
+    {
+        "year": 2021,
+        "country": "Гана",
+        "score": 4.34,
+        "rank": 123
+    },
+    {
+        "year": 2021,
+        "country": "Мьянма",
+        "score": 4.321,
+        "rank": 124
+    },
+    {
+        "year": 2021,
+        "country": "Того",
+        "score": 4.315,
+        "rank": 125
+    },
+    {
+        "year": 2021,
+        "country": "Иордания",
+        "score": 4.31,
+        "rank": 126
+    },
+    {
+        "year": 2021,
+        "country": "Либерия",
+        "score": 4.277,
+        "rank": 127
+    },
+    {
+        "year": 2021,
+        "country": "Мадагаскар",
+        "score": 4.157,
+        "rank": 128
+    },
+    {
+        "year": 2021,
+        "country": "Замбия",
+        "score": 3.912,
+        "rank": 129
+    },
+    {
+        "year": 2021,
+        "country": "Эфиопия",
+        "score": 3.898,
+        "rank": 130
+    },
+    {
+        "year": 2021,
+        "country": "Шри-Ланка",
+        "score": 3.891,
+        "rank": 131
+    },
+    {
+        "year": 2021,
+        "country": "Бангладеш",
+        "score": 3.851,
+        "rank": 132
+    },
+    {
+        "year": 2021,
+        "country": "Египет",
+        "score": 3.817,
+        "rank": 133
+    },
+    {
+        "year": 2021,
+        "country": "Танзания",
+        "score": 3.8,
+        "rank": 134
+    },
+    {
+        "year": 2021,
+        "country": "Эсватини",
+        "score": 3.774,
+        "rank": 135
+    },
+    {
+        "year": 2021,
+        "country": "Лесото",
+        "score": 3.757,
+        "rank": 136
+    },
+    {
+        "year": 2021,
+        "country": "Коморские острова",
+        "score": 3.754,
+        "rank": 137
+    },
+    {
+        "year": 2021,
+        "country": "Йемен",
+        "score": 3.561,
+        "rank": 138
+    },
+    {
+        "year": 2021,
+        "country": "Конго ДР",
+        "score": 3.469,
+        "rank": 139
+    },
+    {
+        "year": 2021,
+        "country": "Ботсвана",
+        "score": 3.438,
+        "rank": 140
+    },
+    {
+        "year": 2021,
+        "country": "Зимбабве",
+        "score": 3.396,
+        "rank": 141
+    },
+    {
+        "year": 2021,
+        "country": "Малави",
+        "score": 3.26,
+        "rank": 142
+    },
+    {
+        "year": 2021,
+        "country": "Ливан",
+        "score": 3.188,
+        "rank": 143
+    },
+    {
+        "year": 2021,
+        "country": "Сьерра-Леоне",
+        "score": 2.998,
+        "rank": 144
+    },
+    {
+        "year": 2021,
+        "country": "Афганистан",
+        "score": 1.364,
+        "rank": 145
+    },
+    {
+        "year": 2022,
+        "country": "Финляндия",
+        "score": 7.736,
+        "rank": 1
+    },
+    {
+        "year": 2022,
+        "country": "Дания",
+        "score": 7.521,
+        "rank": 2
+    },
+    {
+        "year": 2022,
+        "country": "Исландия",
+        "score": 7.515,
+        "rank": 3
+    },
+    {
+        "year": 2022,
+        "country": "Швеция",
+        "score": 7.345,
+        "rank": 4
+    },
+    {
+        "year": 2022,
+        "country": "Нидерланды",
+        "score": 7.306,
+        "rank": 5
+    },
+    {
+        "year": 2022,
+        "country": "Коста-Рика",
+        "score": 7.274,
+        "rank": 6
+    },
+    {
+        "year": 2022,
+        "country": "Норвегия",
+        "score": 7.262,
+        "rank": 7
+    },
+    {
+        "year": 2022,
+        "country": "Израиль",
+        "score": 7.234,
+        "rank": 8
+    },
+    {
+        "year": 2022,
+        "country": "Люксембург",
+        "score": 7.122,
+        "rank": 9
+    },
+    {
+        "year": 2022,
+        "country": "Мексика",
+        "score": 6.979,
+        "rank": 10
+    },
+    {
+        "year": 2022,
+        "country": "Австралия",
+        "score": 6.974,
+        "rank": 11
+    },
+    {
+        "year": 2022,
+        "country": "Новая Зеландия",
+        "score": 6.952,
+        "rank": 12
+    },
+    {
+        "year": 2022,
+        "country": "Швейцария",
+        "score": 6.935,
+        "rank": 13
+    },
+    {
+        "year": 2022,
+        "country": "Бельгия",
+        "score": 6.91,
+        "rank": 14
+    },
+    {
+        "year": 2022,
+        "country": "Ирландия",
+        "score": 6.889,
+        "rank": 15
+    },
+    {
+        "year": 2022,
+        "country": "Литва",
+        "score": 6.829,
+        "rank": 16
+    },
+    {
+        "year": 2022,
+        "country": "Австрия",
+        "score": 6.81,
+        "rank": 17
+    },
+    {
+        "year": 2022,
+        "country": "Канада",
+        "score": 6.803,
+        "rank": 18
+    },
+    {
+        "year": 2022,
+        "country": "Словения",
+        "score": 6.792,
+        "rank": 19
+    },
+    {
+        "year": 2022,
+        "country": "Чехия",
+        "score": 6.775,
+        "rank": 20
+    },
+    {
+        "year": 2022,
+        "country": "ОАЭ",
+        "score": 6.759,
+        "rank": 21
+    },
+    {
+        "year": 2022,
+        "country": "Германия",
+        "score": 6.753,
+        "rank": 22
+    },
+    {
+        "year": 2022,
+        "country": "Великобритания",
+        "score": 6.728,
+        "rank": 23
+    },
+    {
+        "year": 2022,
+        "country": "США",
+        "score": 6.724,
+        "rank": 24
+    },
+    {
+        "year": 2022,
+        "country": "Белиз",
+        "score": 6.711,
+        "rank": 25
+    },
+    {
+        "year": 2022,
+        "country": "Польша",
+        "score": 6.673,
+        "rank": 26
+    },
+    {
+        "year": 2022,
+        "country": "Тайвань",
+        "score": 6.669,
+        "rank": 27
+    },
+    {
+        "year": 2022,
+        "country": "Уругвай",
+        "score": 6.661,
+        "rank": 28
+    },
+    {
+        "year": 2022,
+        "country": "Косово",
+        "score": 6.659,
+        "rank": 29
+    },
+    {
+        "year": 2022,
+        "country": "Кувейт",
+        "score": 6.629,
+        "rank": 30
+    },
+    {
+        "year": 2022,
+        "country": "Сербия",
+        "score": 6.606,
+        "rank": 31
+    },
+    {
+        "year": 2022,
+        "country": "Саудовская Аравия",
+        "score": 6.6,
+        "rank": 32
+    },
+    {
+        "year": 2022,
+        "country": "Франция",
+        "score": 6.593,
+        "rank": 33
+    },
+    {
+        "year": 2022,
+        "country": "Сингапур",
+        "score": 6.565,
+        "rank": 34
+    },
+    {
+        "year": 2022,
+        "country": "Румыния",
+        "score": 6.563,
+        "rank": 35
+    },
+    {
+        "year": 2022,
+        "country": "Бразилия",
+        "score": 6.494,
+        "rank": 36
+    },
+    {
+        "year": 2022,
+        "country": "Сальвадор",
+        "score": 6.492,
+        "rank": 37
+    },
+    {
+        "year": 2022,
+        "country": "Испания",
+        "score": 6.466,
+        "rank": 38
+    },
+    {
+        "year": 2022,
+        "country": "Эстония",
+        "score": 6.417,
+        "rank": 39
+    },
+    {
+        "year": 2022,
+        "country": "Италия",
+        "score": 6.415,
+        "rank": 40
+    },
+    {
+        "year": 2022,
+        "country": "Панама",
+        "score": 6.407,
+        "rank": 41
+    },
+    {
+        "year": 2022,
+        "country": "Аргентина",
+        "score": 6.397,
+        "rank": 42
+    },
+    {
+        "year": 2022,
+        "country": "Казахстан",
+        "score": 6.378,
+        "rank": 43
+    },
+    {
+        "year": 2022,
+        "country": "Гватемала",
+        "score": 6.362,
+        "rank": 44
+    },
+    {
+        "year": 2022,
+        "country": "Чили",
+        "score": 6.361,
+        "rank": 45
+    },
+    {
+        "year": 2022,
+        "country": "Вьетнам",
+        "score": 6.352,
+        "rank": 46
+    },
+    {
+        "year": 2022,
+        "country": "Никарагуа",
+        "score": 6.33,
+        "rank": 47
+    },
+    {
+        "year": 2022,
+        "country": "Мальта",
+        "score": 6.316,
+        "rank": 48
+    },
+    {
+        "year": 2022,
+        "country": "Таиланд",
+        "score": 6.222,
+        "rank": 49
+    },
+    {
+        "year": 2022,
+        "country": "Словакия",
+        "score": 6.221,
+        "rank": 50
+    },
+    {
+        "year": 2022,
+        "country": "Латвия",
+        "score": 6.207,
+        "rank": 51
+    },
+    {
+        "year": 2022,
+        "country": "Оман",
+        "score": 6.197,
+        "rank": 52
+    },
+    {
+        "year": 2022,
+        "country": "Узбекистан",
+        "score": 6.193,
+        "rank": 53
+    },
+    {
+        "year": 2022,
+        "country": "Парагвай",
+        "score": 6.172,
+        "rank": 54
+    },
+    {
+        "year": 2022,
+        "country": "Япония",
+        "score": 6.147,
+        "rank": 55
+    },
+    {
+        "year": 2022,
+        "country": "Босния и Герцеговина",
+        "score": 6.136,
+        "rank": 56
+    },
+    {
+        "year": 2022,
+        "country": "Филиппины",
+        "score": 6.107,
+        "rank": 57
+    },
+    {
+        "year": 2022,
+        "country": "Южная Корея",
+        "score": 6.038,
+        "rank": 58
+    },
+    {
+        "year": 2022,
+        "country": "Бахрейн",
+        "score": 6.03,
+        "rank": 59
+    },
+    {
+        "year": 2022,
+        "country": "Португалия",
+        "score": 6.013,
+        "rank": 60
+    },
+    {
+        "year": 2022,
+        "country": "Колумбия",
+        "score": 6.004,
+        "rank": 61
+    },
+    {
+        "year": 2022,
+        "country": "Эквадор",
+        "score": 5.965,
+        "rank": 62
+    },
+    {
+        "year": 2022,
+        "country": "Гондурас",
+        "score": 5.964,
+        "rank": 63
+    },
+    {
+        "year": 2022,
+        "country": "Малайзия",
+        "score": 5.955,
+        "rank": 64
+    },
+    {
+        "year": 2022,
+        "country": "Перу",
+        "score": 5.947,
+        "rank": 65
+    },
+    {
+        "year": 2022,
+        "country": "Россия",
+        "score": 5.945,
+        "rank": 66
+    },
+    {
+        "year": 2022,
+        "country": "Кипр",
+        "score": 5.942,
+        "rank": 67
+    },
+    {
+        "year": 2022,
+        "country": "Китай",
+        "score": 5.921,
+        "rank": 68
+    },
+    {
+        "year": 2022,
+        "country": "Венгрия",
+        "score": 5.915,
+        "rank": 69
+    },
+    {
+        "year": 2022,
+        "country": "Тринидад и Тобаго",
+        "score": 5.905,
+        "rank": 70
+    },
+    {
+        "year": 2022,
+        "country": "Черногория",
+        "score": 5.877,
+        "rank": 71
+    },
+    {
+        "year": 2022,
+        "country": "Хорватия",
+        "score": 5.87,
+        "rank": 72
+    },
+    {
+        "year": 2022,
+        "country": "Ямайка",
+        "score": 5.87,
+        "rank": 72
+    },
+    {
+        "year": 2022,
+        "country": "Боливия",
+        "score": 5.868,
+        "rank": 73
+    },
+    {
+        "year": 2022,
+        "country": "Киргизия",
+        "score": 5.858,
+        "rank": 74
+    },
+    {
+        "year": 2022,
+        "country": "Доминиканская Республика",
+        "score": 5.846,
+        "rank": 75
+    },
+    {
+        "year": 2022,
+        "country": "Монголия",
+        "score": 5.833,
+        "rank": 76
+    },
+    {
+        "year": 2022,
+        "country": "Маврикий",
+        "score": 5.832,
+        "rank": 77
+    },
+    {
+        "year": 2022,
+        "country": "Ливия",
+        "score": 5.82,
+        "rank": 78
+    },
+    {
+        "year": 2022,
+        "country": "Молдова",
+        "score": 5.819,
+        "rank": 79
+    },
+    {
+        "year": 2022,
+        "country": "Греция",
+        "score": 5.776,
+        "rank": 80
+    },
+    {
+        "year": 2022,
+        "country": "Венесуэла",
+        "score": 5.683,
+        "rank": 81
+    },
+    {
+        "year": 2022,
+        "country": "Индонезия",
+        "score": 5.617,
+        "rank": 82
+    },
+    {
+        "year": 2022,
+        "country": "Алжир",
+        "score": 5.571,
+        "rank": 83
+    },
+    {
+        "year": 2022,
+        "country": "Болгария",
+        "score": 5.554,
+        "rank": 84
+    },
+    {
+        "year": 2022,
+        "country": "Северная Македония",
+        "score": 5.503,
+        "rank": 85
+    },
+    {
+        "year": 2022,
+        "country": "Армения",
+        "score": 5.494,
+        "rank": 86
+    },
+    {
+        "year": 2022,
+        "country": "Гонконг",
+        "score": 5.491,
+        "rank": 87
+    },
+    {
+        "year": 2022,
+        "country": "Албания",
+        "score": 5.411,
+        "rank": 88
+    },
+    {
+        "year": 2022,
+        "country": "Таджикистан",
+        "score": 5.411,
+        "rank": 88
+    },
+    {
+        "year": 2022,
+        "country": "Грузия",
+        "score": 5.4,
+        "rank": 89
+    },
+    {
+        "year": 2022,
+        "country": "Непал",
+        "score": 5.311,
+        "rank": 90
+    },
+    {
+        "year": 2022,
+        "country": "Лаос",
+        "score": 5.301,
+        "rank": 91
+    },
+    {
+        "year": 2022,
+        "country": "Турция",
+        "score": 5.262,
+        "rank": 92
+    },
+    {
+        "year": 2022,
+        "country": "ЮАР",
+        "score": 5.213,
+        "rank": 93
+    },
+    {
+        "year": 2022,
+        "country": "Мозамбик",
+        "score": 5.19,
+        "rank": 94
+    },
+    {
+        "year": 2022,
+        "country": "Габон",
+        "score": 5.12,
+        "rank": 95
+    },
+    {
+        "year": 2022,
+        "country": "Кот-д’Ивуар",
+        "score": 5.102,
+        "rank": 96
+    },
+    {
+        "year": 2022,
+        "country": "Иран",
+        "score": 5.093,
+        "rank": 97
+    },
+    {
+        "year": 2022,
+        "country": "Конго",
+        "score": 5.03,
+        "rank": 98
+    },
+    {
+        "year": 2022,
+        "country": "Ирак",
+        "score": 4.976,
+        "rank": 99
+    },
+    {
+        "year": 2022,
+        "country": "Гвинея",
+        "score": 4.929,
+        "rank": 100
+    },
+    {
+        "year": 2022,
+        "country": "Намибия",
+        "score": 4.911,
+        "rank": 101
+    },
+    {
+        "year": 2022,
+        "country": "Камерун",
+        "score": 4.887,
+        "rank": 102
+    },
+    {
+        "year": 2022,
+        "country": "Нигерия",
+        "score": 4.885,
+        "rank": 103
+    },
+    {
+        "year": 2022,
+        "country": "Азербайджан",
+        "score": 4.875,
+        "rank": 104
+    },
+    {
+        "year": 2022,
+        "country": "Сенегал",
+        "score": 4.856,
+        "rank": 105
+    },
+    {
+        "year": 2022,
+        "country": "Палестинские территории",
+        "score": 4.78,
+        "rank": 106
+    },
+    {
+        "year": 2022,
+        "country": "Пакистан",
+        "score": 4.768,
+        "rank": 107
+    },
+    {
+        "year": 2022,
+        "country": "Нигер",
+        "score": 4.725,
+        "rank": 108
+    },
+    {
+        "year": 2022,
+        "country": "Украина",
+        "score": 4.68,
+        "rank": 109
+    },
+    {
+        "year": 2022,
+        "country": "Марокко",
+        "score": 4.622,
+        "rank": 110
+    },
+    {
+        "year": 2022,
+        "country": "Тунис",
+        "score": 4.552,
+        "rank": 111
+    },
+    {
+        "year": 2022,
+        "country": "Мавритания",
+        "score": 4.542,
+        "rank": 112
+    },
+    {
+        "year": 2022,
+        "country": "Кения",
+        "score": 4.51,
+        "rank": 113
+    },
+    {
+        "year": 2022,
+        "country": "Уганда",
+        "score": 4.461,
+        "rank": 114
+    },
+    {
+        "year": 2022,
+        "country": "Гамбия",
+        "score": 4.423,
+        "rank": 115
+    },
+    {
+        "year": 2022,
+        "country": "Индия",
+        "score": 4.389,
+        "rank": 116
+    },
+    {
+        "year": 2022,
+        "country": "Чад",
+        "score": 4.384,
+        "rank": 117
+    },
+    {
+        "year": 2022,
+        "country": "Буркина-Фасо",
+        "score": 4.383,
+        "rank": 118
+    },
+    {
+        "year": 2022,
+        "country": "Бенин",
+        "score": 4.357,
+        "rank": 119
+    },
+    {
+        "year": 2022,
+        "country": "Сомали",
+        "score": 4.347,
+        "rank": 120
+    },
+    {
+        "year": 2022,
+        "country": "Мали",
+        "score": 4.345,
+        "rank": 121
+    },
+    {
+        "year": 2022,
+        "country": "Камбоджа",
+        "score": 4.341,
+        "rank": 122
+    },
+    {
+        "year": 2022,
+        "country": "Гана",
+        "score": 4.34,
+        "rank": 123
+    },
+    {
+        "year": 2022,
+        "country": "Мьянма",
+        "score": 4.321,
+        "rank": 124
+    },
+    {
+        "year": 2022,
+        "country": "Того",
+        "score": 4.315,
+        "rank": 125
+    },
+    {
+        "year": 2022,
+        "country": "Иордания",
+        "score": 4.31,
+        "rank": 126
+    },
+    {
+        "year": 2022,
+        "country": "Либерия",
+        "score": 4.277,
+        "rank": 127
+    },
+    {
+        "year": 2022,
+        "country": "Мадагаскар",
+        "score": 4.157,
+        "rank": 128
+    },
+    {
+        "year": 2022,
+        "country": "Замбия",
+        "score": 3.912,
+        "rank": 129
+    },
+    {
+        "year": 2022,
+        "country": "Эфиопия",
+        "score": 3.898,
+        "rank": 130
+    },
+    {
+        "year": 2022,
+        "country": "Шри-Ланка",
+        "score": 3.891,
+        "rank": 131
+    },
+    {
+        "year": 2022,
+        "country": "Бангладеш",
+        "score": 3.851,
+        "rank": 132
+    },
+    {
+        "year": 2022,
+        "country": "Египет",
+        "score": 3.817,
+        "rank": 133
+    },
+    {
+        "year": 2022,
+        "country": "Танзания",
+        "score": 3.8,
+        "rank": 134
+    },
+    {
+        "year": 2022,
+        "country": "Эсватини",
+        "score": 3.774,
+        "rank": 135
+    },
+    {
+        "year": 2022,
+        "country": "Лесото",
+        "score": 3.757,
+        "rank": 136
+    },
+    {
+        "year": 2022,
+        "country": "Коморские острова",
+        "score": 3.754,
+        "rank": 137
+    },
+    {
+        "year": 2022,
+        "country": "Йемен",
+        "score": 3.561,
+        "rank": 138
+    },
+    {
+        "year": 2022,
+        "country": "Конго ДР",
+        "score": 3.469,
+        "rank": 139
+    },
+    {
+        "year": 2022,
+        "country": "Ботсвана",
+        "score": 3.438,
+        "rank": 140
+    },
+    {
+        "year": 2022,
+        "country": "Зимбабве",
+        "score": 3.396,
+        "rank": 141
+    },
+    {
+        "year": 2022,
+        "country": "Малави",
+        "score": 3.26,
+        "rank": 142
+    },
+    {
+        "year": 2022,
+        "country": "Ливан",
+        "score": 3.188,
+        "rank": 143
+    },
+    {
+        "year": 2022,
+        "country": "Сьерра-Леоне",
+        "score": 2.998,
+        "rank": 144
+    },
+    {
+        "year": 2022,
+        "country": "Афганистан",
+        "score": 1.364,
+        "rank": 145
+    },
+    {
+        "year": 2023,
+        "country": "Финляндия",
+        "score": 7.736,
+        "rank": 1
+    },
+    {
+        "year": 2023,
+        "country": "Дания",
+        "score": 7.521,
+        "rank": 2
+    },
+    {
+        "year": 2023,
+        "country": "Исландия",
+        "score": 7.515,
+        "rank": 3
+    },
+    {
+        "year": 2023,
+        "country": "Швеция",
+        "score": 7.345,
+        "rank": 4
+    },
+    {
+        "year": 2023,
+        "country": "Нидерланды",
+        "score": 7.306,
+        "rank": 5
+    },
+    {
+        "year": 2023,
+        "country": "Коста-Рика",
+        "score": 7.274,
+        "rank": 6
+    },
+    {
+        "year": 2023,
+        "country": "Норвегия",
+        "score": 7.262,
+        "rank": 7
+    },
+    {
+        "year": 2023,
+        "country": "Израиль",
+        "score": 7.234,
+        "rank": 8
+    },
+    {
+        "year": 2023,
+        "country": "Люксембург",
+        "score": 7.122,
+        "rank": 9
+    },
+    {
+        "year": 2023,
+        "country": "Мексика",
+        "score": 6.979,
+        "rank": 10
+    },
+    {
+        "year": 2023,
+        "country": "Австралия",
+        "score": 6.974,
+        "rank": 11
+    },
+    {
+        "year": 2023,
+        "country": "Новая Зеландия",
+        "score": 6.952,
+        "rank": 12
+    },
+    {
+        "year": 2023,
+        "country": "Швейцария",
+        "score": 6.935,
+        "rank": 13
+    },
+    {
+        "year": 2023,
+        "country": "Бельгия",
+        "score": 6.91,
+        "rank": 14
+    },
+    {
+        "year": 2023,
+        "country": "Ирландия",
+        "score": 6.889,
+        "rank": 15
+    },
+    {
+        "year": 2023,
+        "country": "Литва",
+        "score": 6.829,
+        "rank": 16
+    },
+    {
+        "year": 2023,
+        "country": "Австрия",
+        "score": 6.81,
+        "rank": 17
+    },
+    {
+        "year": 2023,
+        "country": "Канада",
+        "score": 6.803,
+        "rank": 18
+    },
+    {
+        "year": 2023,
+        "country": "Словения",
+        "score": 6.792,
+        "rank": 19
+    },
+    {
+        "year": 2023,
+        "country": "Чехия",
+        "score": 6.775,
+        "rank": 20
+    },
+    {
+        "year": 2023,
+        "country": "ОАЭ",
+        "score": 6.759,
+        "rank": 21
+    },
+    {
+        "year": 2023,
+        "country": "Германия",
+        "score": 6.753,
+        "rank": 22
+    },
+    {
+        "year": 2023,
+        "country": "Великобритания",
+        "score": 6.728,
+        "rank": 23
+    },
+    {
+        "year": 2023,
+        "country": "США",
+        "score": 6.724,
+        "rank": 24
+    },
+    {
+        "year": 2023,
+        "country": "Белиз",
+        "score": 6.711,
+        "rank": 25
+    },
+    {
+        "year": 2023,
+        "country": "Польша",
+        "score": 6.673,
+        "rank": 26
+    },
+    {
+        "year": 2023,
+        "country": "Тайвань",
+        "score": 6.669,
+        "rank": 27
+    },
+    {
+        "year": 2023,
+        "country": "Уругвай",
+        "score": 6.661,
+        "rank": 28
+    },
+    {
+        "year": 2023,
+        "country": "Косово",
+        "score": 6.659,
+        "rank": 29
+    },
+    {
+        "year": 2023,
+        "country": "Кувейт",
+        "score": 6.629,
+        "rank": 30
+    },
+    {
+        "year": 2023,
+        "country": "Сербия",
+        "score": 6.606,
+        "rank": 31
+    },
+    {
+        "year": 2023,
+        "country": "Саудовская Аравия",
+        "score": 6.6,
+        "rank": 32
+    },
+    {
+        "year": 2023,
+        "country": "Франция",
+        "score": 6.593,
+        "rank": 33
+    },
+    {
+        "year": 2023,
+        "country": "Сингапур",
+        "score": 6.565,
+        "rank": 34
+    },
+    {
+        "year": 2023,
+        "country": "Румыния",
+        "score": 6.563,
+        "rank": 35
+    },
+    {
+        "year": 2023,
+        "country": "Бразилия",
+        "score": 6.494,
+        "rank": 36
+    },
+    {
+        "year": 2023,
+        "country": "Сальвадор",
+        "score": 6.492,
+        "rank": 37
+    },
+    {
+        "year": 2023,
+        "country": "Испания",
+        "score": 6.466,
+        "rank": 38
+    },
+    {
+        "year": 2023,
+        "country": "Эстония",
+        "score": 6.417,
+        "rank": 39
+    },
+    {
+        "year": 2023,
+        "country": "Италия",
+        "score": 6.415,
+        "rank": 40
+    },
+    {
+        "year": 2023,
+        "country": "Панама",
+        "score": 6.407,
+        "rank": 41
+    },
+    {
+        "year": 2023,
+        "country": "Аргентина",
+        "score": 6.397,
+        "rank": 42
+    },
+    {
+        "year": 2023,
+        "country": "Казахстан",
+        "score": 6.378,
+        "rank": 43
+    },
+    {
+        "year": 2023,
+        "country": "Гватемала",
+        "score": 6.362,
+        "rank": 44
+    },
+    {
+        "year": 2023,
+        "country": "Чили",
+        "score": 6.361,
+        "rank": 45
+    },
+    {
+        "year": 2023,
+        "country": "Вьетнам",
+        "score": 6.352,
+        "rank": 46
+    },
+    {
+        "year": 2023,
+        "country": "Никарагуа",
+        "score": 6.33,
+        "rank": 47
+    },
+    {
+        "year": 2023,
+        "country": "Мальта",
+        "score": 6.316,
+        "rank": 48
+    },
+    {
+        "year": 2023,
+        "country": "Таиланд",
+        "score": 6.222,
+        "rank": 49
+    },
+    {
+        "year": 2023,
+        "country": "Словакия",
+        "score": 6.221,
+        "rank": 50
+    },
+    {
+        "year": 2023,
+        "country": "Латвия",
+        "score": 6.207,
+        "rank": 51
+    },
+    {
+        "year": 2023,
+        "country": "Оман",
+        "score": 6.197,
+        "rank": 52
+    },
+    {
+        "year": 2023,
+        "country": "Узбекистан",
+        "score": 6.193,
+        "rank": 53
+    },
+    {
+        "year": 2023,
+        "country": "Парагвай",
+        "score": 6.172,
+        "rank": 54
+    },
+    {
+        "year": 2023,
+        "country": "Япония",
+        "score": 6.147,
+        "rank": 55
+    },
+    {
+        "year": 2023,
+        "country": "Босния и Герцеговина",
+        "score": 6.136,
+        "rank": 56
+    },
+    {
+        "year": 2023,
+        "country": "Филиппины",
+        "score": 6.107,
+        "rank": 57
+    },
+    {
+        "year": 2023,
+        "country": "Южная Корея",
+        "score": 6.038,
+        "rank": 58
+    },
+    {
+        "year": 2023,
+        "country": "Бахрейн",
+        "score": 6.03,
+        "rank": 59
+    },
+    {
+        "year": 2023,
+        "country": "Португалия",
+        "score": 6.013,
+        "rank": 60
+    },
+    {
+        "year": 2023,
+        "country": "Колумбия",
+        "score": 6.004,
+        "rank": 61
+    },
+    {
+        "year": 2023,
+        "country": "Эквадор",
+        "score": 5.965,
+        "rank": 62
+    },
+    {
+        "year": 2023,
+        "country": "Гондурас",
+        "score": 5.964,
+        "rank": 63
+    },
+    {
+        "year": 2023,
+        "country": "Малайзия",
+        "score": 5.955,
+        "rank": 64
+    },
+    {
+        "year": 2023,
+        "country": "Перу",
+        "score": 5.947,
+        "rank": 65
+    },
+    {
+        "year": 2023,
+        "country": "Россия",
+        "score": 5.945,
+        "rank": 66
+    },
+    {
+        "year": 2023,
+        "country": "Кипр",
+        "score": 5.942,
+        "rank": 67
+    },
+    {
+        "year": 2023,
+        "country": "Китай",
+        "score": 5.921,
+        "rank": 68
+    },
+    {
+        "year": 2023,
+        "country": "Венгрия",
+        "score": 5.915,
+        "rank": 69
+    },
+    {
+        "year": 2023,
+        "country": "Тринидад и Тобаго",
+        "score": 5.905,
+        "rank": 70
+    },
+    {
+        "year": 2023,
+        "country": "Черногория",
+        "score": 5.877,
+        "rank": 71
+    },
+    {
+        "year": 2023,
+        "country": "Хорватия",
+        "score": 5.87,
+        "rank": 72
+    },
+    {
+        "year": 2023,
+        "country": "Ямайка",
+        "score": 5.87,
+        "rank": 72
+    },
+    {
+        "year": 2023,
+        "country": "Боливия",
+        "score": 5.868,
+        "rank": 73
+    },
+    {
+        "year": 2023,
+        "country": "Киргизия",
+        "score": 5.858,
+        "rank": 74
+    },
+    {
+        "year": 2023,
+        "country": "Доминиканская Республика",
+        "score": 5.846,
+        "rank": 75
+    },
+    {
+        "year": 2023,
+        "country": "Монголия",
+        "score": 5.833,
+        "rank": 76
+    },
+    {
+        "year": 2023,
+        "country": "Маврикий",
+        "score": 5.832,
+        "rank": 77
+    },
+    {
+        "year": 2023,
+        "country": "Ливия",
+        "score": 5.82,
+        "rank": 78
+    },
+    {
+        "year": 2023,
+        "country": "Молдова",
+        "score": 5.819,
+        "rank": 79
+    },
+    {
+        "year": 2023,
+        "country": "Греция",
+        "score": 5.776,
+        "rank": 80
+    },
+    {
+        "year": 2023,
+        "country": "Венесуэла",
+        "score": 5.683,
+        "rank": 81
+    },
+    {
+        "year": 2023,
+        "country": "Индонезия",
+        "score": 5.617,
+        "rank": 82
+    },
+    {
+        "year": 2023,
+        "country": "Алжир",
+        "score": 5.571,
+        "rank": 83
+    },
+    {
+        "year": 2023,
+        "country": "Болгария",
+        "score": 5.554,
+        "rank": 84
+    },
+    {
+        "year": 2023,
+        "country": "Северная Македония",
+        "score": 5.503,
+        "rank": 85
+    },
+    {
+        "year": 2023,
+        "country": "Армения",
+        "score": 5.494,
+        "rank": 86
+    },
+    {
+        "year": 2023,
+        "country": "Гонконг",
+        "score": 5.491,
+        "rank": 87
+    },
+    {
+        "year": 2023,
+        "country": "Албания",
+        "score": 5.411,
+        "rank": 88
+    },
+    {
+        "year": 2023,
+        "country": "Таджикистан",
+        "score": 5.411,
+        "rank": 88
+    },
+    {
+        "year": 2023,
+        "country": "Грузия",
+        "score": 5.4,
+        "rank": 89
+    },
+    {
+        "year": 2023,
+        "country": "Непал",
+        "score": 5.311,
+        "rank": 90
+    },
+    {
+        "year": 2023,
+        "country": "Лаос",
+        "score": 5.301,
+        "rank": 91
+    },
+    {
+        "year": 2023,
+        "country": "Турция",
+        "score": 5.262,
+        "rank": 92
+    },
+    {
+        "year": 2023,
+        "country": "ЮАР",
+        "score": 5.213,
+        "rank": 93
+    },
+    {
+        "year": 2023,
+        "country": "Мозамбик",
+        "score": 5.19,
+        "rank": 94
+    },
+    {
+        "year": 2023,
+        "country": "Габон",
+        "score": 5.12,
+        "rank": 95
+    },
+    {
+        "year": 2023,
+        "country": "Кот-д’Ивуар",
+        "score": 5.102,
+        "rank": 96
+    },
+    {
+        "year": 2023,
+        "country": "Иран",
+        "score": 5.093,
+        "rank": 97
+    },
+    {
+        "year": 2023,
+        "country": "Конго",
+        "score": 5.03,
+        "rank": 98
+    },
+    {
+        "year": 2023,
+        "country": "Ирак",
+        "score": 4.976,
+        "rank": 99
+    },
+    {
+        "year": 2023,
+        "country": "Гвинея",
+        "score": 4.929,
+        "rank": 100
+    },
+    {
+        "year": 2023,
+        "country": "Намибия",
+        "score": 4.911,
+        "rank": 101
+    },
+    {
+        "year": 2023,
+        "country": "Камерун",
+        "score": 4.887,
+        "rank": 102
+    },
+    {
+        "year": 2023,
+        "country": "Нигерия",
+        "score": 4.885,
+        "rank": 103
+    },
+    {
+        "year": 2023,
+        "country": "Азербайджан",
+        "score": 4.875,
+        "rank": 104
+    },
+    {
+        "year": 2023,
+        "country": "Сенегал",
+        "score": 4.856,
+        "rank": 105
+    },
+    {
+        "year": 2023,
+        "country": "Палестинские территории",
+        "score": 4.78,
+        "rank": 106
+    },
+    {
+        "year": 2023,
+        "country": "Пакистан",
+        "score": 4.768,
+        "rank": 107
+    },
+    {
+        "year": 2023,
+        "country": "Нигер",
+        "score": 4.725,
+        "rank": 108
+    },
+    {
+        "year": 2023,
+        "country": "Украина",
+        "score": 4.68,
+        "rank": 109
+    },
+    {
+        "year": 2023,
+        "country": "Марокко",
+        "score": 4.622,
+        "rank": 110
+    },
+    {
+        "year": 2023,
+        "country": "Тунис",
+        "score": 4.552,
+        "rank": 111
+    },
+    {
+        "year": 2023,
+        "country": "Мавритания",
+        "score": 4.542,
+        "rank": 112
+    },
+    {
+        "year": 2023,
+        "country": "Кения",
+        "score": 4.51,
+        "rank": 113
+    },
+    {
+        "year": 2023,
+        "country": "Уганда",
+        "score": 4.461,
+        "rank": 114
+    },
+    {
+        "year": 2023,
+        "country": "Гамбия",
+        "score": 4.423,
+        "rank": 115
+    },
+    {
+        "year": 2023,
+        "country": "Индия",
+        "score": 4.389,
+        "rank": 116
+    },
+    {
+        "year": 2023,
+        "country": "Чад",
+        "score": 4.384,
+        "rank": 117
+    },
+    {
+        "year": 2023,
+        "country": "Буркина-Фасо",
+        "score": 4.383,
+        "rank": 118
+    },
+    {
+        "year": 2023,
+        "country": "Бенин",
+        "score": 4.357,
+        "rank": 119
+    },
+    {
+        "year": 2023,
+        "country": "Сомали",
+        "score": 4.347,
+        "rank": 120
+    },
+    {
+        "year": 2023,
+        "country": "Мали",
+        "score": 4.345,
+        "rank": 121
+    },
+    {
+        "year": 2023,
+        "country": "Камбоджа",
+        "score": 4.341,
+        "rank": 122
+    },
+    {
+        "year": 2023,
+        "country": "Гана",
+        "score": 4.34,
+        "rank": 123
+    },
+    {
+        "year": 2023,
+        "country": "Мьянма",
+        "score": 4.321,
+        "rank": 124
+    },
+    {
+        "year": 2023,
+        "country": "Того",
+        "score": 4.315,
+        "rank": 125
+    },
+    {
+        "year": 2023,
+        "country": "Иордания",
+        "score": 4.31,
+        "rank": 126
+    },
+    {
+        "year": 2023,
+        "country": "Либерия",
+        "score": 4.277,
+        "rank": 127
+    },
+    {
+        "year": 2023,
+        "country": "Мадагаскар",
+        "score": 4.157,
+        "rank": 128
+    },
+    {
+        "year": 2023,
+        "country": "Замбия",
+        "score": 3.912,
+        "rank": 129
+    },
+    {
+        "year": 2023,
+        "country": "Эфиопия",
+        "score": 3.898,
+        "rank": 130
+    },
+    {
+        "year": 2023,
+        "country": "Шри-Ланка",
+        "score": 3.891,
+        "rank": 131
+    },
+    {
+        "year": 2023,
+        "country": "Бангладеш",
+        "score": 3.851,
+        "rank": 132
+    },
+    {
+        "year": 2023,
+        "country": "Египет",
+        "score": 3.817,
+        "rank": 133
+    },
+    {
+        "year": 2023,
+        "country": "Танзания",
+        "score": 3.8,
+        "rank": 134
+    },
+    {
+        "year": 2023,
+        "country": "Эсватини",
+        "score": 3.774,
+        "rank": 135
+    },
+    {
+        "year": 2023,
+        "country": "Лесото",
+        "score": 3.757,
+        "rank": 136
+    },
+    {
+        "year": 2023,
+        "country": "Коморские острова",
+        "score": 3.754,
+        "rank": 137
+    },
+    {
+        "year": 2023,
+        "country": "Йемен",
+        "score": 3.561,
+        "rank": 138
+    },
+    {
+        "year": 2023,
+        "country": "Конго ДР",
+        "score": 3.469,
+        "rank": 139
+    },
+    {
+        "year": 2023,
+        "country": "Ботсвана",
+        "score": 3.438,
+        "rank": 140
+    },
+    {
+        "year": 2023,
+        "country": "Зимбабве",
+        "score": 3.396,
+        "rank": 141
+    },
+    {
+        "year": 2023,
+        "country": "Малави",
+        "score": 3.26,
+        "rank": 142
+    },
+    {
+        "year": 2023,
+        "country": "Ливан",
+        "score": 3.188,
+        "rank": 143
+    },
+    {
+        "year": 2023,
+        "country": "Сьерра-Леоне",
+        "score": 2.998,
+        "rank": 144
+    },
+    {
+        "year": 2023,
+        "country": "Афганистан",
+        "score": 1.364,
+        "rank": 145
+    },
+    {
+        "year": 2024,
+        "country": "Финляндия",
+        "score": 7.736,
+        "rank": 1
+    },
+    {
+        "year": 2024,
+        "country": "Дания",
+        "score": 7.521,
+        "rank": 2
+    },
+    {
+        "year": 2024,
+        "country": "Исландия",
+        "score": 7.515,
+        "rank": 3
+    },
+    {
+        "year": 2024,
+        "country": "Швеция",
+        "score": 7.345,
+        "rank": 4
+    },
+    {
+        "year": 2024,
+        "country": "Нидерланды",
+        "score": 7.306,
+        "rank": 5
+    },
+    {
+        "year": 2024,
+        "country": "Коста-Рика",
+        "score": 7.274,
+        "rank": 6
+    },
+    {
+        "year": 2024,
+        "country": "Норвегия",
+        "score": 7.262,
+        "rank": 7
+    },
+    {
+        "year": 2024,
+        "country": "Израиль",
+        "score": 7.234,
+        "rank": 8
+    },
+    {
+        "year": 2024,
+        "country": "Люксембург",
+        "score": 7.122,
+        "rank": 9
+    },
+    {
+        "year": 2024,
+        "country": "Мексика",
+        "score": 6.979,
+        "rank": 10
+    },
+    {
+        "year": 2024,
+        "country": "Австралия",
+        "score": 6.974,
+        "rank": 11
+    },
+    {
+        "year": 2024,
+        "country": "Новая Зеландия",
+        "score": 6.952,
+        "rank": 12
+    },
+    {
+        "year": 2024,
+        "country": "Швейцария",
+        "score": 6.935,
+        "rank": 13
+    },
+    {
+        "year": 2024,
+        "country": "Бельгия",
+        "score": 6.91,
+        "rank": 14
+    },
+    {
+        "year": 2024,
+        "country": "Ирландия",
+        "score": 6.889,
+        "rank": 15
+    },
+    {
+        "year": 2024,
+        "country": "Литва",
+        "score": 6.829,
+        "rank": 16
+    },
+    {
+        "year": 2024,
+        "country": "Австрия",
+        "score": 6.81,
+        "rank": 17
+    },
+    {
+        "year": 2024,
+        "country": "Канада",
+        "score": 6.803,
+        "rank": 18
+    },
+    {
+        "year": 2024,
+        "country": "Словения",
+        "score": 6.792,
+        "rank": 19
+    },
+    {
+        "year": 2024,
+        "country": "Чехия",
+        "score": 6.775,
+        "rank": 20
+    },
+    {
+        "year": 2024,
+        "country": "ОАЭ",
+        "score": 6.759,
+        "rank": 21
+    },
+    {
+        "year": 2024,
+        "country": "Германия",
+        "score": 6.753,
+        "rank": 22
+    },
+    {
+        "year": 2024,
+        "country": "Великобритания",
+        "score": 6.728,
+        "rank": 23
+    },
+    {
+        "year": 2024,
+        "country": "США",
+        "score": 6.724,
+        "rank": 24
+    },
+    {
+        "year": 2024,
+        "country": "Белиз",
+        "score": 6.711,
+        "rank": 25
+    },
+    {
+        "year": 2024,
+        "country": "Польша",
+        "score": 6.673,
+        "rank": 26
+    },
+    {
+        "year": 2024,
+        "country": "Тайвань",
+        "score": 6.669,
+        "rank": 27
+    },
+    {
+        "year": 2024,
+        "country": "Уругвай",
+        "score": 6.661,
+        "rank": 28
+    },
+    {
+        "year": 2024,
+        "country": "Косово",
+        "score": 6.659,
+        "rank": 29
+    },
+    {
+        "year": 2024,
+        "country": "Кувейт",
+        "score": 6.629,
+        "rank": 30
+    },
+    {
+        "year": 2024,
+        "country": "Сербия",
+        "score": 6.606,
+        "rank": 31
+    },
+    {
+        "year": 2024,
+        "country": "Саудовская Аравия",
+        "score": 6.6,
+        "rank": 32
+    },
+    {
+        "year": 2024,
+        "country": "Франция",
+        "score": 6.593,
+        "rank": 33
+    },
+    {
+        "year": 2024,
+        "country": "Сингапур",
+        "score": 6.565,
+        "rank": 34
+    },
+    {
+        "year": 2024,
+        "country": "Румыния",
+        "score": 6.563,
+        "rank": 35
+    },
+    {
+        "year": 2024,
+        "country": "Бразилия",
+        "score": 6.494,
+        "rank": 36
+    },
+    {
+        "year": 2024,
+        "country": "Сальвадор",
+        "score": 6.492,
+        "rank": 37
+    },
+    {
+        "year": 2024,
+        "country": "Испания",
+        "score": 6.466,
+        "rank": 38
+    },
+    {
+        "year": 2024,
+        "country": "Эстония",
+        "score": 6.417,
+        "rank": 39
+    },
+    {
+        "year": 2024,
+        "country": "Италия",
+        "score": 6.415,
+        "rank": 40
+    },
+    {
+        "year": 2024,
+        "country": "Панама",
+        "score": 6.407,
+        "rank": 41
+    },
+    {
+        "year": 2024,
+        "country": "Аргентина",
+        "score": 6.397,
+        "rank": 42
+    },
+    {
+        "year": 2024,
+        "country": "Казахстан",
+        "score": 6.378,
+        "rank": 43
+    },
+    {
+        "year": 2024,
+        "country": "Гватемала",
+        "score": 6.362,
+        "rank": 44
+    },
+    {
+        "year": 2024,
+        "country": "Чили",
+        "score": 6.361,
+        "rank": 45
+    },
+    {
+        "year": 2024,
+        "country": "Вьетнам",
+        "score": 6.352,
+        "rank": 46
+    },
+    {
+        "year": 2024,
+        "country": "Никарагуа",
+        "score": 6.33,
+        "rank": 47
+    },
+    {
+        "year": 2024,
+        "country": "Мальта",
+        "score": 6.316,
+        "rank": 48
+    },
+    {
+        "year": 2024,
+        "country": "Таиланд",
+        "score": 6.222,
+        "rank": 49
+    },
+    {
+        "year": 2024,
+        "country": "Словакия",
+        "score": 6.221,
+        "rank": 50
+    },
+    {
+        "year": 2024,
+        "country": "Латвия",
+        "score": 6.207,
+        "rank": 51
+    },
+    {
+        "year": 2024,
+        "country": "Оман",
+        "score": 6.197,
+        "rank": 52
+    },
+    {
+        "year": 2024,
+        "country": "Узбекистан",
+        "score": 6.193,
+        "rank": 53
+    },
+    {
+        "year": 2024,
+        "country": "Парагвай",
+        "score": 6.172,
+        "rank": 54
+    },
+    {
+        "year": 2024,
+        "country": "Япония",
+        "score": 6.147,
+        "rank": 55
+    },
+    {
+        "year": 2024,
+        "country": "Босния и Герцеговина",
+        "score": 6.136,
+        "rank": 56
+    },
+    {
+        "year": 2024,
+        "country": "Филиппины",
+        "score": 6.107,
+        "rank": 57
+    },
+    {
+        "year": 2024,
+        "country": "Южная Корея",
+        "score": 6.038,
+        "rank": 58
+    },
+    {
+        "year": 2024,
+        "country": "Бахрейн",
+        "score": 6.03,
+        "rank": 59
+    },
+    {
+        "year": 2024,
+        "country": "Португалия",
+        "score": 6.013,
+        "rank": 60
+    },
+    {
+        "year": 2024,
+        "country": "Колумбия",
+        "score": 6.004,
+        "rank": 61
+    },
+    {
+        "year": 2024,
+        "country": "Эквадор",
+        "score": 5.965,
+        "rank": 62
+    },
+    {
+        "year": 2024,
+        "country": "Гондурас",
+        "score": 5.964,
+        "rank": 63
+    },
+    {
+        "year": 2024,
+        "country": "Малайзия",
+        "score": 5.955,
+        "rank": 64
+    },
+    {
+        "year": 2024,
+        "country": "Перу",
+        "score": 5.947,
+        "rank": 65
+    },
+    {
+        "year": 2024,
+        "country": "Россия",
+        "score": 5.945,
+        "rank": 66
+    },
+    {
+        "year": 2024,
+        "country": "Кипр",
+        "score": 5.942,
+        "rank": 67
+    },
+    {
+        "year": 2024,
+        "country": "Китай",
+        "score": 5.921,
+        "rank": 68
+    },
+    {
+        "year": 2024,
+        "country": "Венгрия",
+        "score": 5.915,
+        "rank": 69
+    },
+    {
+        "year": 2024,
+        "country": "Тринидад и Тобаго",
+        "score": 5.905,
+        "rank": 70
+    },
+    {
+        "year": 2024,
+        "country": "Черногория",
+        "score": 5.877,
+        "rank": 71
+    },
+    {
+        "year": 2024,
+        "country": "Хорватия",
+        "score": 5.87,
+        "rank": 72
+    },
+    {
+        "year": 2024,
+        "country": "Ямайка",
+        "score": 5.87,
+        "rank": 72
+    },
+    {
+        "year": 2024,
+        "country": "Боливия",
+        "score": 5.868,
+        "rank": 73
+    },
+    {
+        "year": 2024,
+        "country": "Киргизия",
+        "score": 5.858,
+        "rank": 74
+    },
+    {
+        "year": 2024,
+        "country": "Доминиканская Республика",
+        "score": 5.846,
+        "rank": 75
+    },
+    {
+        "year": 2024,
+        "country": "Монголия",
+        "score": 5.833,
+        "rank": 76
+    },
+    {
+        "year": 2024,
+        "country": "Маврикий",
+        "score": 5.832,
+        "rank": 77
+    },
+    {
+        "year": 2024,
+        "country": "Ливия",
+        "score": 5.82,
+        "rank": 78
+    },
+    {
+        "year": 2024,
+        "country": "Молдова",
+        "score": 5.819,
+        "rank": 79
+    },
+    {
+        "year": 2024,
+        "country": "Греция",
+        "score": 5.776,
+        "rank": 80
+    },
+    {
+        "year": 2024,
+        "country": "Венесуэла",
+        "score": 5.683,
+        "rank": 81
+    },
+    {
+        "year": 2024,
+        "country": "Индонезия",
+        "score": 5.617,
+        "rank": 82
+    },
+    {
+        "year": 2024,
+        "country": "Алжир",
+        "score": 5.571,
+        "rank": 83
+    },
+    {
+        "year": 2024,
+        "country": "Болгария",
+        "score": 5.554,
+        "rank": 84
+    },
+    {
+        "year": 2024,
+        "country": "Северная Македония",
+        "score": 5.503,
+        "rank": 85
+    },
+    {
+        "year": 2024,
+        "country": "Армения",
+        "score": 5.494,
+        "rank": 86
+    },
+    {
+        "year": 2024,
+        "country": "Гонконг",
+        "score": 5.491,
+        "rank": 87
+    },
+    {
+        "year": 2024,
+        "country": "Албания",
+        "score": 5.411,
+        "rank": 88
+    },
+    {
+        "year": 2024,
+        "country": "Таджикистан",
+        "score": 5.411,
+        "rank": 88
+    },
+    {
+        "year": 2024,
+        "country": "Грузия",
+        "score": 5.4,
+        "rank": 89
+    },
+    {
+        "year": 2024,
+        "country": "Непал",
+        "score": 5.311,
+        "rank": 90
+    },
+    {
+        "year": 2024,
+        "country": "Лаос",
+        "score": 5.301,
+        "rank": 91
+    },
+    {
+        "year": 2024,
+        "country": "Турция",
+        "score": 5.262,
+        "rank": 92
+    },
+    {
+        "year": 2024,
+        "country": "ЮАР",
+        "score": 5.213,
+        "rank": 93
+    },
+    {
+        "year": 2024,
+        "country": "Мозамбик",
+        "score": 5.19,
+        "rank": 94
+    },
+    {
+        "year": 2024,
+        "country": "Габон",
+        "score": 5.12,
+        "rank": 95
+    },
+    {
+        "year": 2024,
+        "country": "Кот-д’Ивуар",
+        "score": 5.102,
+        "rank": 96
+    },
+    {
+        "year": 2024,
+        "country": "Иран",
+        "score": 5.093,
+        "rank": 97
+    },
+    {
+        "year": 2024,
+        "country": "Конго",
+        "score": 5.03,
+        "rank": 98
+    },
+    {
+        "year": 2024,
+        "country": "Ирак",
+        "score": 4.976,
+        "rank": 99
+    },
+    {
+        "year": 2024,
+        "country": "Гвинея",
+        "score": 4.929,
+        "rank": 100
+    },
+    {
+        "year": 2024,
+        "country": "Намибия",
+        "score": 4.911,
+        "rank": 101
+    },
+    {
+        "year": 2024,
+        "country": "Камерун",
+        "score": 4.887,
+        "rank": 102
+    },
+    {
+        "year": 2024,
+        "country": "Нигерия",
+        "score": 4.885,
+        "rank": 103
+    },
+    {
+        "year": 2024,
+        "country": "Азербайджан",
+        "score": 4.875,
+        "rank": 104
+    },
+    {
+        "year": 2024,
+        "country": "Сенегал",
+        "score": 4.856,
+        "rank": 105
+    },
+    {
+        "year": 2024,
+        "country": "Палестинские территории",
+        "score": 4.78,
+        "rank": 106
+    },
+    {
+        "year": 2024,
+        "country": "Пакистан",
+        "score": 4.768,
+        "rank": 107
+    },
+    {
+        "year": 2024,
+        "country": "Нигер",
+        "score": 4.725,
+        "rank": 108
+    },
+    {
+        "year": 2024,
+        "country": "Украина",
+        "score": 4.68,
+        "rank": 109
+    },
+    {
+        "year": 2024,
+        "country": "Марокко",
+        "score": 4.622,
+        "rank": 110
+    },
+    {
+        "year": 2024,
+        "country": "Тунис",
+        "score": 4.552,
+        "rank": 111
+    },
+    {
+        "year": 2024,
+        "country": "Мавритания",
+        "score": 4.542,
+        "rank": 112
+    },
+    {
+        "year": 2024,
+        "country": "Кения",
+        "score": 4.51,
+        "rank": 113
+    },
+    {
+        "year": 2024,
+        "country": "Уганда",
+        "score": 4.461,
+        "rank": 114
+    },
+    {
+        "year": 2024,
+        "country": "Гамбия",
+        "score": 4.423,
+        "rank": 115
+    },
+    {
+        "year": 2024,
+        "country": "Индия",
+        "score": 4.389,
+        "rank": 116
+    },
+    {
+        "year": 2024,
+        "country": "Чад",
+        "score": 4.384,
+        "rank": 117
+    },
+    {
+        "year": 2024,
+        "country": "Буркина-Фасо",
+        "score": 4.383,
+        "rank": 118
+    },
+    {
+        "year": 2024,
+        "country": "Бенин",
+        "score": 4.357,
+        "rank": 119
+    },
+    {
+        "year": 2024,
+        "country": "Сомали",
+        "score": 4.347,
+        "rank": 120
+    },
+    {
+        "year": 2024,
+        "country": "Мали",
+        "score": 4.345,
+        "rank": 121
+    },
+    {
+        "year": 2024,
+        "country": "Камбоджа",
+        "score": 4.341,
+        "rank": 122
+    },
+    {
+        "year": 2024,
+        "country": "Гана",
+        "score": 4.34,
+        "rank": 123
+    },
+    {
+        "year": 2024,
+        "country": "Мьянма",
+        "score": 4.321,
+        "rank": 124
+    },
+    {
+        "year": 2024,
+        "country": "Того",
+        "score": 4.315,
+        "rank": 125
+    },
+    {
+        "year": 2024,
+        "country": "Иордания",
+        "score": 4.31,
+        "rank": 126
+    },
+    {
+        "year": 2024,
+        "country": "Либерия",
+        "score": 4.277,
+        "rank": 127
+    },
+    {
+        "year": 2024,
+        "country": "Мадагаскар",
+        "score": 4.157,
+        "rank": 128
+    },
+    {
+        "year": 2024,
+        "country": "Замбия",
+        "score": 3.912,
+        "rank": 129
+    },
+    {
+        "year": 2024,
+        "country": "Эфиопия",
+        "score": 3.898,
+        "rank": 130
+    },
+    {
+        "year": 2024,
+        "country": "Шри-Ланка",
+        "score": 3.891,
+        "rank": 131
+    },
+    {
+        "year": 2024,
+        "country": "Бангладеш",
+        "score": 3.851,
+        "rank": 132
+    },
+    {
+        "year": 2024,
+        "country": "Египет",
+        "score": 3.817,
+        "rank": 133
+    },
+    {
+        "year": 2024,
+        "country": "Танзания",
+        "score": 3.8,
+        "rank": 134
+    },
+    {
+        "year": 2024,
+        "country": "Эсватини",
+        "score": 3.774,
+        "rank": 135
+    },
+    {
+        "year": 2024,
+        "country": "Лесото",
+        "score": 3.757,
+        "rank": 136
+    },
+    {
+        "year": 2024,
+        "country": "Коморские острова",
+        "score": 3.754,
+        "rank": 137
+    },
+    {
+        "year": 2024,
+        "country": "Йемен",
+        "score": 3.561,
+        "rank": 138
+    },
+    {
+        "year": 2024,
+        "country": "Конго ДР",
+        "score": 3.469,
+        "rank": 139
+    },
+    {
+        "year": 2024,
+        "country": "Ботсвана",
+        "score": 3.438,
+        "rank": 140
+    },
+    {
+        "year": 2024,
+        "country": "Зимбабве",
+        "score": 3.396,
+        "rank": 141
+    },
+    {
+        "year": 2024,
+        "country": "Малави",
+        "score": 3.26,
+        "rank": 142
+    },
+    {
+        "year": 2024,
+        "country": "Ливан",
+        "score": 3.188,
+        "rank": 143
+    },
+    {
+        "year": 2024,
+        "country": "Сьерра-Леоне",
+        "score": 2.998,
+        "rank": 144
+    },
+    {
+        "year": 2024,
+        "country": "Афганистан",
+        "score": 1.364,
+        "rank": 145
+    }
+]
