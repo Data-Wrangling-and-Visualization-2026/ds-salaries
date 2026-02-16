@@ -11,6 +11,9 @@ const metricKeys: MetricKey[] = [
   "composite_score"
 ];
 
+const formatMaybe = (value: number, formatter: (value: number) => string) =>
+  Number.isFinite(value) ? formatter(value) : "N/A";
+
 type Props = {
   data: CountryMetricYear | null;
   metric: MetricKey;
@@ -38,13 +41,13 @@ const SidePanel = ({ data, metric, normalizedSalary }: Props) => {
       <div className="year">{data.year}</div>
       <div className="highlight">
         <div className="label">{metricMeta[metric].label}</div>
-        <div className="value">{metricMeta[metric].format(displayValue)}</div>
+        <div className="value">{formatMaybe(displayValue, metricMeta[metric].format)}</div>
       </div>
       <div className="metric-list">
         {metricKeys.map((key) => (
           <div key={key} className="metric-row">
             <span>{metricMeta[key].label}</span>
-            <strong>{metricMeta[key].format(data[key])}</strong>
+            <strong>{formatMaybe(data[key], metricMeta[key].format)}</strong>
           </div>
         ))}
       </div>

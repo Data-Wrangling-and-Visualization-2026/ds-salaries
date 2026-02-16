@@ -117,6 +117,9 @@ const WorldChoroplethMap = ({
           metric === "avg_salary_usd" && normalizeSalary
             ? row.avg_salary_usd / (1 + row.inflation / 100)
             : row[metric];
+        if (!Number.isFinite(value)) {
+          return "#1f2c3a";
+        }
         return colorScale(value);
       })
       .attr("stroke", "#0e1621")
@@ -138,7 +141,9 @@ const WorldChoroplethMap = ({
         tooltipRef.current.style.opacity = "1";
         tooltipRef.current.innerHTML = `
           <div class="tooltip-title">${name || iso3 || "Unknown"}</div>
-          <div>${metricMeta[metric].label}: ${value !== null ? formatValue(metric, value) : "N/A"}</div>
+          <div>${metricMeta[metric].label}: ${
+            value !== null && Number.isFinite(value) ? formatValue(metric, value) : "N/A"
+          }</div>
         `;
       })
       .on("mousemove", (event) => {
