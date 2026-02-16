@@ -45,8 +45,8 @@ export const metricMeta: Record<MetricKey, MetricMeta> = {
   },
   happiness: {
     key: "happiness",
-    label: "Happiness",
-    unit: "0-10",
+    label: "Happy Planet Index (HPI)",
+    unit: "0-100",
     isPositive: true,
     format: (v) => formatScore(v, 1),
     accessor: (row) => row.happiness

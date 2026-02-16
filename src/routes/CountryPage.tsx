@@ -4,7 +4,7 @@ import { getCountrySeries } from "../api/client";
 import LineChart from "../components/LineChart";
 import MultiLineChart from "../components/MultiLineChart";
 import { CountryMetricYear } from "../types/metrics";
-import { formatCurrency, formatPercent } from "../utils/format";
+import { formatCurrency, formatPercent, formatScore } from "../utils/format";
 
 const CountryPage = () => {
   const { iso3 } = useParams();
@@ -28,14 +28,19 @@ const CountryPage = () => {
 
   const latest = series[series.length - 1];
 
+  const formatMaybe = (value: number, formatter: (value: number) => string) =>
+    Number.isFinite(value) ? formatter(value) : "N/A";
+
   const salarySeries = useMemo(
     () =>
-      series.map((row) => ({
-        year: row.year,
-        value: normalizeSalary
-          ? row.avg_salary_usd / (1 + row.inflation / 100)
-          : row.avg_salary_usd
-      })),
+      series
+        .map((row) => ({
+          year: row.year,
+          value: normalizeSalary
+            ? row.avg_salary_usd / (1 + row.inflation / 100)
+            : row.avg_salary_usd
+        }))
+        .filter((point) => Number.isFinite(point.value)),
     [series, normalizeSalary]
   );
 
@@ -44,12 +49,16 @@ const CountryPage = () => {
       {
         label: "Happiness",
         color: "#57c4ad",
-        values: series.map((row) => ({ year: row.year, value: row.happiness }))
+        values: series
+          .map((row) => ({ year: row.year, value: row.happiness }))
+          .filter((point) => Number.isFinite(point.value))
       },
       {
         label: "Inflation",
         color: "#f97316",
-        values: series.map((row) => ({ year: row.year, value: row.inflation }))
+        values: series
+          .map((row) => ({ year: row.year, value: row.inflation }))
+          .filter((point) => Number.isFinite(point.value))
       }
     ],
     [series]
@@ -83,23 +92,23 @@ const CountryPage = () => {
       {series.length > 0 && latest && (
         <div className="country-grid">
           <section className="panel summary-panel">
-            <h2>2025 snapshot</h2>
+            <h2>{latest.year} snapshot</h2>
             <div className="metric-grid">
               <div>
                 <span>Average salary</span>
-                <strong>{formatCurrency(latest.avg_salary_usd)}</strong>
+                <strong>{formatMaybe(latest.avg_salary_usd, formatCurrency)}</strong>
               </div>
               <div>
                 <span>Inflation</span>
-                <strong>{formatPercent(latest.inflation)}</strong>
+                <strong>{formatMaybe(latest.inflation, formatPercent)}</strong>
               </div>
               <div>
                 <span>Unemployment</span>
-                <strong>{formatPercent(latest.unemployment)}</strong>
+                <strong>{formatMaybe(latest.unemployment, formatPercent)}</strong>
               </div>
               <div>
                 <span>Happiness</span>
-                <strong>{latest.happiness.toFixed(1)}</strong>
+                <strong>{formatMaybe(latest.happiness, (value) => formatScore(value, 1))}</strong>
               </div>
             </div>
           </section>
