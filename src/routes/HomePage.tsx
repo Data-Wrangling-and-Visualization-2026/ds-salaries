@@ -1,26 +1,54 @@
 import { useEffect, useMemo, useState } from "react";
-import { getCountryYearMetrics } from "../api/client";
+import { getAvailableYears, getCountryYearMetrics } from "../api/client";
 import MetricFilters from "../components/MetricFilters";
 import SidePanel from "../components/SidePanel";
-import WorldChoroplethMap from "../components/WorldChoroplethMap";
+import WorldMapHPI from "../components/WorldMapHPI";
 import { CountryMetricYear, MetricKey } from "../types/metrics";
 
 const HomePage = () => {
   const [year, setYear] = useState(2025);
-  const [metric, setMetric] = useState<MetricKey>("avg_salary_usd");
-  const [normalizeSalary, setNormalizeSalary] = useState(false);
+  const [years, setYears] = useState<number[]>([]);
+  const [metric, setMetric] = useState<MetricKey>("salary");
   const [data, setData] = useState<CountryMetricYear[]>([]);
   const [loading, setLoading] = useState(false);
+  const [error, setError] = useState<string | null>(null);
   const [selectedIso3, setSelectedIso3] = useState<string | null>(null);
 
   useEffect(() => {
     let active = true;
+    getAvailableYears()
+      .then((available) => {
+        if (!active) return;
+        setYears(available);
+        if (available.length > 0 && !available.includes(year)) {
+          setYear(available[available.length - 1]);
+        }
+      })
+      .catch((err) => {
+        if (!active) return;
+        setError(err instanceof Error ? err.message : "Failed to load available years.");
+      });
+    return () => {
+      active = false;
+    };
+  }, []);
+
+  useEffect(() => {
+    let active = true;
     setLoading(true);
-    getCountryYearMetrics(year).then((rows) => {
-      if (!active) return;
-      setData(rows);
-      setLoading(false);
-    });
+    setError(null);
+    getCountryYearMetrics(year)
+      .then((rows) => {
+        if (!active) return;
+        setData(rows);
+        setLoading(false);
+      })
+      .catch((err) => {
+        if (!active) return;
+        setData([]);
+        setLoading(false);
+        setError(err instanceof Error ? err.message : "Failed to load metrics.");
+      });
     return () => {
       active = false;
     };
@@ -37,25 +65,24 @@ const HomePage = () => {
         <MetricFilters
           metric={metric}
           year={year}
-          normalizeSalary={normalizeSalary}
+          years={years}
           onMetricChange={setMetric}
           onYearChange={(value) => {
             setYear(value);
             setSelectedIso3(null);
           }}
-          onToggleNormalize={setNormalizeSalary}
         />
         <section className="panel map-panel">
           {loading && <div className="loading">Loading metrics…</div>}
-          <WorldChoroplethMap
+          {error && <div className="error-banner">{error}</div>}
+          <WorldMapHPI
             data={data}
             metric={metric}
-            normalizeSalary={normalizeSalary}
             selectedIso3={selectedIso3}
             onSelect={(iso3) => setSelectedIso3(iso3)}
           />
         </section>
-        <SidePanel data={selectedRow} metric={metric} normalizedSalary={normalizeSalary} />
+        <SidePanel data={selectedRow} metric={metric} />
       </div>
     </main>
   );

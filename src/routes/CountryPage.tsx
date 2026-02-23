@@ -2,25 +2,32 @@ import { useEffect, useMemo, useState } from "react";
 import { useParams } from "react-router-dom";
 import { getCountrySeries } from "../api/client";
 import LineChart from "../components/LineChart";
-import MultiLineChart from "../components/MultiLineChart";
 import { CountryMetricYear } from "../types/metrics";
-import { formatCurrency, formatPercent, formatScore } from "../utils/format";
+import { formatCurrency, formatNumber } from "../utils/format";
 
 const CountryPage = () => {
   const { iso3 } = useParams();
   const [series, setSeries] = useState<CountryMetricYear[]>([]);
   const [loading, setLoading] = useState(false);
-  const [normalizeSalary, setNormalizeSalary] = useState(false);
+  const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
     if (!iso3) return;
     let active = true;
     setLoading(true);
-    getCountrySeries(iso3.toUpperCase()).then((rows) => {
-      if (!active) return;
-      setSeries(rows);
-      setLoading(false);
-    });
+    setError(null);
+    getCountrySeries(iso3.toUpperCase())
+      .then((rows) => {
+        if (!active) return;
+        setSeries(rows);
+        setLoading(false);
+      })
+      .catch((err) => {
+        if (!active) return;
+        setSeries([]);
+        setLoading(false);
+        setError(err instanceof Error ? err.message : "Failed to load country series.");
+      });
     return () => {
       active = false;
     };
@@ -36,31 +43,20 @@ const CountryPage = () => {
       series
         .map((row) => ({
           year: row.year,
-          value: normalizeSalary
-            ? row.avg_salary_usd / (1 + row.inflation / 100)
-            : row.avg_salary_usd
+          value: row.salary
         }))
         .filter((point) => Number.isFinite(point.value)),
-    [series, normalizeSalary]
+    [series]
   );
 
-  const multiSeries = useMemo(
-    () => [
-      {
-        label: "Happiness",
-        color: "#57c4ad",
-        values: series
-          .map((row) => ({ year: row.year, value: row.happiness }))
-          .filter((point) => Number.isFinite(point.value))
-      },
-      {
-        label: "Inflation",
-        color: "#f97316",
-        values: series
-          .map((row) => ({ year: row.year, value: row.inflation }))
-          .filter((point) => Number.isFinite(point.value))
-      }
-    ],
+  const countSeries = useMemo(
+    () =>
+      series
+        .map((row) => ({
+          year: row.year,
+          value: row.count
+        }))
+        .filter((point) => Number.isFinite(point.value)),
     [series]
   );
 
@@ -68,24 +64,15 @@ const CountryPage = () => {
     <main className="page country-page">
       <div className="country-header">
         <div>
-          <h1>{latest?.country ?? "Country"}</h1>
-          <p className="subtitle">
-            2020–2025 trends across salary, happiness, and macro signals.
-          </p>
+          <h1>{latest?.country ?? iso3 ?? "Country"}</h1>
+          <p className="subtitle">2020–2025 trends across salary and job volume.</p>
         </div>
-        <label className="toggle">
-          <input
-            type="checkbox"
-            checked={normalizeSalary}
-            onChange={(event) => setNormalizeSalary(event.target.checked)}
-          />
-          <span>Use real salary (inflation-adjusted)</span>
-        </label>
       </div>
 
       {loading && <div className="loading">Loading country series…</div>}
+      {error && <div className="error-banner">{error}</div>}
 
-      {!loading && series.length === 0 && (
+      {!loading && !error && series.length === 0 && (
         <div className="panel">No data found for {iso3}.</div>
       )}
 
@@ -95,20 +82,12 @@ const CountryPage = () => {
             <h2>{latest.year} snapshot</h2>
             <div className="metric-grid">
               <div>
-                <span>Average salary</span>
-                <strong>{formatMaybe(latest.avg_salary_usd, formatCurrency)}</strong>
+                <span>Median salary</span>
+                <strong>{formatMaybe(latest.salary, formatCurrency)}</strong>
               </div>
               <div>
-                <span>Inflation</span>
-                <strong>{formatMaybe(latest.inflation, formatPercent)}</strong>
-              </div>
-              <div>
-                <span>Unemployment</span>
-                <strong>{formatMaybe(latest.unemployment, formatPercent)}</strong>
-              </div>
-              <div>
-                <span>Happiness</span>
-                <strong>{formatMaybe(latest.happiness, (value) => formatScore(value, 1))}</strong>
+                <span>Job count</span>
+                <strong>{formatMaybe(latest.count, formatNumber)}</strong>
               </div>
             </div>
           </section>
@@ -123,8 +102,12 @@ const CountryPage = () => {
           </section>
 
           <section className="panel chart-panel">
-            <h2>Happiness vs Inflation</h2>
-            <MultiLineChart series={multiSeries} />
+            <h2>Job count trend</h2>
+            <LineChart
+              data={countSeries}
+              yLabel="records"
+              formatValue={(value) => formatNumber(value)}
+            />
           </section>
         </div>
       )}

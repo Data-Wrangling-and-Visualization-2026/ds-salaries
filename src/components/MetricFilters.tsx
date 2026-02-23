@@ -1,25 +1,17 @@
 import { MetricKey } from "../types/metrics";
 import { metricMeta, metricOptions } from "../utils/metricMeta";
 
-const YEARS = [2020, 2021, 2022, 2023, 2024, 2025];
-
 type Props = {
   metric: MetricKey;
   year: number;
-  normalizeSalary: boolean;
+  years: number[];
   onMetricChange: (metric: MetricKey) => void;
   onYearChange: (year: number) => void;
-  onToggleNormalize: (value: boolean) => void;
 };
 
-const MetricFilters = ({
-  metric,
-  year,
-  normalizeSalary,
-  onMetricChange,
-  onYearChange,
-  onToggleNormalize
-}: Props) => {
+const MetricFilters = ({ metric, year, years, onMetricChange, onYearChange }: Props) => {
+  const yearOptions = years.length > 0 ? years : [year];
+
   return (
     <section className="panel filters">
       <h2>Filters</h2>
@@ -38,31 +30,14 @@ const MetricFilters = ({
       </label>
       <label className="field">
         <span>Year</span>
-        <select
-          value={year}
-          onChange={(event) => onYearChange(Number(event.target.value))}
-        >
-          {YEARS.map((yr) => (
+        <select value={year} onChange={(event) => onYearChange(Number(event.target.value))}>
+          {yearOptions.map((yr) => (
             <option key={yr} value={yr}>
               {yr}
             </option>
           ))}
         </select>
       </label>
-      <label className="toggle">
-        <input
-          type="checkbox"
-          checked={normalizeSalary}
-          onChange={(event) => onToggleNormalize(event.target.checked)}
-          disabled={metric !== "avg_salary_usd"}
-        />
-        <span>Normalize salary by inflation</span>
-      </label>
-      <div className="hint">
-        {metric === "avg_salary_usd"
-          ? "Toggle to view inflation-adjusted (real) salary values."
-          : "Normalization only applies to salary."}
-      </div>
     </section>
   );
 };

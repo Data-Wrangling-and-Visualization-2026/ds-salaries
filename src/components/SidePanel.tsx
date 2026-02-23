@@ -2,14 +2,7 @@ import { Link } from "react-router-dom";
 import { CountryMetricYear, MetricKey } from "../types/metrics";
 import { metricMeta } from "../utils/metricMeta";
 
-const metricKeys: MetricKey[] = [
-  "avg_salary_usd",
-  "happiness",
-  "inflation",
-  "unemployment",
-  "cpi",
-  "composite_score"
-];
+const metricKeys: MetricKey[] = ["salary", "count"];
 
 const formatMaybe = (value: number, formatter: (value: number) => string) =>
   Number.isFinite(value) ? formatter(value) : "N/A";
@@ -17,10 +10,9 @@ const formatMaybe = (value: number, formatter: (value: number) => string) =>
 type Props = {
   data: CountryMetricYear | null;
   metric: MetricKey;
-  normalizedSalary: boolean;
 };
 
-const SidePanel = ({ data, metric, normalizedSalary }: Props) => {
+const SidePanel = ({ data, metric }: Props) => {
   if (!data) {
     return (
       <aside className="panel side-panel empty">
@@ -30,10 +22,7 @@ const SidePanel = ({ data, metric, normalizedSalary }: Props) => {
     );
   }
 
-  const displayValue =
-    metric === "avg_salary_usd" && normalizedSalary
-      ? data.avg_salary_usd / (1 + data.inflation / 100)
-      : data[metric];
+  const displayValue = data[metric];
 
   return (
     <aside className="panel side-panel">
@@ -41,7 +30,9 @@ const SidePanel = ({ data, metric, normalizedSalary }: Props) => {
       <div className="year">{data.year}</div>
       <div className="highlight">
         <div className="label">{metricMeta[metric].label}</div>
-        <div className="value">{formatMaybe(displayValue, metricMeta[metric].format)}</div>
+        <div className="value">
+          {formatMaybe(displayValue, metricMeta[metric].format)}
+        </div>
       </div>
       <div className="metric-list">
         {metricKeys.map((key) => (

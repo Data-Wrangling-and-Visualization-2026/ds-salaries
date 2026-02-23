@@ -147,6 +147,10 @@ a {
 .map-panel {
   position: relative;
   min-height: 560px;
+  background: var(--panel);
+  border-color: var(--border);
+  box-shadow: var(--shadow);
+  color: var(--text);
 }
 
 .map-wrapper {
@@ -176,6 +180,24 @@ a {
   font-size: 12px;
   opacity: 0;
   transition: opacity 0.15s ease;
+}
+
+.map-tooltip.hpi-tooltip {
+  background: #ffffff;
+  border-color: #e2e8f0;
+  color: #0f172a;
+  box-shadow: 0 12px 24px rgba(15, 23, 42, 0.12);
+}
+
+.hpi-map .world-map {
+  background: var(--panel);
+}
+
+.map-legend .legend-label {
+  fill: var(--muted);
+  font-size: 11px;
+  letter-spacing: 0.8px;
+  font-weight: 600;
 }
 
 .tooltip-title {
@@ -247,6 +269,16 @@ a {
   right: 16px;
   font-size: 12px;
   color: var(--muted);
+}
+
+.error-banner {
+  margin-bottom: 10px;
+  padding: 10px 12px;
+  border-radius: 10px;
+  background: #fff1f2;
+  border: 1px solid #fecdd3;
+  color: #9f1239;
+  font-size: 12px;
 }
 
 .country-page .country-header {

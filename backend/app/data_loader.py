@@ -1,7 +1,7 @@
 import pandas as pd
 from pathlib import Path
 
-DATA_PATH = Path("data/DataScience_salaries_2025_clean.json")
+DATA_PATH = Path(__file__).resolve().parents[1] / "data" / "DataScience_salaries_2025_clean.json"
 
 
 def load_salaries() -> pd.DataFrame:
