@@ -1,6 +1,7 @@
+import numpy as np
 import pandas as pd
 from pathlib import Path
-import numpy as np
+from typing import Optional
 
 DATA_DIR = Path(__file__).resolve().parents[1] / "data"
 
@@ -38,7 +39,7 @@ def load_unemployment_long() -> pd.DataFrame:
     return pd.read_json(DATA_DIR / "unemployement_rate_clean.json")
 
 
-def metrics_by_year_country(year: int | None = None) -> pd.DataFrame:
+def metrics_by_year_country(year: Optional[int] = None) -> pd.DataFrame:
     base = salaries_metrics()
 
     if year is not None:
