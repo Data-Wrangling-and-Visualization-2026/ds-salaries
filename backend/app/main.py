@@ -1,3 +1,5 @@
+from typing import Optional
+
 from fastapi import FastAPI, Query
 from fastapi.middleware.cors import CORSMiddleware
 from app.data_loader import metrics_by_year_country
@@ -20,8 +22,8 @@ def root():
 
 
 @app.get("/metrics", response_model=MetricsResponse)
-def get_metrics(year: int = Query(..., ge=2014, le=2025)):
-    df = metrics_by_year_country(year)
+def get_metrics(year: Optional[int] = Query(None, ge=2014, le=2025)):
+    df = metrics_by_year_country(year) if year is not None else metrics_by_year_country()
     data = [CountryMetricYear(**row) for row in df.to_dict(orient="records")]
     return {"data": data}
 
