@@ -13,6 +13,7 @@ class CountryMetricYear(BaseModel):
     happiness: Optional[float] = None
     inflation: Optional[float] = None
     unemployment: Optional[float] = None
+    corruption: Optional[float] = None
 
 
 class MetricsResponse(BaseModel):
