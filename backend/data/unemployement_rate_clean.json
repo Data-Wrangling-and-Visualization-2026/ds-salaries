@@ -2242,72 +2242,142 @@
   {
     "country":"Monaco",
     "year":2015,
-    "unemployment_rate":0.0,
+    "unemployment_rate":9.1,
     "country_code":"MCO",
     "country_year":"MCO2015"
   },
   {
     "country":"Monaco",
     "year":2016,
-    "unemployment_rate":0.0,
+    "unemployment_rate":6.3,
     "country_code":"MCO",
     "country_year":"MCO2016"
   },
   {
     "country":"Monaco",
     "year":2017,
-    "unemployment_rate":0.0,
+    "unemployment_rate":null,
     "country_code":"MCO",
     "country_year":"MCO2017"
   },
   {
     "country":"Monaco",
     "year":2018,
-    "unemployment_rate":0.0,
+    "unemployment_rate":null,
     "country_code":"MCO",
     "country_year":"MCO2018"
   },
   {
     "country":"Monaco",
     "year":2019,
-    "unemployment_rate":0.0,
+    "unemployment_rate":8.9,
     "country_code":"MCO",
     "country_year":"MCO2019"
   },
   {
     "country":"Monaco",
     "year":2020,
-    "unemployment_rate":0.0,
+    "unemployment_rate":8.5,
     "country_code":"MCO",
     "country_year":"MCO2020"
   },
   {
     "country":"Monaco",
     "year":2021,
-    "unemployment_rate":0.0,
+    "unemployment_rate":7.9,
     "country_code":"MCO",
     "country_year":"MCO2021"
   },
   {
     "country":"Monaco",
     "year":2022,
-    "unemployment_rate":0.0,
+    "unemployment_rate":null,
     "country_code":"MCO",
     "country_year":"MCO2022"
   },
   {
     "country":"Monaco",
     "year":2023,
-    "unemployment_rate":0.0,
+    "unemployment_rate":null,
     "country_code":"MCO",
     "country_year":"MCO2023"
   },
   {
     "country":"Monaco",
     "year":2024,
-    "unemployment_rate":0.0,
+    "unemployment_rate":null,
     "country_code":"MCO",
     "country_year":"MCO2024"
+  },
+  {
+    "country":"Philippines",
+    "year":2024,
+    "unemployment_rate":3.07,
+    "country_code":"PHL",
+    "country_year":"PHL2015"
+  },
+  {
+    "country":"Philippines",
+    "year":2024,
+    "unemployment_rate":2.7,
+    "country_code":"PHL",
+    "country_year":"PHL2016"
+  },
+  {
+    "country":"Philippines",
+    "year":2024,
+    "unemployment_rate":2.55,
+    "country_code":"PHL",
+    "country_year":"PHL2017"
+  },
+  {
+    "country":"Philippines",
+    "year":2024,
+    "unemployment_rate":2.34,
+    "country_code":"PHL",
+    "country_year":"PHL2018"
+  },
+  {
+    "country":"Philippines",
+    "year":2024,
+    "unemployment_rate":2.24,
+    "country_code":"PHL",
+    "country_year":"PHL2019"
+  },
+  {
+    "country":"Philippines",
+    "year":2024,
+    "unemployment_rate":2.52,
+    "country_code":"PHL",
+    "country_year":"PHL2020"
+  },
+  {
+    "country":"Philippines",
+    "year":2024,
+    "unemployment_rate":3.4,
+    "country_code":"PHL",
+    "country_year":"PHL2021"
+  },
+  {
+    "country":"Philippines",
+    "year":2024,
+    "unemployment_rate":2.38,
+    "country_code":"PHL",
+    "country_year":"PHL2022"
+  },
+  {
+    "country":"Philippines",
+    "year":2024,
+    "unemployment_rate":2.22,
+    "country_code":"PHL",
+    "country_year":"PHL2023"
+  },
+  {
+    "country":"Philippines",
+    "year":2024,
+    "unemployment_rate":2.15,
+    "country_code":"PHL",
+    "country_year":"PHL2024"
   },
   {
     "country":"Montenegro",
