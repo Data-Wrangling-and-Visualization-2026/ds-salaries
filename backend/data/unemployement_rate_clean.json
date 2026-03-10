@@ -1885,7 +1885,7 @@
   {
     "country":"Kyrgyzstan",
     "year":2024,
-    "unemployment_rate":null,
+    "unemployment_rate":3.7,
     "country_code":"KGZ",
     "country_year":"KGZ2024"
   },
@@ -2242,70 +2242,70 @@
   {
     "country":"Monaco",
     "year":2015,
-    "unemployment_rate":null,
+    "unemployment_rate":0.0,
     "country_code":"MCO",
     "country_year":"MCO2015"
   },
   {
     "country":"Monaco",
     "year":2016,
-    "unemployment_rate":null,
+    "unemployment_rate":0.0,
     "country_code":"MCO",
     "country_year":"MCO2016"
   },
   {
     "country":"Monaco",
     "year":2017,
-    "unemployment_rate":null,
+    "unemployment_rate":0.0,
     "country_code":"MCO",
     "country_year":"MCO2017"
   },
   {
     "country":"Monaco",
     "year":2018,
-    "unemployment_rate":null,
+    "unemployment_rate":0.0,
     "country_code":"MCO",
     "country_year":"MCO2018"
   },
   {
     "country":"Monaco",
     "year":2019,
-    "unemployment_rate":null,
+    "unemployment_rate":0.0,
     "country_code":"MCO",
     "country_year":"MCO2019"
   },
   {
     "country":"Monaco",
     "year":2020,
-    "unemployment_rate":null,
+    "unemployment_rate":0.0,
     "country_code":"MCO",
     "country_year":"MCO2020"
   },
   {
     "country":"Monaco",
     "year":2021,
-    "unemployment_rate":null,
+    "unemployment_rate":0.0,
     "country_code":"MCO",
     "country_year":"MCO2021"
   },
   {
     "country":"Monaco",
     "year":2022,
-    "unemployment_rate":null,
+    "unemployment_rate":0.0,
     "country_code":"MCO",
     "country_year":"MCO2022"
   },
   {
     "country":"Monaco",
     "year":2023,
-    "unemployment_rate":null,
+    "unemployment_rate":0.0,
     "country_code":"MCO",
     "country_year":"MCO2023"
   },
   {
     "country":"Monaco",
     "year":2024,
-    "unemployment_rate":null,
+    "unemployment_rate":0.0,
     "country_code":"MCO",
     "country_year":"MCO2024"
   },
@@ -2872,70 +2872,70 @@
   {
     "country":"Russian Federation",
     "year":2015,
-    "unemployment_rate":null,
+    "unemployment_rate":5.6,
     "country_code":"RUS",
     "country_year":"RUS2015"
   },
   {
     "country":"Russian Federation",
     "year":2016,
-    "unemployment_rate":null,
+    "unemployment_rate":5.6,
     "country_code":"RUS",
     "country_year":"RUS2016"
   },
   {
     "country":"Russian Federation",
     "year":2017,
-    "unemployment_rate":null,
+    "unemployment_rate":5.2,
     "country_code":"RUS",
     "country_year":"RUS2017"
   },
   {
     "country":"Russian Federation",
     "year":2018,
-    "unemployment_rate":null,
+    "unemployment_rate":4.8,
     "country_code":"RUS",
     "country_year":"RUS2018"
   },
   {
     "country":"Russian Federation",
     "year":2019,
-    "unemployment_rate":null,
+    "unemployment_rate":4.6,
     "country_code":"RUS",
     "country_year":"RUS2019"
   },
   {
     "country":"Russian Federation",
     "year":2020,
-    "unemployment_rate":null,
+    "unemployment_rate":5.8,
     "country_code":"RUS",
     "country_year":"RUS2020"
   },
   {
     "country":"Russian Federation",
     "year":2021,
-    "unemployment_rate":null,
+    "unemployment_rate":4.8,
     "country_code":"RUS",
     "country_year":"RUS2021"
   },
   {
     "country":"Russian Federation",
     "year":2022,
-    "unemployment_rate":null,
+    "unemployment_rate":4.0,
     "country_code":"RUS",
     "country_year":"RUS2022"
   },
   {
     "country":"Russian Federation",
     "year":2023,
-    "unemployment_rate":null,
+    "unemployment_rate":3.2,
     "country_code":"RUS",
     "country_year":"RUS2023"
   },
   {
     "country":"Russian Federation",
     "year":2024,
-    "unemployment_rate":null,
+    "unemployment_rate":2.5,
     "country_code":"RUS",
     "country_year":"RUS2024"
   },
@@ -3467,7 +3467,7 @@
   {
     "country":"Tajikistan",
     "year":2020,
-    "unemployment_rate":null,
+    "unemployment_rate":2.1,
     "country_code":"TJK",
     "country_year":"TJK2020"
   },
@@ -3495,7 +3495,7 @@
   {
     "country":"Tajikistan",
     "year":2024,
-    "unemployment_rate":null,
+    "unemployment_rate":1.9,
     "country_code":"TJK",
     "country_year":"TJK2024"
   },
@@ -3572,70 +3572,70 @@
   {
     "country":"Turkmenistan",
     "year":2015,
-    "unemployment_rate":null,
+    "unemployment_rate":4.1,
     "country_code":"TKM",
     "country_year":"TKM2015"
   },
   {
     "country":"Turkmenistan",
     "year":2016,
-    "unemployment_rate":null,
+    "unemployment_rate":4.1,
     "country_code":"TKM",
     "country_year":"TKM2016"
   },
   {
     "country":"Turkmenistan",
     "year":2017,
-    "unemployment_rate":null,
+    "unemployment_rate":4.2,
     "country_code":"TKM",
     "country_year":"TKM2017"
   },
   {
     "country":"Turkmenistan",
     "year":2018,
-    "unemployment_rate":null,
+    "unemployment_rate":4.2,
     "country_code":"TKM",
     "country_year":"TKM2018"
   },
   {
     "country":"Turkmenistan",
     "year":2019,
-    "unemployment_rate":null,
+    "unemployment_rate":4.3,
     "country_code":"TKM",
     "country_year":"TKM2019"
   },
   {
     "country":"Turkmenistan",
     "year":2020,
-    "unemployment_rate":null,
+    "unemployment_rate":4.8,
     "country_code":"TKM",
     "country_year":"TKM2020"
   },
   {
     "country":"Turkmenistan",
     "year":2021,
-    "unemployment_rate":null,
+    "unemployment_rate":4.6,
     "country_code":"TKM",
     "country_year":"TKM2021"
   },
   {
     "country":"Turkmenistan",
     "year":2022,
-    "unemployment_rate":null,
+    "unemployment_rate":4.1,
     "country_code":"TKM",
     "country_year":"TKM2022"
   },
   {
     "country":"Turkmenistan",
     "year":2023,
-    "unemployment_rate":null,
+    "unemployment_rate":4.1,
     "country_code":"TKM",
     "country_year":"TKM2023"
   },
   {
     "country":"Turkmenistan",
     "year":2024,
-    "unemployment_rate":null,
+    "unemployment_rate":4.2,
     "country_code":"TKM",
     "country_year":"TKM2024"
   },
@@ -3691,21 +3691,21 @@
   {
     "country":"Ukraine",
     "year":2022,
-    "unemployment_rate":null,
+    "unemployment_rate":18.5,
     "country_code":"UKR",
     "country_year":"UKR2022"
   },
   {
     "country":"Ukraine",
     "year":2023,
-    "unemployment_rate":null,
+    "unemployment_rate":17.4,
     "country_code":"UKR",
     "country_year":"UKR2023"
   },
   {
     "country":"Ukraine",
     "year":2024,
-    "unemployment_rate":null,
+    "unemployment_rate":14.3,
     "country_code":"UKR",
     "country_year":"UKR2024"
   },
