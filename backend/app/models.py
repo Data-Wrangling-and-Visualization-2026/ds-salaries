@@ -4,11 +4,11 @@ from typing import Optional
 
 class CountryMetricYear(BaseModel):
     iso3: str
-    country: str
+    country: Optional[str] = None
     year: int
 
-    salary: float
-    count: int
+    salary: Optional[float] = None
+    count: Optional[int] = None
 
     happiness: Optional[float] = None
     inflation: Optional[float] = None
