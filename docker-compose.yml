@@ -1,0 +1,27 @@
+services:
+  db:
+    image: postgres:16
+    container_name: ds_salaries_db
+    environment:
+      POSTGRES_USER: ds
+      POSTGRES_PASSWORD: ds
+      POSTGRES_DB: ds_salaries
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: ds_salaries_backend
+    environment:
+      DATABASE_URL: postgresql://ds:ds@db:5432/ds_salaries
+    ports:
+      - "8000:8000"
+    depends_on:
+      - db
+
+volumes:
+  pgdata:

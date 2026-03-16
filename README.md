@@ -2,12 +2,27 @@
 
 Prototype for “Data Science Careers Across Countries: Salary, Well-Being, and Reality.”
 
-## Run
+## Run (Frontend)
 
 ```bash
 npm install
 npm run dev
 ```
+
+## Run (Backend + DB with Docker Compose)
+
+```bash
+docker compose up -d --build
+```
+
+API:
+- `http://localhost:8000/`
+- `http://localhost:8000/metrics`
+- `http://localhost:8000/countries/{iso3}/series`
+
+Notes:
+- The backend currently reads JSON files from `backend/data/*` (not Postgres yet).
+- Postgres is included for upcoming ingestion; `DATABASE_URL` is already wired in `docker-compose.yml`.
 
 ## What’s in Sprint 2 (Historical)
 
@@ -80,12 +95,12 @@ Sprint 3 focuses on cleaning data, locking the API contract, and wiring the fron
 
 ### Sprint 3 workstreams
 
-| Трек | Участник A | Участник B | Участник C |
+| Track | Member A | Member B | Member C |
 | --- | --- | --- | --- |
-| **Data** | Clean pipeline, AI-нормализация, EDA | Помощь с валидацией | Фидбек под нужды viz |
-| **Backend** | Согласование схем | Реальные endpoints, фиксация JSON-схем | Тестирование API |
-| **Frontend** | Фидбек по данным | Фидбек по API | Подключение API, базовый интерактив |
-| **Общее** | Совместный пересмотр данных | Совместный пересмотр API | Совместный пересмотр UX |
+| **Data** | Clean pipeline, AI normalization, EDA | Validation support | Feedback for viz needs |
+| **Backend** | Schema alignment | Real endpoints, JSON schema freeze | API testing |
+| **Frontend** | Data feedback | API feedback | API wiring, baseline interactivity |
+| **Shared** | Joint data review | Joint API review | Joint UX review |
 
 ### How to run (Sprint 3)
 
