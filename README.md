@@ -92,7 +92,7 @@ Sprint 3 focuses on cleaning data, locking the API contract, and wiring the fron
 Backend:
 ```bash
 cd backend
-uvicorn app.main:app --reload --port 8000
+uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
 ```
 
 Frontend:
