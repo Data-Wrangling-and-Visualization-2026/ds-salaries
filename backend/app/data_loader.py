@@ -1,83 +1,93 @@
-import numpy as np
 import pandas as pd
-from pathlib import Path
+import numpy as np
 from typing import Optional
+from psycopg2 import connect
 
-DATA_DIR = Path(__file__).resolve().parents[1] / "data"
-
-
-def load_salaries() -> pd.DataFrame:
-    df = pd.read_json(DATA_DIR / "DataScience_salaries_2025_clean.json")
-
-    df["year"] = df["country_year"].str[-4:].astype(int)
-    df["iso3"] = df["company_location"]
-    df["country"] = df["company_location"]
-
-    return df
+DB_URL = "postgresql://ds:ds@db:5432/ds_salaries"
 
 
-def salaries_metrics() -> pd.DataFrame:
-    df = load_salaries()
-    return (
-        df.groupby(["iso3", "country", "year"]).agg(
-            salary=("salary_in_usd", "median"),
-            count=("salary_in_usd", "count")
-        )
-        .reset_index()
-    )
+def query_df(sql: str, params=None) -> pd.DataFrame:
+    with connect(DB_URL) as conn:
+        return pd.read_sql_query(sql, conn, params=params)
 
 
-def load_happiness_long() -> pd.DataFrame:
-    return pd.read_json(DATA_DIR / "hpi_russian_clean.json")
+def load_salaries_metrics() -> pd.DataFrame:
+    sql = """
+        SELECT 
+            company_location AS iso3,
+            work_year AS year,
+            percentile_cont(0.5) WITHIN GROUP (ORDER BY salary_in_usd) AS salary,
+            COUNT(*) AS count
+        FROM ds.salaries
+        GROUP BY company_location, work_year
+    """
+    return query_df(sql)
 
 
-def load_inflation_long() -> pd.DataFrame:
-    return pd.read_json(DATA_DIR / "inflation_rate_clean.json")
+def load_happiness() -> pd.DataFrame:
+    sql = """
+        SELECT 
+            country_code AS iso3,
+            year,
+            country,
+            score AS happiness
+        FROM ds.hpi_rus
+    """
+    return query_df(sql)
 
 
-def load_unemployment_long() -> pd.DataFrame:
-    return pd.read_json(DATA_DIR / "unemployement_rate_clean.json")
+def load_inflation() -> pd.DataFrame:
+    sql = """
+        SELECT 
+            country_code AS iso3,
+            year,
+            inflation_rate
+        FROM ds.inflation
+    """
+    return query_df(sql)
 
 
-def load_corruption_long() -> pd.DataFrame:
-    return pd.read_json(DATA_DIR / "corruption_perception_clean.json")
+def load_unemployment() -> pd.DataFrame:
+    sql = """
+        SELECT 
+            country_code AS iso3,
+            year,
+            unemployment_rate
+        FROM ds.unemployment
+    """
+    return query_df(sql)
+
+
+def load_corruption() -> pd.DataFrame:
+    sql = """
+        SELECT 
+            country_code AS iso3,
+            year,
+            score AS corruption_score
+        FROM ds.corruption
+    """
+    return query_df(sql)
 
 
 def metrics_by_year_country(year: Optional[int] = None) -> pd.DataFrame:
-    happiness = load_happiness_long().rename(columns={
-        "country_code": "iso3",
-        "score": "happiness"
-    })[["iso3", "year", "happiness"]]
+    salaries = load_salaries_metrics()
+    happiness = load_happiness()
+    inflation = load_inflation()
+    unemployment = load_unemployment()
+    corruption = load_corruption()
 
-    base = happiness
+    base = happiness.merge(inflation, how="outer", on=["iso3", "year"])
+    base = base.merge(unemployment, how="outer", on=["iso3", "year"])
+    base = base.merge(corruption, how="outer", on=["iso3", "year"])
+    base = base.merge(salaries, how="left", on=["iso3", "year"])
 
     if year is not None:
         base = base[base["year"] == year]
 
-    salaries = salaries_metrics()[["iso3", "country", "year", "salary", "count"]]
+    base = base.replace([np.nan, np.inf, -np.inf], None)
 
-    inflation = load_inflation_long().rename(columns={
-        "country_code": "iso3",
-        "inflation_rate": "inflation"
-    })[["iso3", "year", "inflation"]]
+    base["country"] = base["country"].fillna(base["iso3"])
+    base["salary"] = base["salary"].fillna(0)
+    base["count"] = base["count"].fillna(0)
 
-    unemployment = load_unemployment_long().rename(columns={
-        "country_code": "iso3",
-        "unemployment_rate": "unemployment"
-    })[["iso3", "year", "unemployment"]]
-
-    corruption = load_corruption_long().rename(columns={
-        "country_code": "iso3",
-        "score": "corruption"
-    })[["iso3", "year", "corruption"]]
-
-    df = base.merge(salaries, on=["iso3", "year"], how="left")
-    df = df.merge(inflation, on=["iso3", "year"], how="left")
-    df = df.merge(unemployment, on=["iso3", "year"], how="left")
-    df = df.merge(corruption, on=["iso3", "year"], how="left")
-
-    df["country"] = df["country"].fillna(df["iso3"])
-
-    df = df.replace([np.nan, np.inf, -np.inf], None)
-
-    return df
+    return base
