@@ -41,7 +41,7 @@ def load_inflation() -> pd.DataFrame:
         SELECT 
             country_code AS iso3,
             year,
-            inflation_rate
+            inflation_rate AS inflation
         FROM ds.inflation
     """
     return query_df(sql)
@@ -52,7 +52,7 @@ def load_unemployment() -> pd.DataFrame:
         SELECT 
             country_code AS iso3,
             year,
-            unemployment_rate
+            unemployment_rate AS unemployment
         FROM ds.unemployment
     """
     return query_df(sql)
@@ -63,7 +63,7 @@ def load_corruption() -> pd.DataFrame:
         SELECT 
             country_code AS iso3,
             year,
-            score AS corruption_score
+            score AS corruption
         FROM ds.corruption
     """
     return query_df(sql)
@@ -76,18 +76,21 @@ def metrics_by_year_country(year: Optional[int] = None) -> pd.DataFrame:
     unemployment = load_unemployment()
     corruption = load_corruption()
 
-    base = happiness.merge(inflation, how="outer", on=["iso3", "year"])
-    base = base.merge(unemployment, how="outer", on=["iso3", "year"])
-    base = base.merge(corruption, how="outer", on=["iso3", "year"])
-    base = base.merge(salaries, how="left", on=["iso3", "year"])
+    base = happiness.copy()
+
+    base = base.merge(salaries, on=["iso3", "year"], how="outer")
+
+    base = base.merge(inflation, on=["iso3", "year"], how="outer")
+    base = base.merge(unemployment, on=["iso3", "year"], how="outer")
+    base = base.merge(corruption, on=["iso3", "year"], how="outer")
 
     if year is not None:
         base = base[base["year"] == year]
 
-    base = base.replace([np.nan, np.inf, -np.inf], None)
-
     base["country"] = base["country"].fillna(base["iso3"])
     base["salary"] = base["salary"].fillna(0)
     base["count"] = base["count"].fillna(0)
+
+    base = base.replace([np.nan, np.inf, -np.inf], None)
 
     return base
