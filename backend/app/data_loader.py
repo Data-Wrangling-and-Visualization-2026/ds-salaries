@@ -70,27 +70,39 @@ def load_corruption() -> pd.DataFrame:
 
 
 def metrics_by_year_country(year: Optional[int] = None) -> pd.DataFrame:
-    salaries = load_salaries_metrics()
-    happiness = load_happiness()
-    inflation = load_inflation()
-    unemployment = load_unemployment()
-    corruption = load_corruption()
+    try:
+        salaries = load_salaries_metrics()
+        happiness = load_happiness()
+        inflation = load_inflation()
+        unemployment = load_unemployment()
+        corruption = load_corruption()
 
-    base = happiness.copy()
+        base = happiness.copy()
 
-    base = base.merge(salaries, on=["iso3", "year"], how="outer")
+        base = base.merge(salaries, on=["iso3", "year"], how="outer")
 
-    base = base.merge(inflation, on=["iso3", "year"], how="outer")
-    base = base.merge(unemployment, on=["iso3", "year"], how="outer")
-    base = base.merge(corruption, on=["iso3", "year"], how="outer")
+        base = base.merge(inflation, on=["iso3", "year"], how="outer")
+        base = base.merge(unemployment, on=["iso3", "year"], how="outer")
+        base = base.merge(corruption, on=["iso3", "year"], how="outer")
 
-    if year is not None:
-        base = base[base["year"] == year]
+        if year is not None:
+            base = base[base["year"] == year]
 
-    base["country"] = base["country"].fillna(base["iso3"])
-    base["salary"] = base["salary"].fillna(0)
-    base["count"] = base["count"].fillna(0)
+        base["country"] = base["country"].fillna(base["iso3"])
+        base["salary"] = base["salary"].fillna(0)
+        base["count"] = base["count"].fillna(0)
 
-    base = base.replace([np.nan, np.inf, -np.inf], None)
+        base = base.replace([np.nan, np.inf, -np.inf], None)
 
-    return base
+        base = base.drop_duplicates(subset=["iso3", "year"])
+
+        base = base.sort_values(["year", "iso3"])
+
+        return base
+
+    except Exception as e:
+        print(f"Error in metrics_by_year_country: {e}")
+        return pd.DataFrame(columns=[
+            "iso3", "country", "year", "salary", "count",
+            "happiness", "inflation", "unemployment", "corruption"
+        ])
