@@ -1,20 +1,20 @@
-from pydantic import BaseModel
-from typing import Optional
+from pydantic import BaseModel, Field
+from typing import Optional, List
 
 
 class CountryMetricYear(BaseModel):
     iso3: str
-    country: Optional[str] = None
+    country: Optional[str] = Field(default=None)
     year: int
 
-    salary: Optional[float] = None
-    count: Optional[int] = None
+    salary: Optional[float] = Field(default=None)
+    count: Optional[int] = Field(default=None)
 
-    happiness: Optional[float] = None
-    inflation: Optional[float] = None
-    unemployment: Optional[float] = None
-    corruption: Optional[float] = None
+    happiness: Optional[float] = Field(default=None)
+    inflation: Optional[float] = Field(default=None)
+    unemployment: Optional[float] = Field(default=None)
+    corruption: Optional[float] = Field(default=None)
 
 
 class MetricsResponse(BaseModel):
-    data: list[CountryMetricYear]
+    data: List[CountryMetricYear]
