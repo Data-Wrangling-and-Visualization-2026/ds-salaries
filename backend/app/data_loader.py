@@ -2,8 +2,9 @@ import pandas as pd
 import numpy as np
 from typing import Optional
 from psycopg2 import connect
+import os
 
-DB_URL = "postgresql://ds:ds@db:5432/ds_salaries"
+DB_URL = os.getenv("DB_URL", "postgresql://ds:ds@localhost:5432/ds_salaries")
 
 
 def query_df(sql: str, params=None) -> pd.DataFrame:
@@ -77,13 +78,19 @@ def metrics_by_year_country(year: Optional[int] = None) -> pd.DataFrame:
         unemployment = load_unemployment()
         corruption = load_corruption()
 
-        base = happiness.copy()
+        base = pd.concat([
+            salaries[["iso3", "year"]],
+            happiness[["iso3", "year"]],
+            inflation[["iso3", "year"]],
+            unemployment[["iso3", "year"]],
+            corruption[["iso3", "year"]],
+        ]).drop_duplicates()
 
-        base = base.merge(salaries, on=["iso3", "year"], how="outer")
-
-        base = base.merge(inflation, on=["iso3", "year"], how="outer")
-        base = base.merge(unemployment, on=["iso3", "year"], how="outer")
-        base = base.merge(corruption, on=["iso3", "year"], how="outer")
+        base = base.merge(happiness, on=["iso3", "year"], how="left")
+        base = base.merge(salaries, on=["iso3", "year"], how="left")
+        base = base.merge(inflation, on=["iso3", "year"], how="left")
+        base = base.merge(unemployment, on=["iso3", "year"], how="left")
+        base = base.merge(corruption, on=["iso3", "year"], how="left")
 
         if year is not None:
             base = base[base["year"] == year]
@@ -95,7 +102,6 @@ def metrics_by_year_country(year: Optional[int] = None) -> pd.DataFrame:
         base = base.replace([np.nan, np.inf, -np.inf], None)
 
         base = base.drop_duplicates(subset=["iso3", "year"])
-
         base = base.sort_values(["year", "iso3"])
 
         return base
