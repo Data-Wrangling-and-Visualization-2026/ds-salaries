@@ -7,9 +7,9 @@ import os
 DB_URL = os.getenv("DB_URL", "postgresql://ds:ds@localhost:5432/ds_salaries")
 
 
-def query_df(sql: str, params=None) -> pd.DataFrame:
+def query_df(sql: str) -> pd.DataFrame:
     with connect(DB_URL) as conn:
-        return pd.read_sql_query(sql, conn, params=params)
+        return pd.read_sql_query(sql, conn)
 
 
 def load_salaries_metrics() -> pd.DataFrame:
@@ -71,44 +71,50 @@ def load_corruption() -> pd.DataFrame:
 
 
 def metrics_by_year_country(year: Optional[int] = None) -> pd.DataFrame:
-    try:
-        salaries = load_salaries_metrics()
-        happiness = load_happiness()
-        inflation = load_inflation()
-        unemployment = load_unemployment()
-        corruption = load_corruption()
+    sql = """
+        SELECT 
+            COALESCE(h.country_code, i.country_code, u.country_code, c.country_code, s.company_location) AS iso3,
+            COALESCE(h.year, i.year, u.year, c.year, s.work_year) AS year,
+            h.country,
+            h.score AS happiness,
+            i.inflation_rate AS inflation,
+            u.unemployment_rate AS unemployment,
+            c.score AS corruption,
+            s.salary,
+            s.count
+        FROM ds.hpi_rus h
+        FULL OUTER JOIN ds.inflation i 
+            ON h.country_code = i.country_code AND h.year = i.year
+        FULL OUTER JOIN ds.unemployment u 
+            ON COALESCE(h.country_code, i.country_code) = u.country_code 
+            AND COALESCE(h.year, i.year) = u.year
+        FULL OUTER JOIN ds.corruption c 
+            ON COALESCE(h.country_code, i.country_code, u.country_code) = c.country_code
+            AND COALESCE(h.year, i.year, u.year) = c.year
+        FULL OUTER JOIN (
+            SELECT 
+                company_location,
+                work_year,
+                percentile_cont(0.5) WITHIN GROUP (ORDER BY salary_in_usd) AS salary,
+                COUNT(*) AS count
+            FROM ds.salaries
+            GROUP BY company_location, work_year
+        ) s
+            ON COALESCE(h.country_code, i.country_code, u.country_code, c.country_code) = s.company_location
+            AND COALESCE(h.year, i.year, u.year, c.year) = s.work_year
+    """
 
-        base = pd.concat([
-            salaries[["iso3", "year"]],
-            happiness[["iso3", "year"]],
-            inflation[["iso3", "year"]],
-            unemployment[["iso3", "year"]],
-            corruption[["iso3", "year"]],
-        ]).drop_duplicates()
+    df = query_df(sql)
 
-        base = base.merge(happiness, on=["iso3", "year"], how="left")
-        base = base.merge(salaries, on=["iso3", "year"], how="left")
-        base = base.merge(inflation, on=["iso3", "year"], how="left")
-        base = base.merge(unemployment, on=["iso3", "year"], how="left")
-        base = base.merge(corruption, on=["iso3", "year"], how="left")
+    if year is not None:
+        df = df[df["year"] == year]
 
-        if year is not None:
-            base = base[base["year"] == year]
+    df["country"] = df["country"].fillna(df["iso3"])
+    df["salary"] = df["salary"].fillna(0)
+    df["count"] = df["count"].fillna(0)
 
-        base["country"] = base["country"].fillna(base["iso3"])
-        base["salary"] = base["salary"].fillna(0)
-        base["count"] = base["count"].fillna(0)
+    df = df.replace([np.nan, np.inf, -np.inf], None)
 
-        base = base.replace([np.nan, np.inf, -np.inf], None)
+    df = df.drop_duplicates(subset=["iso3", "year"])
 
-        base = base.drop_duplicates(subset=["iso3", "year"])
-        base = base.sort_values(["year", "iso3"])
-
-        return base
-
-    except Exception as e:
-        print(f"Error in metrics_by_year_country: {e}")
-        return pd.DataFrame(columns=[
-            "iso3", "country", "year", "salary", "count",
-            "happiness", "inflation", "unemployment", "corruption"
-        ])
+    return df
