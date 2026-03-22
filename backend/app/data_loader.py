@@ -21,7 +21,17 @@ def load_salaries_metrics() -> pd.DataFrame:
         FROM ds.salaries
         GROUP BY company_location, work_year
     """
-    return query_df(sql)
+    df = query_df(sql)
+    if not df.empty and 'year' in df.columns:
+        df['year'] = pd.to_numeric(df['year'], errors='coerce')
+        df = df.dropna(subset=['year'])
+        df['year'] = df['year'].astype(int)
+    
+    if not df.empty and 'iso3' in df.columns:
+        df = df.dropna(subset=['iso3'])
+        df['iso3'] = df['iso3'].astype(str)
+    
+    return df
 
 
 def load_happiness() -> pd.DataFrame:
@@ -33,7 +43,17 @@ def load_happiness() -> pd.DataFrame:
             score AS happiness
         FROM ds.hpi_rus
     """
-    return query_df(sql)
+    df = query_df(sql)
+    if not df.empty and 'year' in df.columns:
+        df['year'] = pd.to_numeric(df['year'], errors='coerce')
+        df = df.dropna(subset=['year'])
+        df['year'] = df['year'].astype(int)
+
+    if not df.empty and 'iso3' in df.columns:
+        df = df.dropna(subset=['iso3'])
+        df['iso3'] = df['iso3'].astype(str)
+    
+    return df
 
 
 def load_inflation() -> pd.DataFrame:
@@ -44,7 +64,17 @@ def load_inflation() -> pd.DataFrame:
             inflation_rate AS inflation
         FROM ds.inflation
     """
-    return query_df(sql)
+    df = query_df(sql)
+    if not df.empty and 'year' in df.columns:
+        df['year'] = pd.to_numeric(df['year'], errors='coerce')
+        df = df.dropna(subset=['year'])
+        df['year'] = df['year'].astype(int)
+    
+    if not df.empty and 'iso3' in df.columns:
+        df = df.dropna(subset=['iso3'])
+        df['iso3'] = df['iso3'].astype(str)
+    
+    return df
 
 
 def load_unemployment() -> pd.DataFrame:
@@ -55,7 +85,17 @@ def load_unemployment() -> pd.DataFrame:
             unemployment_rate AS unemployment
         FROM ds.unemployment
     """
-    return query_df(sql)
+    df = query_df(sql)
+    if not df.empty and 'year' in df.columns:
+        df['year'] = pd.to_numeric(df['year'], errors='coerce')
+        df = df.dropna(subset=['year'])
+        df['year'] = df['year'].astype(int)
+    
+    if not df.empty and 'iso3' in df.columns:
+        df = df.dropna(subset=['iso3'])
+        df['iso3'] = df['iso3'].astype(str)
+    
+    return df
 
 
 def load_corruption() -> pd.DataFrame:
@@ -66,7 +106,17 @@ def load_corruption() -> pd.DataFrame:
             score AS corruption
         FROM ds.corruption
     """
-    return query_df(sql)
+    df = query_df(sql)
+    if not df.empty and 'year' in df.columns:
+        df['year'] = pd.to_numeric(df['year'], errors='coerce')
+        df = df.dropna(subset=['year'])
+        df['year'] = df['year'].astype(int)
+    
+    if not df.empty and 'iso3' in df.columns:
+        df = df.dropna(subset=['iso3'])
+        df['iso3'] = df['iso3'].astype(str)
+    
+    return df
 
 
 def metrics_by_year_country(year: Optional[int] = None) -> pd.DataFrame:
@@ -77,13 +127,27 @@ def metrics_by_year_country(year: Optional[int] = None) -> pd.DataFrame:
         unemployment = load_unemployment()
         corruption = load_corruption()
 
+        # Проверяем, что happiness не пустой
+        if happiness.empty:
+            print("Happiness data is empty")
+            return pd.DataFrame(columns=[
+                "iso3", "country", "year", "salary", "count",
+                "happiness", "inflation", "unemployment", "corruption"
+            ])
+
         base = happiness.copy()
 
-        base = base.merge(salaries, on=["iso3", "year"], how="outer")
-
-        base = base.merge(inflation, on=["iso3", "year"], how="outer")
-        base = base.merge(unemployment, on=["iso3", "year"], how="outer")
-        base = base.merge(corruption, on=["iso3", "year"], how="outer")
+        if not salaries.empty:
+            base = base.merge(salaries, on=["iso3", "year"], how="outer")
+        
+        if not inflation.empty:
+            base = base.merge(inflation, on=["iso3", "year"], how="outer")
+        
+        if not unemployment.empty:
+            base = base.merge(unemployment, on=["iso3", "year"], how="outer")
+        
+        if not corruption.empty:
+            base = base.merge(corruption, on=["iso3", "year"], how="outer")
 
         if year is not None:
             base = base[base["year"] == year]
@@ -96,12 +160,17 @@ def metrics_by_year_country(year: Optional[int] = None) -> pd.DataFrame:
 
         base = base.drop_duplicates(subset=["iso3", "year"])
 
-        base = base.sort_values(["year", "iso3"])
+        base = base.dropna(subset=['iso3'])
+
+        if not base.empty:
+            base = base.sort_values(["year", "iso3"])
 
         return base
 
     except Exception as e:
         print(f"Error in metrics_by_year_country: {e}")
+        import traceback
+        traceback.print_exc()
         return pd.DataFrame(columns=[
             "iso3", "country", "year", "salary", "count",
             "happiness", "inflation", "unemployment", "corruption"
