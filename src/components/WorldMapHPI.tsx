@@ -95,9 +95,9 @@ const WorldMapHPI = ({ data, metric, selectedIso3, onSelect }: Props) => {
         if (!iso3) return NO_DATA_COLOR;
         const row = valueByIso.get(iso3);
         if (!row) return NO_DATA_COLOR;
-        const value = accessor(row as unknown as Record<string, number>);
-        if (!Number.isFinite(value)) return NO_DATA_COLOR;
-        return colorScale(value);
+        const value = accessor(row as unknown as Record<string, unknown>);
+        if (value == null || !Number.isFinite(value)) return NO_DATA_COLOR;
+        return colorScale(value as number);
       })
       .attr("stroke", (d) => {
         const iso3 = (d as GeoFeature).properties?.ISO_A3;
@@ -109,17 +109,17 @@ const WorldMapHPI = ({ data, metric, selectedIso3, onSelect }: Props) => {
       })
       .attr("stroke-linejoin", "round")
       .attr("opacity", 1)
-      .on("mouseenter", (event, d) => {
+      .on("mouseenter", (_event, d) => {
         if (!tooltipRef.current) return;
         const iso3 = (d as GeoFeature).properties?.ISO_A3;
         const name = (d as GeoFeature).properties?.ADMIN;
         const row = iso3 ? valueByIso.get(iso3) : undefined;
-        const value = row ? accessor(row as unknown as Record<string, number>) : null;
+        const value = row ? accessor(row as unknown as Record<string, unknown>) : null;
         tooltipRef.current.style.opacity = "1";
         tooltipRef.current.innerHTML = `
           <div class="tooltip-title">${name || iso3 || "Unknown"}</div>
           <div>${metricMeta[metric].label}: ${
-            value !== null && Number.isFinite(value) ? formatValue(metric, value) : "No data"
+            value != null && Number.isFinite(value) ? formatValue(metric, value as number) : "No data"
           }</div>
         `;
       })
@@ -132,7 +132,7 @@ const WorldMapHPI = ({ data, metric, selectedIso3, onSelect }: Props) => {
         if (!tooltipRef.current) return;
         tooltipRef.current.style.opacity = "0";
       })
-      .on("click", (event, d) => {
+      .on("click", (_event, d) => {
         const iso3 = (d as GeoFeature).properties?.ISO_A3;
         const name = (d as GeoFeature).properties?.ADMIN;
         if (!iso3) return;

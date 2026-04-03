@@ -127,7 +127,7 @@ def metrics_by_year_country(year: Optional[int] = None) -> pd.DataFrame:
         unemployment = load_unemployment()
         corruption = load_corruption()
 
-        # Проверяем, что happiness не пустой
+        # Check that happiness data is not empty
         if happiness.empty:
             print("Happiness data is empty")
             return pd.DataFrame(columns=[

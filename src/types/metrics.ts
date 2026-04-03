@@ -1,4 +1,4 @@
-export type MetricKey = "salary" | "count";
+export type MetricKey = "salary" | "count" | "happiness" | "inflation" | "unemployment" | "corruption";
 
 export type CountryMetricYear = {
   iso3: string;
@@ -6,4 +6,8 @@ export type CountryMetricYear = {
   year: number;
   salary: number;
   count: number;
+  happiness?: number | null;
+  inflation?: number | null;
+  unemployment?: number | null;
+  corruption?: number | null;
 };

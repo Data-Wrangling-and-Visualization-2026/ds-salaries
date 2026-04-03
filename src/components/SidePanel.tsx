@@ -1,11 +1,9 @@
 import { Link } from "react-router-dom";
 import { CountryMetricYear, MetricKey } from "../types/metrics";
-import { metricMeta } from "../utils/metricMeta";
+import { metricMeta, metricOptions } from "../utils/metricMeta";
 
-const metricKeys: MetricKey[] = ["salary", "count"];
-
-const formatMaybe = (value: number, formatter: (value: number) => string) =>
-  Number.isFinite(value) ? formatter(value) : "N/A";
+const formatMaybe = (value: number | null | undefined, formatter: (value: number) => string) =>
+  value != null && Number.isFinite(value) ? formatter(value) : "N/A";
 
 type Props = {
   data: CountryMetricYear | null;
@@ -35,7 +33,7 @@ const SidePanel = ({ data, metric }: Props) => {
         </div>
       </div>
       <div className="metric-list">
-        {metricKeys.map((key) => (
+        {metricOptions.map((key) => (
           <div key={key} className="metric-row">
             <span>{metricMeta[key].label}</span>
             <strong>{formatMaybe(data[key], metricMeta[key].format)}</strong>

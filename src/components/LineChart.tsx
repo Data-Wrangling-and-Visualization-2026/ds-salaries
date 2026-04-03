@@ -90,7 +90,7 @@ const LineChart = ({ data, height = 260, yLabel, formatValue }: Props) => {
     }
 
     if (formatValue) {
-      g.selectAll("circle").append("title").text((d) => formatValue(d.value));
+      g.selectAll("circle").append("title").text((d) => formatValue((d as { value: number }).value));
     }
   }, [data, height, yLabel, formatValue]);
 
