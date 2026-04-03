@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from "react";
-import { getAvailableYears, getCountryYearMetrics } from "../api/client";
+import { getAvailableYears, getAvailableYearsForMetric, getCountryYearMetrics } from "../api/client";
 import MetricFilters from "../components/MetricFilters";
 import SidePanel from "../components/SidePanel";
 import WorldMapHPI from "../components/WorldMapHPI";
@@ -32,6 +32,15 @@ const HomePage = () => {
       active = false;
     };
   }, []);
+
+  const handleMetricChange = (newMetric: MetricKey) => {
+    setMetric(newMetric);
+    getAvailableYearsForMetric(newMetric).then((available) => {
+      if (available.length > 0 && !available.includes(year)) {
+        setYear(available[available.length - 1]);
+      }
+    });
+  };
 
   useEffect(() => {
     let active = true;
@@ -66,7 +75,7 @@ const HomePage = () => {
           metric={metric}
           year={year}
           years={years}
-          onMetricChange={setMetric}
+          onMetricChange={handleMetricChange}
           onYearChange={(value) => {
             setYear(value);
             setSelectedIso3(null);

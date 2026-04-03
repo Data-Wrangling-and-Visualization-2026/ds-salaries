@@ -90,6 +90,20 @@ export const getAvailableYears = async () => {
   return Array.from(new Set(rows.map((row) => row.year))).sort((a, b) => a - b);
 };
 
+export const getAvailableYearsForMetric = async (metric: keyof CountryMetricYear) => {
+  const rows = await loadAllMetrics();
+  return Array.from(
+    new Set(
+      rows
+        .filter((row) => {
+          const v = row[metric];
+          return v != null && Number.isFinite(v as number) && (v as number) > 0;
+        })
+        .map((row) => row.year)
+    )
+  ).sort((a, b) => a - b);
+};
+
 export const getCountrySeries = async (iso3: string) => {
   const response = await requestJson<MetricsResponse>(`/countries/${iso3}/series`);
   const rows = await applyCountryNames(response.data ?? []);
