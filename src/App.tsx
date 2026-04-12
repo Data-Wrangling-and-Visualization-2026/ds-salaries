@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import HomePage from "./routes/HomePage";
 import CountryPage from "./routes/CountryPage";
 import AboutPage from "./routes/AboutPage";
+import ExplorePage from "./routes/ExplorePage";
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/country/:iso3" element={<CountryPage />} />
+        <Route path="/explore" element={<ExplorePage />} />
         <Route path="/about" element={<AboutPage />} />
       </Routes>
     </div>

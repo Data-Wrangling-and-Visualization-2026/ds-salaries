@@ -59,6 +59,7 @@ const WorldMapHPI = ({ data, metric, selectedIso3, onSelect }: Props) => {
     const path = d3.geoPath(projection);
 
     const accessor = metricMeta[metric].accessor;
+    const isCountMetric = metric === "salary" || metric === "count";
     const values = geoData.features
       .map((feature) => {
         const iso3 = (feature as GeoFeature).properties?.ISO_A3;
@@ -66,6 +67,8 @@ const WorldMapHPI = ({ data, metric, selectedIso3, onSelect }: Props) => {
         const row = valueByIso.get(iso3);
         if (!row) return null;
         const value = accessor(row as unknown as Record<string, number>);
+        // Treat 0 as missing for salary/count — a real DS salary of $0 is impossible
+        if (isCountMetric && (value == null || (value as number) <= 0)) return null;
         return Number.isFinite(value) ? value : null;
       })
       .filter((value): value is number => value !== null);
@@ -97,6 +100,7 @@ const WorldMapHPI = ({ data, metric, selectedIso3, onSelect }: Props) => {
         if (!row) return NO_DATA_COLOR;
         const value = accessor(row as unknown as Record<string, unknown>);
         if (value == null || !Number.isFinite(value)) return NO_DATA_COLOR;
+        if (isCountMetric && (value as number) <= 0) return NO_DATA_COLOR;
         return colorScale(value as number);
       })
       .attr("stroke", (d) => {
@@ -115,11 +119,15 @@ const WorldMapHPI = ({ data, metric, selectedIso3, onSelect }: Props) => {
         const name = (d as GeoFeature).properties?.ADMIN;
         const row = iso3 ? valueByIso.get(iso3) : undefined;
         const value = row ? accessor(row as unknown as Record<string, unknown>) : null;
+        const hasValue =
+          value != null &&
+          Number.isFinite(value as number) &&
+          (!isCountMetric || (value as number) > 0);
         tooltipRef.current.style.opacity = "1";
         tooltipRef.current.innerHTML = `
           <div class="tooltip-title">${name || iso3 || "Unknown"}</div>
           <div>${metricMeta[metric].label}: ${
-            value != null && Number.isFinite(value) ? formatValue(metric, value as number) : "No data"
+            hasValue ? formatValue(metric, value as number) : "No data"
           }</div>
         `;
       })

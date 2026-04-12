@@ -6,7 +6,7 @@ from psycopg2.extras import execute_values
 DB_URL = "postgresql://ds:ds@db:5432/ds_salaries"
 
 FILES = {
-    "/app/data/DataScience_salaries_2025_clean.json": (
+    "/app/data/DataScience_salaries_2025_complete.json": (
         "ds.salaries",
         ["work_year", "experience_level", "employment_type", "job_title", "salary",
          "salary_currency", "salary_in_usd", "employee_residence", "company_location",
