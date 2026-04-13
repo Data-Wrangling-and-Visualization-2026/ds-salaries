@@ -338,6 +338,114 @@ a {
   font-size: 18px;
 }
 
+/* ── Rankings panel (HomePage) ─────────────────────────────── */
+.rankings-panel {
+  margin-top: 20px;
+}
+
+.rankings-panel h2 {
+  margin-bottom: 6px;
+}
+
+/* ── Chart caption ────────────────────────────────────────────*/
+.chart-caption {
+  margin: 0 0 10px;
+  font-size: 13px;
+  color: var(--muted);
+  line-height: 1.5;
+}
+
+/* ── Insight panel ────────────────────────────────────────────*/
+.insight-panel h2 {
+  margin-bottom: 10px;
+}
+
+.insight-list {
+  margin: 0;
+  padding-left: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.insight-list li {
+  font-size: 14px;
+  color: var(--muted);
+  line-height: 1.55;
+}
+
+.insight-list li strong {
+  color: var(--text);
+}
+
+/* ── Delta badges (CountryPage snapshot) ──────────────────────*/
+.delta-badge {
+  display: inline-block;
+  margin-top: 4px;
+  font-size: 11px;
+  font-weight: 600;
+  padding: 2px 6px;
+  border-radius: 999px;
+}
+
+.delta-good {
+  background: rgba(34, 197, 94, 0.12);
+  color: #4ade80;
+}
+
+.delta-bad {
+  background: rgba(239, 68, 68, 0.12);
+  color: #f87171;
+}
+
+/* ── Snapshot "vs year" label ────────────────────────────────*/
+.snapshot-vs {
+  font-size: 13px;
+  font-weight: 400;
+  color: var(--muted);
+  margin-left: 8px;
+}
+
+/* ── Wide chart panel (real-wage combined chart) ─────────────*/
+.chart-panel--wide {
+  grid-column: 1 / -1;
+}
+
+/* ── Scatter tooltip ─────────────────────────────────────────*/
+.scatter-tooltip {
+  position: absolute;
+  pointer-events: none;
+  background: rgba(15, 23, 42, 0.92);
+  border: 1px solid var(--border);
+  color: var(--text);
+  padding: 8px 10px;
+  border-radius: 10px;
+  font-size: 12px;
+  line-height: 1.5;
+  max-width: 200px;
+  z-index: 20;
+}
+
+/* ── Explore page ────────────────────────────────────────────*/
+.explore-page .explore-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 20px;
+  gap: 20px;
+}
+
+.explore-page h1 {
+  margin: 0;
+  font-size: 28px;
+}
+
+.explore-grid {
+  display: grid;
+  gap: 18px;
+  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+}
+
 @media (max-width: 1100px) {
   .content-grid {
     grid-template-columns: 1fr;

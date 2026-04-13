@@ -153,8 +153,6 @@ def metrics_by_year_country(year: Optional[int] = None) -> pd.DataFrame:
             base = base[base["year"] == year]
 
         base["country"] = base["country"].fillna(base["iso3"])
-        base["salary"] = base["salary"].fillna(0)
-        base["count"] = base["count"].fillna(0)
 
         base = base.replace([np.nan, np.inf, -np.inf], None)
 
