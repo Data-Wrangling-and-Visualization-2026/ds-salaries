@@ -209,6 +209,9 @@ a {
   display: flex;
   flex-direction: column;
   gap: 16px;
+  width: 280px;
+  flex-shrink: 0;
+  align-self: start;
 }
 
 .side-panel .year {
@@ -469,5 +472,379 @@ a {
   }
   .page {
     padding: 20px;
+  }
+}
+
+/* ── Sidebar layout wrapper ──────────────────────────────────*/
+.sidebar-layout {
+  display: grid;
+  grid-template-columns: 52px 1fr;
+  gap: 0 0;
+  align-items: start;
+  max-width: 1000px;
+}
+
+/* ── NavSidebar ──────────────────────────────────────────────*/
+.nav-sidebar {
+  position: sticky;
+  top: 100px;
+  padding-top: 4px;
+  grid-column: 1;
+}
+
+.nav-sidebar-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.nav-sidebar-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 4px 0;
+}
+
+.nav-sidebar-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--border);
+  transition: background 0.2s, transform 0.2s;
+  flex-shrink: 0;
+}
+
+.nav-sidebar-label {
+  font-size: 11px;
+  color: var(--muted);
+  white-space: nowrap;
+  opacity: 0;
+  transform: translateX(-4px);
+  transition: opacity 0.2s, transform 0.2s;
+  pointer-events: none;
+}
+
+.nav-sidebar-btn:hover .nav-sidebar-label,
+.nav-sidebar-item.active .nav-sidebar-label {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.nav-sidebar-item.active .nav-sidebar-dot {
+  background: var(--accent);
+  transform: scale(1.4);
+}
+
+.nav-sidebar-btn:hover .nav-sidebar-dot {
+  background: var(--muted);
+}
+
+/* Content column inside sidebar layout */
+.sidebar-content {
+  min-width: 0; /* prevent overflow */
+  grid-column: 2;
+}
+
+/* Pages that use sidebar layout */
+.page.with-sidebar {
+  padding-left: 36px;
+  padding-right: 36px;
+}
+
+/* ── Back button ─────────────────────────────────────────────*/
+.back-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 14px;
+  border-radius: 10px;
+  background: var(--panel-light);
+  border: 1px solid var(--border);
+  color: var(--muted);
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: color 0.2s, background 0.2s;
+}
+
+.back-button:hover {
+  color: var(--text);
+  background: var(--border);
+}
+
+/* ── Secondary button ────────────────────────────────────────*/
+.secondary-button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 14px;
+  border-radius: 10px;
+  background: transparent;
+  border: 1px solid var(--border);
+  color: var(--muted);
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: color 0.2s, border-color 0.2s;
+}
+
+.secondary-button:hover {
+  color: var(--text);
+  border-color: var(--muted);
+}
+
+/* ── Compare bar (below map) ─────────────────────────────────*/
+.compare-bar {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-top: 12px;
+  padding: 12px 16px;
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+}
+
+.compare-label {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.compare-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.compare-dot--primary {
+  background: #0f172a;
+  border: 2px solid #48a9ff;
+}
+
+.compare-dot--secondary {
+  background: #7c3aed;
+}
+
+.compare-button {
+  margin-left: auto;
+  font-size: 13px;
+  padding: 8px 18px;
+}
+
+.compare-no-salary {
+  margin-left: auto;
+  font-size: 12px;
+  color: #f87171;
+  font-style: italic;
+}
+
+/* ── Data attribution ────────────────────────────────────────*/
+.data-attribution {
+  margin-top: 24px;
+  font-size: 12px;
+  color: var(--muted);
+  text-align: right;
+}
+
+.data-attribution a {
+  color: var(--accent);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+/* ── Country page: new layout ────────────────────────────────*/
+.country-content {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  max-width: 900px;
+}
+
+.country-header {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+/* ── Trend sparkline rows (NYT style) ────────────────────────*/
+.trend-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.trend-row {
+  display: grid;
+  grid-template-columns: 160px 1fr 160px;
+  align-items: center;
+  gap: 16px;
+  padding: 14px 0;
+  border-bottom: 1px dashed var(--border);
+}
+
+.trend-row:last-child {
+  border-bottom: none;
+}
+
+.trend-row-label {
+  font-size: 13px;
+  color: var(--muted);
+  font-weight: 500;
+}
+
+.trend-row-spark {
+  display: flex;
+  align-items: center;
+}
+
+.trend-row-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 3px;
+}
+
+.trend-row-value {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.trend-no-data {
+  color: var(--border);
+  font-size: 18px;
+}
+
+/* ── Comparison page ─────────────────────────────────────────*/
+.comparison-page .country-header h1 {
+  font-size: 26px;
+}
+
+.comparison-snapshot {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 14px;
+  margin-bottom: 24px;
+}
+
+.comparison-metric-card {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 14px 16px;
+}
+
+.comparison-metric-label {
+  font-size: 11px;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+  margin-bottom: 10px;
+}
+
+.comparison-values {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 13px;
+}
+
+.comparison-values > div {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  flex: 1;
+}
+
+.comparison-values strong {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.comparison-country-name {
+  font-size: 11px;
+  opacity: 0.8;
+}
+
+.comparison-divider {
+  font-size: 11px;
+  color: var(--muted);
+  flex: 0;
+}
+
+.comparison-charts {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.comparison-chart-panel {
+  max-width: 700px;
+}
+
+/* ── USA page ────────────────────────────────────────────────*/
+.usa-content {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.usa-correlation-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 16px;
+  margin-top: 16px;
+}
+
+/* ── Inline welcome sections ─────────────────────────────────*/
+.usa-inline-section,
+.explore-inline-section {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.usa-inline-section .panel h3,
+.explore-inline-section .panel h3,
+.usa-inline-section .panel h4,
+.explore-inline-section .panel h4 {
+  margin: 0 0 4px 0;
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--text);
+}
+
+.explore-year-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 4px;
+}
+
+.explore-year-row label {
+  font-size: 13px;
+  color: var(--text-muted);
+}
+
+/* ── Responsive adjustments ──────────────────────────────────*/
+@media (max-width: 900px) {
+  .nav-sidebar {
+    display: none;
+  }
+  .page.with-sidebar {
+    padding-left: 36px;
+  }
+  .comparison-snapshot {
+    grid-template-columns: 1fr;
   }
 }

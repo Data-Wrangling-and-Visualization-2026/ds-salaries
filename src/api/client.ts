@@ -104,6 +104,28 @@ export const getAvailableYearsForMetric = async (metric: keyof CountryMetricYear
   ).sort((a, b) => a - b);
 };
 
+export type USAProfession = {
+  job_title: string;
+  count: number;
+  median_salary: number;
+};
+
+export type USAExperienceLevel = {
+  experience_level: string;
+  count: number;
+  median_salary: number;
+};
+
+export const getUSAProfessions = async (): Promise<USAProfession[]> => {
+  const response = await requestJson<{ data: USAProfession[] }>("/usa/professions");
+  return response.data ?? [];
+};
+
+export const getUSAExperience = async (): Promise<USAExperienceLevel[]> => {
+  const response = await requestJson<{ data: USAExperienceLevel[] }>("/usa/experience");
+  return response.data ?? [];
+};
+
 export const getCountrySeries = async (iso3: string) => {
   const response = await requestJson<MetricsResponse>(`/countries/${iso3}/series`);
   const rows = await applyCountryNames(response.data ?? []);

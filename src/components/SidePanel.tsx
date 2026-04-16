@@ -40,9 +40,11 @@ const SidePanel = ({ data, metric }: Props) => {
           </div>
         ))}
       </div>
-      <Link className="primary-button" to={`/country/${data.iso3}`}>
-        Open country view
-      </Link>
+      {data.salary != null && data.salary > 0 && (
+        <Link className="primary-button" to={`/country/${data.iso3}`}>
+          Open country view
+        </Link>
+      )}
     </aside>
   );
 };

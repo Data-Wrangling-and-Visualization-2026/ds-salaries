@@ -174,6 +174,7 @@ const Globe = () => {
   const [geoData, setGeoData] = useState<any[]>([]);
   const [metricsData, setMetricsData] = useState<any[]>([]);
   const [metric, setMetric] = useState<MetricKey>("happiness");
+  const [shuffleTick, setShuffleTick] = useState(0);
 
   useFrame(({ clock }) => {
     if (groupRef.current) {
@@ -243,49 +244,59 @@ const Globe = () => {
         const idx = metrics.indexOf(prev);
         return metrics[(idx + 1) % metrics.length];
       });
-    }, 4000);
+    }, 8000);
 
-    return () => clearInterval(interval);
+    const shuffleInterval = setInterval(() => {
+      setShuffleTick((t) => t + 1);
+    }, 15000);
+
+    return () => {
+      clearInterval(interval);
+      clearInterval(shuffleInterval);
+    };
   }, []);
 
-  // geo + data
-  const dataPoints = useMemo(() => {
+  const metricsMap = useMemo(() => {
     const map = new Map();
+    metricsData.forEach((d: any) => map.set(d.iso3, d));
+    return map;
+  }, [metricsData]);
 
-    metricsData.forEach((d: any) => {
-      map.set(d.iso3, d);
-    });
-
+  // All geo points that have any metric data — does NOT depend on metric
+  const candidateIso3s = useMemo(() => {
     return geoData
+      .filter((g) => metricsMap.has(g.iso3))
+      .map((g) => g.iso3);
+  }, [geoData, metricsMap]);
+
+  // Stable selection of 10 iso3s — only reshuffles on shuffleTick
+  const visibleIso3s = useMemo(() => {
+    if (candidateIso3s.length === 0) return [];
+    const shuffled = [...candidateIso3s].sort(() => 0.5 - Math.random());
+    return shuffled.slice(0, 10);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [shuffleTick, candidateIso3s.length]);
+
+  // Build visible points using current metric values for the stable selection
+  const visiblePoints = useMemo(() => {
+    const iso3Set = new Set(visibleIso3s);
+    return geoData
+      .filter((g) => iso3Set.has(g.iso3))
       .map((g) => {
-        const m = map.get(g.iso3);
-        if (!m) return null;
-
-        const value = m[metric];
+        const m = metricsMap.get(g.iso3);
+        const value = m?.[metric];
         if (value == null) return null;
-
-        return {
-          ...g,
-          value,
-        };
+        return { ...g, value };
       })
       .filter(Boolean);
-  }, [geoData, metricsData, metric]);
+  }, [visibleIso3s, geoData, metricsMap, metric]);
 
   const getColor = (value: number) => {
     if (!value) return "#ccc";
-
-    // normalization
-    if (value < 3) return "#38bdf8";   // low
-    if (value < 6) return "#facc15";   // mid
-    return "#ef4444";                 // high
+    if (value < 3) return "#38bdf8";
+    if (value < 6) return "#facc15";
+    return "#ef4444";
   };
-
-  const visiblePoints = useMemo(() => {
-    return [...dataPoints]
-      .sort(() => 0.5 - Math.random())
-      .slice(0, 10);
-  }, [dataPoints]);
 
   return (
     <group ref={groupRef}>

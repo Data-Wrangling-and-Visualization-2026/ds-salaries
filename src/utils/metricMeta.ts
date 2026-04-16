@@ -1,5 +1,5 @@
 import { MetricKey } from "../types/metrics";
-import { formatCurrency, formatNumber, formatPercent, formatScore } from "./format";
+import { formatCurrency, formatPercent, formatScore } from "./format";
 
 export type MetricMeta = {
   key: MetricKey;
@@ -18,14 +18,6 @@ export const metricMeta: Record<MetricKey, MetricMeta> = {
     isPositive: true,
     format: (v) => formatCurrency(v, 0),
     accessor: (row) => row.salary as number
-  },
-  count: {
-    key: "count",
-    label: "Job Count",
-    unit: "records",
-    isPositive: true,
-    format: (v) => formatNumber(v, 0),
-    accessor: (row) => row.count as number
   },
   happiness: {
     key: "happiness",
@@ -63,7 +55,6 @@ export const metricMeta: Record<MetricKey, MetricMeta> = {
 
 export const metricOptions: MetricKey[] = [
   "salary",
-  "count",
   "happiness",
   "inflation",
   "unemployment",

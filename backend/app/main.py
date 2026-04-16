@@ -2,7 +2,11 @@ from typing import Optional
 from fastapi import FastAPI, Query
 from fastapi.middleware.cors import CORSMiddleware
 from app.data_loader import metrics_by_year_country
-from app.models import MetricsResponse, CountryMetricYear
+from app.models import (
+    MetricsResponse, CountryMetricYear,
+    USAProfessionsResponse, USAProfession,
+    USAExperienceResponse, USAExperienceLevel,
+)
 import pandas as pd
 import numpy as np
 
@@ -106,6 +110,65 @@ def years():
         import traceback
         traceback.print_exc()
         return []
+
+
+@app.get("/usa/professions", response_model=USAProfessionsResponse)
+def usa_professions():
+    try:
+        from app.data_loader import query_df
+        sql = """
+            SELECT
+                job_title,
+                COUNT(*) AS count,
+                PERCENTILE_CONT(0.5) WITHIN GROUP (ORDER BY salary_in_usd) AS median_salary
+            FROM ds.salaries
+            WHERE company_location = 'USA'
+            GROUP BY job_title
+            ORDER BY count DESC
+            LIMIT 30
+        """
+        df = query_df(sql)
+        if df.empty:
+            return {"data": []}
+        df = df.replace({pd.NA: None, np.nan: None})
+        df = df.dropna()
+        data = [USAProfession(**row) for row in df.to_dict(orient="records")]
+        return {"data": data}
+    except Exception as e:
+        print(f"Error in /usa/professions: {e}")
+        import traceback
+        traceback.print_exc()
+        return {"data": []}
+
+
+@app.get("/usa/experience", response_model=USAExperienceResponse)
+def usa_experience():
+    try:
+        from app.data_loader import query_df
+        sql = """
+            SELECT
+                experience_level,
+                COUNT(*) AS count,
+                PERCENTILE_CONT(0.5) WITHIN GROUP (ORDER BY salary_in_usd) AS median_salary
+            FROM ds.salaries
+            WHERE company_location = 'USA'
+            GROUP BY experience_level
+            ORDER BY median_salary DESC
+        """
+        df = query_df(sql)
+        if df.empty:
+            return {"data": []}
+        df = df.replace({pd.NA: None, np.nan: None})
+        df = df.dropna()
+        exp_labels = {"EN": "Entry-level", "MI": "Mid-level", "SE": "Senior", "EX": "Executive"}
+        df["experience_level"] = df["experience_level"].map(exp_labels).fillna(df["experience_level"])
+        data = [USAExperienceLevel(**row) for row in df.to_dict(orient="records")]
+        return {"data": data}
+    except Exception as e:
+        print(f"Error in /usa/experience: {e}")
+        import traceback
+        traceback.print_exc()
+        return {"data": []}
 
 
 @app.get("/countries/{iso3}/series", response_model=MetricsResponse)

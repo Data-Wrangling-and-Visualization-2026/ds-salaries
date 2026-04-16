@@ -19,11 +19,11 @@ type GeoFeature = {
 type Props = {
   data: CountryMetricYear[];
   metric: MetricKey;
-  selectedIso3: string | null;
+  selectedCountries: string[];
   onSelect: (iso3: string, country: string | undefined) => void;
 };
 
-const WorldMapHPI = ({ data, metric, selectedIso3, onSelect }: Props) => {
+const WorldMapHPI = ({ data, metric, selectedCountries, onSelect }: Props) => {
   const svgRef = useRef<SVGSVGElement | null>(null);
   const wrapperRef = useRef<HTMLDivElement | null>(null);
   const tooltipRef = useRef<HTMLDivElement | null>(null);
@@ -59,7 +59,7 @@ const WorldMapHPI = ({ data, metric, selectedIso3, onSelect }: Props) => {
     const path = d3.geoPath(projection);
 
     const accessor = metricMeta[metric].accessor;
-    const isCountMetric = metric === "salary" || metric === "count";
+    const isSalaryMetric = metric === "salary";
     const values = geoData.features
       .map((feature) => {
         const iso3 = (feature as GeoFeature).properties?.ISO_A3;
@@ -67,8 +67,7 @@ const WorldMapHPI = ({ data, metric, selectedIso3, onSelect }: Props) => {
         const row = valueByIso.get(iso3);
         if (!row) return null;
         const value = accessor(row as unknown as Record<string, number>);
-        // Treat 0 as missing for salary/count — a real DS salary of $0 is impossible
-        if (isCountMetric && (value == null || (value as number) <= 0)) return null;
+        if (isSalaryMetric && (value == null || (value as number) <= 0)) return null;
         return Number.isFinite(value) ? value : null;
       })
       .filter((value): value is number => value !== null);
@@ -100,16 +99,19 @@ const WorldMapHPI = ({ data, metric, selectedIso3, onSelect }: Props) => {
         if (!row) return NO_DATA_COLOR;
         const value = accessor(row as unknown as Record<string, unknown>);
         if (value == null || !Number.isFinite(value)) return NO_DATA_COLOR;
-        if (isCountMetric && (value as number) <= 0) return NO_DATA_COLOR;
+        if (isSalaryMetric && (value as number) <= 0) return NO_DATA_COLOR;
         return colorScale(value as number);
       })
       .attr("stroke", (d) => {
         const iso3 = (d as GeoFeature).properties?.ISO_A3;
-        return selectedIso3 && iso3 === selectedIso3 ? "#0f172a" : "#ffffff";
+        if (!iso3) return "#ffffff";
+        if (selectedCountries[0] === iso3) return "#0f172a";
+        if (selectedCountries[1] === iso3) return "#7c3aed";
+        return "#ffffff";
       })
       .attr("stroke-width", (d) => {
         const iso3 = (d as GeoFeature).properties?.ISO_A3;
-        return selectedIso3 && iso3 === selectedIso3 ? 1.4 : 0.6;
+        return iso3 && selectedCountries.includes(iso3) ? 2 : 0.6;
       })
       .attr("stroke-linejoin", "round")
       .attr("opacity", 1)
@@ -122,7 +124,7 @@ const WorldMapHPI = ({ data, metric, selectedIso3, onSelect }: Props) => {
         const hasValue =
           value != null &&
           Number.isFinite(value as number) &&
-          (!isCountMetric || (value as number) > 0);
+          (!isSalaryMetric || (value as number) > 0);
         tooltipRef.current.style.opacity = "1";
         tooltipRef.current.innerHTML = `
           <div class="tooltip-title">${name || iso3 || "Unknown"}</div>
@@ -153,12 +155,15 @@ const WorldMapHPI = ({ data, metric, selectedIso3, onSelect }: Props) => {
     const swatchSize = 16;
     const swatchGap = 6;
 
+    const minLabel = metricMeta[metric].format(minValue);
+    const maxLabel = metricMeta[metric].format(domainMax);
+
     legend
       .append("text")
       .attr("x", legendX)
       .attr("y", legendY - 10)
       .attr("class", "legend-label")
-      .text("BAD");
+      .text(minLabel);
 
     legend
       .append("text")
@@ -166,7 +171,7 @@ const WorldMapHPI = ({ data, metric, selectedIso3, onSelect }: Props) => {
       .attr("y", legendY - 10)
       .attr("text-anchor", "end")
       .attr("class", "legend-label")
-      .text("GOOD");
+      .text(maxLabel);
 
     legendColors.forEach((color, idx) => {
       legend
@@ -180,7 +185,7 @@ const WorldMapHPI = ({ data, metric, selectedIso3, onSelect }: Props) => {
         .attr("stroke", "#ffffff")
         .attr("stroke-width", 0.8);
     });
-  }, [geoData, metric, selectedIso3, valueByIso, onSelect]);
+  }, [geoData, metric, selectedCountries, valueByIso, onSelect]);
 
   return (
     <div className="map-wrapper hpi-map" ref={wrapperRef}>

@@ -18,3 +18,23 @@ class CountryMetricYear(BaseModel):
 
 class MetricsResponse(BaseModel):
     data: list[CountryMetricYear]
+
+
+class USAProfession(BaseModel):
+    job_title: str
+    count: int
+    median_salary: float
+
+
+class USAProfessionsResponse(BaseModel):
+    data: list[USAProfession]
+
+
+class USAExperienceLevel(BaseModel):
+    experience_level: str
+    count: int
+    median_salary: float
+
+
+class USAExperienceResponse(BaseModel):
+    data: list[USAExperienceLevel]

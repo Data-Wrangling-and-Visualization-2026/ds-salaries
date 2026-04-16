@@ -19,7 +19,7 @@ const HomePage = () => {
   const [data, setData] = useState<CountryMetricYear[]>([]);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
-  const [selectedIso3, setSelectedIso3] = useState<string | null>(null);
+  const [selectedCountries, setSelectedCountries] = useState<string[]>([]);
   const navigate = useNavigate();
 
   useEffect(() => {
@@ -76,9 +76,10 @@ const HomePage = () => {
   }, [year]);
 
   const selectedRow = useMemo(() => {
-    if (!selectedIso3) return null;
-    return data.find((row) => row.iso3 === selectedIso3) ?? null;
-  }, [data, selectedIso3]);
+    const iso3 = selectedCountries[0] ?? null;
+    if (!iso3) return null;
+    return data.find((row) => row.iso3 === iso3) ?? null;
+  }, [data, selectedCountries]);
 
   const meta = metricMeta[metric];
 
@@ -114,7 +115,7 @@ const HomePage = () => {
           onMetricChange={handleMetricChange}
           onYearChange={(value) => {
             setYear(value);
-            setSelectedIso3(null);
+            setSelectedCountries([]);
           }}
         />
         <section className="panel map-panel">
@@ -123,8 +124,10 @@ const HomePage = () => {
           <WorldMapHPI
             data={data}
             metric={metric}
-            selectedIso3={selectedIso3}
-            onSelect={(iso3) => setSelectedIso3(iso3)}
+            selectedCountries={selectedCountries}
+            onSelect={(iso3) => setSelectedCountries((prev) =>
+              prev.includes(iso3) ? prev.filter((c) => c !== iso3) : [iso3]
+            )}
           />
         </section>
         <SidePanel data={selectedRow} metric={metric} />

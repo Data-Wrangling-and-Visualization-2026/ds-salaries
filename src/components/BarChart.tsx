@@ -14,7 +14,7 @@ type Props = {
   onSelect?: (iso3: string) => void;
 };
 
-const BAR_HEIGHT = 30;
+const BAR_HEIGHT = 22;
 const MARGIN = { top: 8, right: 90, bottom: 28, left: 130 };
 const WIDTH = 520;
 
@@ -94,7 +94,7 @@ const BarChart = ({ data, formatValue, color = "#48a9ff", onSelect }: Props) => 
       .attr("y", (d) => y(d.label)! + y.bandwidth() / 2 + 4)
       .attr("text-anchor", "end")
       .attr("fill", "#cbd5e1")
-      .attr("font-size", 12)
+      .attr("font-size", 11)
       .style("cursor", (d) => (d.iso3 && onSelect ? "pointer" : "default"))
       .text((d) =>
         d.label.length > 17 ? d.label.slice(0, 16) + "…" : d.label

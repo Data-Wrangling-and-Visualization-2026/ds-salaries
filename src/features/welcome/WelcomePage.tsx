@@ -4,10 +4,10 @@ import WelcomeText from "./WelcomeText";
 import WorldMapHPI from "../../components/WorldMapHPI";
 import MetricFilters from "../../components/MetricFilters";
 import SidePanel from "../../components/SidePanel";
-import BarChart from "../../components/BarChart";
+import UsaSection from "./UsaSection";
+import ExploreSection from "./ExploreSection";
 import { getCountryYearMetrics, getAvailableYears } from "../../api/client";
 import { CountryMetricYear, MetricKey } from "../../types/metrics";
-import { metricMeta } from "../../utils/metricMeta";
 import { useState, useEffect, useMemo } from "react";
 import { useNavigate } from "react-router-dom";
 import "./WelcomePage.css";
@@ -15,17 +15,15 @@ import "./WelcomePage.css";
 const WelcomePage = () => {
   const navigate = useNavigate();
   const dataSectionRef = useRef<HTMLDivElement>(null);
-  
-  // Состояния для данных карты
+
   const [year, setYear] = useState(2025);
   const [years, setYears] = useState<number[]>([]);
   const [metric, setMetric] = useState<MetricKey>("salary");
   const [data, setData] = useState<CountryMetricYear[]>([]);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
-  const [selectedIso3, setSelectedIso3] = useState<string | null>(null);
+  const [selectedCountries, setSelectedCountries] = useState<string[]>([]);
 
-  // Загрузка годов
   useEffect(() => {
     const loadYears = async () => {
       try {
@@ -41,7 +39,6 @@ const WelcomePage = () => {
     loadYears();
   }, []);
 
-  // Загрузка данных
   useEffect(() => {
     let active = true;
     setLoading(true);
@@ -63,32 +60,25 @@ const WelcomePage = () => {
     };
   }, [year]);
 
-  const selectedRow = useMemo(() => {
-    if (!selectedIso3) return null;
-    return data.find((row) => row.iso3 === selectedIso3) ?? null;
-  }, [data, selectedIso3]);
-
-  const meta = metricMeta[metric];
-
-  const rankingData = useMemo(() => {
-    const valid: any[] = [];
-    for (const row of data) {
-      const value = meta.accessor(row as Record<string, unknown>);
-      if (value != null && Number.isFinite(value) && (value as number) > 0) {
-        valid.push({ label: row.country, value: value as number, iso3: row.iso3 });
+  const handleCountrySelect = (iso3: string) => {
+    setSelectedCountries((prev) => {
+      if (prev.includes(iso3)) {
+        // Deselect
+        return prev.filter((c) => c !== iso3);
       }
-    }
+      if (prev.length < 2) {
+        return [...prev, iso3];
+      }
+      // Replace first with new one, keep second
+      return [prev[1], iso3];
+    });
+  };
 
-    if (!meta.isPositive) {
-      return valid.sort((a, b) => a.value - b.value).slice(0, 10);
-    }
-    return valid.sort((a, b) => b.value - a.value).slice(0, 10);
-  }, [data, meta]);
-
-  const rankingLabel = meta.isPositive ? "Top 10 countries" : "10 lowest countries";
-  const rankingCaption = meta.isPositive
-    ? `Countries with the highest ${meta.label.toLowerCase()} in ${year}.`
-    : `Countries with the lowest ${meta.label.toLowerCase()} in ${year} — lower is better.`;
+  const selectedRow = useMemo(() => {
+    const iso3 = selectedCountries[0] ?? null;
+    if (!iso3) return null;
+    return data.find((row) => row.iso3 === iso3) ?? null;
+  }, [data, selectedCountries]);
 
   const scrollToData = () => {
     dataSectionRef.current?.scrollIntoView({ behavior: "smooth" });
@@ -96,7 +86,7 @@ const WelcomePage = () => {
 
   return (
     <div className="welcome-page">
-      {/* Первая секция: глобус + текст */}
+      {/* Hero: globe + text */}
       <section className="hero-section">
         <div className="globe-wrapper">
           <GlobeScene />
@@ -106,8 +96,8 @@ const WelcomePage = () => {
         </div>
       </section>
 
-      {/* Вторая секция: карта и данные */}
-      <section ref={dataSectionRef} className="data-section">
+      {/* Data section */}
+      <section ref={dataSectionRef} className="data-section" id="explore">
         <div className="container">
           <div className="section-header">
             <h2>Global Metrics Explorer</h2>
@@ -121,7 +111,7 @@ const WelcomePage = () => {
             onMetricChange={setMetric}
             onYearChange={(value) => {
               setYear(value);
-              setSelectedIso3(null);
+              setSelectedCountries([]);
             }}
           />
 
@@ -133,25 +123,74 @@ const WelcomePage = () => {
               <WorldMapHPI
                 data={data}
                 metric={metric}
-                selectedIso3={selectedIso3}
-                onSelect={(iso3) => setSelectedIso3(iso3)}
+                selectedCountries={selectedCountries}
+                onSelect={(iso3) => handleCountrySelect(iso3)}
               />
+              {selectedCountries.length === 2 && (() => {
+                const rowA = data.find((r) => r.iso3 === selectedCountries[0]);
+                const rowB = data.find((r) => r.iso3 === selectedCountries[1]);
+                const canCompare = rowA && rowA.salary > 0 && rowB && rowB.salary > 0;
+                return (
+                  <div className="compare-bar">
+                    <span className="compare-label">
+                      <span className="compare-dot compare-dot--primary" />
+                      {rowA?.country ?? selectedCountries[0]}
+                    </span>
+                    <span className="compare-label">
+                      <span className="compare-dot compare-dot--secondary" />
+                      {rowB?.country ?? selectedCountries[1]}
+                    </span>
+                    {canCompare ? (
+                      <button
+                        className="primary-button compare-button"
+                        onClick={() =>
+                          navigate(`/compare/${selectedCountries[0]}/${selectedCountries[1]}`)
+                        }
+                      >
+                        Compare
+                      </button>
+                    ) : (
+                      <span className="compare-no-salary">
+                        One or both countries have no salary data
+                      </span>
+                    )}
+                    <button
+                      className="secondary-button"
+                      onClick={() => setSelectedCountries([])}
+                    >
+                      Clear
+                    </button>
+                  </div>
+                );
+              })()}
             </div>
             <SidePanel data={selectedRow} metric={metric} />
           </div>
 
-          {rankingData.length > 0 && (
-            <div className="rankings-container">
-              <h3>{rankingLabel} — {meta.label} ({year})</h3>
-              <p className="caption">{rankingCaption}</p>
-              <BarChart
-                data={rankingData}
-                formatValue={meta.format}
-                color={meta.isPositive ? "#48a9ff" : "#f97316"}
-                onSelect={(iso3) => navigate(`/country/${iso3}`)}
-              />
-            </div>
-          )}
+          <div className="data-attribution">
+            Salary data:{" "}
+            <a
+              href="https://www.kaggle.com/datasets/chopper53/machine-learning-engineer-salary-in-2024"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              AI/DS Salaries 2025 — Kaggle
+            </a>
+          </div>
+        </div>
+      </section>
+
+      {/* USA section */}
+      <section className="data-section">
+        <div className="container">
+          <UsaSection />
+        </div>
+      </section>
+
+      {/* Explore / correlations section */}
+      <section className="data-section">
+        <div className="container">
+          <ExploreSection />
         </div>
       </section>
     </div>
