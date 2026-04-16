@@ -59,9 +59,10 @@ const MultiLineChart = ({ series, height = 260 }: Props) => {
         .attr("stroke-width", 2.2)
         .attr("d", line);
 
-      g.selectAll(`circle-${s.label}`)
+      g.selectAll(`.dot-${series.indexOf(s)}`)
         .data(s.values)
         .join("circle")
+        .attr("class", `dot-${series.indexOf(s)}`)
         .attr("cx", (d) => x(d.year))
         .attr("cy", (d) => y(d.value))
         .attr("r", 3.5)

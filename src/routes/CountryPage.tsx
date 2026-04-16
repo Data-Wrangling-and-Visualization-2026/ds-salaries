@@ -195,7 +195,6 @@ const CountryPage = () => {
   }, [iso3]);
 
   const latest = series[series.length - 1];
-  const previous = series.length >= 2 ? series[series.length - 2] : null;
 
   const salarySeries = useMemo(
     () =>
@@ -236,6 +235,22 @@ const CountryPage = () => {
         .filter((p) => Number.isFinite(p.value)),
     [series]
   );
+
+  // Per-metric latest/previous — each metric may have different data coverage
+  const latestOf = (s: { year: number; value: number }[]) => s[s.length - 1]?.value ?? null;
+  const prevOf   = (s: { year: number; value: number }[]) => s.length >= 2 ? s[s.length - 2].value : null;
+
+  const latestSalary     = latestOf(salarySeries);
+  const latestHappiness  = latestOf(happinessSeries);
+  const latestInflation  = latestOf(inflationSeries);
+  const latestUnemploy   = latestOf(unemploymentSeries);
+  const latestCorruption = latestOf(corruptionSeries);
+
+  const prevSalary     = prevOf(salarySeries);
+  const prevHappiness  = prevOf(happinessSeries);
+  const prevInflation  = prevOf(inflationSeries);
+  const prevUnemploy   = prevOf(unemploymentSeries);
+  const prevCorruption = prevOf(corruptionSeries);
 
   const realWageSeries = useMemo<Series[]>(() => {
     if (salarySeries.length < 2 || inflationSeries.length < 2) return [];
@@ -314,54 +329,32 @@ const CountryPage = () => {
           <section className="panel summary-panel" id="snapshot">
             <h2>
               {latest.year} snapshot
-              {previous && (
-                <span className="snapshot-vs"> vs {previous.year}</span>
-              )}
             </h2>
             <div className="metric-grid">
               <div>
                 <span>Median salary</span>
-                <strong>{formatMaybe(latest.salary || null, formatCurrency)}</strong>
-                <DeltaBadge
-                  delta={yoyDelta(latest.salary, previous?.salary)}
-                  isPositive={true}
-                />
+                <strong>{formatMaybe(latestSalary, formatCurrency)}</strong>
+                <DeltaBadge delta={yoyDelta(latestSalary, prevSalary)} isPositive={true} />
               </div>
               <div>
                 <span>Happiness Index</span>
-                <strong>{formatMaybe(latest.happiness, (v) => formatScore(v, 2))}</strong>
-                <DeltaBadge
-                  delta={yoyDelta(latest.happiness, previous?.happiness)}
-                  isPositive={true}
-                  fmt="abs"
-                />
+                <strong>{formatMaybe(latestHappiness, (v) => formatScore(v, 2))}</strong>
+                <DeltaBadge delta={yoyDelta(latestHappiness, prevHappiness)} isPositive={true} fmt="abs" />
               </div>
               <div>
                 <span>Inflation Rate</span>
-                <strong>{formatMaybe(latest.inflation, formatPercent)}</strong>
-                <DeltaBadge
-                  delta={yoyDelta(latest.inflation, previous?.inflation)}
-                  isPositive={false}
-                  fmt="abs"
-                />
+                <strong>{formatMaybe(latestInflation, formatPercent)}</strong>
+                <DeltaBadge delta={yoyDelta(latestInflation, prevInflation)} isPositive={false} fmt="abs" />
               </div>
               <div>
                 <span>Unemployment Rate</span>
-                <strong>{formatMaybe(latest.unemployment, formatPercent)}</strong>
-                <DeltaBadge
-                  delta={yoyDelta(latest.unemployment, previous?.unemployment)}
-                  isPositive={false}
-                  fmt="abs"
-                />
+                <strong>{formatMaybe(latestUnemploy, formatPercent)}</strong>
+                <DeltaBadge delta={yoyDelta(latestUnemploy, prevUnemploy)} isPositive={false} fmt="abs" />
               </div>
               <div>
                 <span>Corruption Index</span>
-                <strong>{formatMaybe(latest.corruption, (v) => formatScore(v, 0))}</strong>
-                <DeltaBadge
-                  delta={yoyDelta(latest.corruption, previous?.corruption)}
-                  isPositive={true}
-                  fmt="abs"
-                />
+                <strong>{formatMaybe(latestCorruption, (v) => formatScore(v, 0))}</strong>
+                <DeltaBadge delta={yoyDelta(latestCorruption, prevCorruption)} isPositive={true} fmt="abs" />
               </div>
             </div>
           </section>
@@ -384,65 +377,36 @@ const CountryPage = () => {
             <div className="trend-list">
               <TrendRow
                 label="Median Salary"
-                value={formatMaybe(latest.salary || null, formatCurrency)}
-                delta={
-                  <DeltaBadge
-                    delta={yoyDelta(latest.salary, previous?.salary)}
-                    isPositive={true}
-                  />
-                }
+                value={formatMaybe(latestSalary, formatCurrency)}
+                delta={<DeltaBadge delta={yoyDelta(latestSalary, prevSalary)} isPositive={true} />}
                 series={salarySeries}
                 color="#48a9ff"
               />
               <TrendRow
                 label="Happiness Index"
-                value={formatMaybe(latest.happiness, (v) => formatScore(v, 2))}
-                delta={
-                  <DeltaBadge
-                    delta={yoyDelta(latest.happiness, previous?.happiness)}
-                    isPositive={true}
-                    fmt="abs"
-                  />
-                }
+                value={formatMaybe(latestHappiness, (v) => formatScore(v, 2))}
+                delta={<DeltaBadge delta={yoyDelta(latestHappiness, prevHappiness)} isPositive={true} fmt="abs" />}
                 series={happinessSeries}
                 color="#a78bfa"
               />
               <TrendRow
                 label="Inflation Rate"
-                value={formatMaybe(latest.inflation, formatPercent)}
-                delta={
-                  <DeltaBadge
-                    delta={yoyDelta(latest.inflation, previous?.inflation)}
-                    isPositive={false}
-                    fmt="abs"
-                  />
-                }
+                value={formatMaybe(latestInflation, formatPercent)}
+                delta={<DeltaBadge delta={yoyDelta(latestInflation, prevInflation)} isPositive={false} fmt="abs" />}
                 series={inflationSeries}
                 color="#f97316"
               />
               <TrendRow
                 label="Unemployment Rate"
-                value={formatMaybe(latest.unemployment, formatPercent)}
-                delta={
-                  <DeltaBadge
-                    delta={yoyDelta(latest.unemployment, previous?.unemployment)}
-                    isPositive={false}
-                    fmt="abs"
-                  />
-                }
+                value={formatMaybe(latestUnemploy, formatPercent)}
+                delta={<DeltaBadge delta={yoyDelta(latestUnemploy, prevUnemploy)} isPositive={false} fmt="abs" />}
                 series={unemploymentSeries}
                 color="#fb923c"
               />
               <TrendRow
                 label="Corruption Index"
-                value={formatMaybe(latest.corruption, (v) => formatScore(v, 0))}
-                delta={
-                  <DeltaBadge
-                    delta={yoyDelta(latest.corruption, previous?.corruption)}
-                    isPositive={true}
-                    fmt="abs"
-                  />
-                }
+                value={formatMaybe(latestCorruption, (v) => formatScore(v, 0))}
+                delta={<DeltaBadge delta={yoyDelta(latestCorruption, prevCorruption)} isPositive={true} fmt="abs" />}
                 series={corruptionSeries}
                 color="#34d399"
               />

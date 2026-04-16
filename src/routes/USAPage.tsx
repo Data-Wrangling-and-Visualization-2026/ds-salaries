@@ -6,7 +6,7 @@ import BarChart from "../components/BarChart";
 import MultiLineChart, { Series } from "../components/MultiLineChart";
 import NavSidebar from "../components/NavSidebar";
 import { CountryMetricYear } from "../types/metrics";
-import { formatCurrency, formatPercent, formatScore } from "../utils/format";
+import { formatCurrency } from "../utils/format";
 
 const USA_SECTIONS = [
   { id: "usa-professions", label: "Job Titles" },

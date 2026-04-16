@@ -84,7 +84,7 @@ const BubbleChart = ({
       .attr("fill-opacity", 0.85)
       .attr("stroke", "#1e293b")
       .attr("stroke-width", 1)
-      .on("mouseenter", (event, d: any) => {
+      .on("mouseenter", (_event, d: any) => {
         if (!tooltipRef.current) return;
         tooltipRef.current.style.opacity = "1";
         tooltipRef.current.innerHTML = `

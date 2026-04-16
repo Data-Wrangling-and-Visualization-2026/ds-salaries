@@ -5,7 +5,6 @@ import WorldMapHPI from "../../components/WorldMapHPI";
 import MetricFilters from "../../components/MetricFilters";
 import SidePanel from "../../components/SidePanel";
 import UsaSection from "./UsaSection";
-import ExploreSection from "./ExploreSection";
 import { getCountryYearMetrics, getAvailableYears } from "../../api/client";
 import { CountryMetricYear, MetricKey } from "../../types/metrics";
 import { useState, useEffect, useMemo } from "react";
@@ -187,12 +186,6 @@ const WelcomePage = () => {
         </div>
       </section>
 
-      {/* Explore / correlations section */}
-      <section className="data-section">
-        <div className="container">
-          <ExploreSection />
-        </div>
-      </section>
     </div>
   );
 };

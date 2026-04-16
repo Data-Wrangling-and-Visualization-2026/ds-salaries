@@ -313,12 +313,12 @@ const Globe = () => {
 
       <CountryBorders />
 
-      {visiblePoints.map((p: any, i) => {
-        const pos = latLonToVector3(p.lat, p.lon);
+      {visiblePoints.map((p: any) => {
+        const pos = latLonToVector3(p.lat, p.lon, 2.15);
 
         return (
           <DataPoint
-            key={i}
+            key={p.iso3}
             position={pos}
             color={getColor(p.value)}
             value={p.value}
